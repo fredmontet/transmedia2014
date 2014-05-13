@@ -14,44 +14,72 @@ body {
 }
 
 .content {
-    width: $pageWidth;
+    max-width: $pageWidth;
     margin: 0 auto;
-    padding: 50px;
+    padding: 3%;
 }
 
 p {
     text-align: justify;
 }
 
-@mixin content($colorTheme) {
+@mixin content($darkColor, $lightColor) {
     
     .testimony {
-        background-color: $colorTheme;
+        background-color: $lightColor;
     }
     
     .button a {
-        background: darken($colorTheme, 80%);
+        background: $darkColor;
     }
     
     h1 {
-        color: darken($colorTheme, 70%);
+        color: $darkColor;
         
         &:after {
-            background: darken($colorStalker, 70%);
+            background: $darkColor;
         }
     }
 }
 
 #container {
     &.stalker {
-        @include content($colorStalker);
+        @include content($darkStalker, $lightStalker);
+    }
+}
+
+p.quotes {
+    &:before {
+        content: "« ";
     }
     
-    header {
-        background: $black;
+    &:after {
+        content: " »";
+    }
+}
+
+#container {
+    .testimony {
         
-        .content {
-            padding: 10px;
+        
+        
+        .left {
+            width: 30%;
+            display: inline-block;
+            padding-bottom: 20px;
+            
+            img {
+                width: 100%;
+                
+            }
+        }
+        
+        .right {
+            width: 60%;
+            display: inline-block;
+            margin: 0 5%;
+            bottom: 0;
+            
         }
     }
 }
@@ -76,8 +104,52 @@ article {
     background-repeat: no-repeat;
     background-size: contain;
     width: 200px;
-    height: 170px;
+    height: 160px;
     display: inline-block;
+}
+
+header {
+    background: $black;
+    color: $white;
+    
+    .content {
+        padding: 10px;
+        
+        nav {
+            display: inline-block;
+            margin: 20px;
+            float: right;
+            
+            ul li {
+                display: inline-block;
+                
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+#container {
+    .video {
+        .content {
+            padding-top: 10px;
+            
+            h1 {
+                color: $white;
+                text-align: left;
+                font-size: 2em;
+                padding: 0 0 30px;
+                
+                &:after {
+                    background: none;
+                }
+            }
+        }
+    }
 }
 
 h1 {
