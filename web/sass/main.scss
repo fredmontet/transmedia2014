@@ -78,18 +78,22 @@ p.button,
 
 #simpleLogo {
     background-image: url('../images/simpleLogo_white.svg');
+}
+
+.logo {
     background-repeat: no-repeat;
     background-size: contain;
     width: 200px;
     height: 160px;
     display: inline-block;
+    cursor: pointer;
 }
 
 
 /*****************************/
 /*** Style depend of theme ***/
 /*****************************/
-@mixin content($darkColor, $lightColor, $bgHeader) {
+@mixin content($darkColor, $lightColor) {
     
     .testimony,
     .team,
@@ -119,7 +123,8 @@ p.button,
         }
     }
     
-    .video {
+    .video,
+    header {
         background-color: $black;
         color: $white;
         
@@ -154,7 +159,7 @@ p.button,
 /*************/
 #container {
     &.stalker {
-        @include content($darkStalker, $lightStalker, $black);
+        @include content($darkStalker, $lightStalker);
     }
 }
 
@@ -165,6 +170,11 @@ p.button,
 header {
     background: $black;
     color: $white;
+    
+    #burger {
+        display: none;
+        cursor: pointer;
+    }
     
     .content {
         padding: 10px;
@@ -191,6 +201,61 @@ header {
             }
         }
     }
+    
+    @media only screen and (max-width: 500px) {
+    	height: 55px;
+    	width: 100%;
+    	z-index: 1000;
+    	top: 0;
+    	
+    	.content {
+        	padding: 0;
+        	height: 55px;
+        	
+        	#burger {
+            	display: block;
+            	position: absolute;
+            	right: 5px;
+            	height: 55px;
+            	width: 55px;
+            	background-image: url('../images/burger.svg');
+            	top: 0;
+            	background-repeat: no-repeat;
+            	background-position: center center;
+            	background-size: contain;
+            	z-index: 1000;
+        	}
+        	
+        	nav {
+            	display: none;
+            	position: absolute;
+            	top: 55px;
+            	width: 100%;
+            	background: $black;
+            	margin: 0;
+            	z-index: 900;
+            	
+            	ul li {
+                	line-height: 30px;
+                	padding-top: 10px;
+                	padding-bottom: 10px;
+                	display: block;
+                	text-align: center;
+                	font-family: $font-regular;
+                	font-size: 1.3em;
+            	}
+        	}
+        	
+        	.logo {
+            	height: 55px;
+            	margin: 0;
+            	margin-left: 5px;
+            	padding: 0;
+            	z-index: 1000;
+            	position: absolute;
+        	}
+    	}
+    }
 }
 
 /****************/
@@ -209,38 +274,26 @@ header {
             pointer-events: none;
             border-color: transparent;
             border-top-color: $white;
-            border-width: 30px;
+            border-width: 16px;
             position: absolute;
-            left: 48%;
+            left: 49%;
         }
         
         @media screen and (max-width: 1080px) {
             &:after {
-                left: 47%;
+                left: 48%;
             }
         }
         
         @media screen and (max-width: 800px) {
             &:after {
-                left: 46%;
-            }
-        }
-        
-        @media screen and (max-width: 650px) {
-            &:after {
-                left: 45%;
-            }
-        }
-        
-        @media screen and (max-width: 500px) {
-            &:after {
-                left: 44%;
+                left: 47%;
             }
         }
         
         @media screen and (max-width: 440px) {
             &:after {
-                left: 43%;
+                left: 46%;
             }
         }
     }
@@ -279,11 +332,20 @@ header {
             .player {
                 margin: 0 30px;
             }
+            
+            h1 {
+                margin-right: 30px;
+            }
         }
         
         @media screen and (max-width: 500px) {
             .player {
                 margin: 0;
+            }
+            
+            .content {
+                padding-left: 0;
+                padding-right: 0;
             }
             
             #left,
@@ -305,6 +367,29 @@ header {
                     background: none;
                 }
             }
+        }
+        
+        @media only screen and (max-width: 500px) {
+        	margin-top: 0;
+        	background-color: $white !important;
+        	margin-bottom: -30px;
+        	
+        	&:after {
+            	display: none;
+        	}
+        	
+        	.content {
+            	padding: 0 0 0px;
+            	
+            	h1 {
+                	background: $white;
+                	color: $black;
+                	text-align: center;
+                	width: 100%;
+                	padding-top: 20px;
+                	padding-bottom: 15px;
+            	}
+        	}
         }
     }
     
@@ -347,6 +432,11 @@ header {
             margin: 0 5%;
             bottom: 0;
             float: right;
+            
+            h2 {
+                text-align: left;
+                padding: 0 0 10px;
+            }
             
             .button {
                 float: left;
@@ -537,6 +627,11 @@ header {
                 text-transform: uppercase;
                 font-family: $font-regular;
                 padding-top: 20px;
+                
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
             }
             
             .social {
@@ -572,6 +667,25 @@ header {
                 #youtube {
                     background-image: url('../images/youtube.svg');
                 }
+            }
+        }
+        
+        @media only screen and (max-width: 640px) {
+            .top nav,
+            .top .copyright,
+            .bottom .social,
+            .bottom .school {
+                width: 100%;
+                text-align: center;
+                display: block;
+                padding: 10px 0;
+                float: none;
+            }
+            
+            .top,
+            .bottom {
+                margin: 0;
+                padding: 0;
             }
         }
     } 
