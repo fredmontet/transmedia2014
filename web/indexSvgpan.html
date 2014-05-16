@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>#EB005E</title>
+    		<link rel="stylesheet" href="css/style.css" type="text/css" />
+    		<script src="js/vendor/jquery-2.1.1.js"></script>
+
+    </head>
+    <style>
+      #map{
+        transform:scale(1,-1);
+        -ms-transform:scale(1,-1);
+        -webkit-transform: scale(1,-1);
+        }
+    </style>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      var y = $(window).height()/2;
+      var x = $(window).width()/2;
+      console.log("x = "+x+" y = "+y);
+
+
+      $("#map").css({
+        height:y,
+        width:x
+
+      });
+
+
+    });
+    </script>
+    
+    <body>
+
+        <embed id="map" src="images/mapSvgpan.svg"/>
+
+      
+      
+
+    </body>
+</html>
+
+
+ 
