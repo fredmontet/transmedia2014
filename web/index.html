@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta charset="utf-8">
-      <title>#EB005E</title>
-		  <link rel="stylesheet" href="css/style.css" type="text/css" />
-		  <script src="js/vendor/jquery-2.1.1.js"></script>
-      <script src="js/map.js"></script>
-</head>
-    <body>
-   		
-      <!--SVG Map-->
-	    <embed id="map" type="image/svg+xml" style="width: 1920px; height: 1080px;" src="images/map.svg" />
+        <meta charset="utf-8">
+        <title>#EB005E</title>
+    		<link rel="stylesheet" href="css/style.css" type="text/css" />
+    		<script src="js/vendor/jquery-2.1.1.js"></script>
+        <script src="js/vendor/snap.svg.js"></script>
+    </head>
 
+    <script>
+    $(document).ready(function(){
+
+          var s = Snap("#map");
+          var l = Snap.load("images/map.svg", onSVGLoaded ) ;
+
+          function onSVGLoaded( data ){ 
+              s.append(data);
+          }
+
+    });
+    </script>
+    
+    <body class="home">
+        <section id="homeContainer">
+          <header id="homeSidebar">
+            <section class="content">
+              <a id="simpleLogo" href="">MM Quarante</a>
+              <nav>
+                  <ul>
+                    <li><a href="">Transmédia</a></li>
+                    <li><a href="">Nos profils</a></li>
+                    <li><a href="">Nos projets</a></li>
+                    <li><a href="">Management</a></li>
+                    <li><a href="">Communication</a></li>
+                    <li><a href="">Engineering</a></li>
+                    <li><a href="">Infos</a></li>
+                    <li><a href="">Soumettre un projet</a></li>
+                  </ul>
+                </nav>
+              </section>
+          </header>
+
+          <section id="map">
+            <svg>
+            </svg>
+          </section>
+
+        </section>
     </body>
 </html>
 
 
+ 
