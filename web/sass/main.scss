@@ -143,7 +143,8 @@ p.button,
     }
     
     .video,
-    header {
+    header,
+    .title {
         background-color: $darkColor;
         color: $white;
         
@@ -181,6 +182,10 @@ p.button,
     // Transmedia
     &.transmedia {
         @include content($darkTransmedia, $lightTransmedia);
+        
+        #simpleLogo {
+            background-image: url('../images/logoTransmedia.svg');
+        }
     }
     
     // Shortstalk
@@ -370,12 +375,13 @@ header {
         }
     }
     
+    
+    
 
     /*************/
     /*** Video ***/
     /*************/
     .video {
-        margin-top: -70px;
         
         #left,
         #right {
@@ -441,28 +447,7 @@ header {
             }
         }
         
-        @media only screen and (max-width: 500px) {
-        	margin-top: 0;
-        	background-color: $white !important;
-        	margin-bottom: -30px;
-        	
-        	&:after {
-            	display: none;
-        	}
-        	
-        	.content {
-            	padding: 0 0 0px;
-            	
-            	h1 {
-                	background: $white;
-                	color: $black;
-                	text-align: center;
-                	width: 100%;
-                	padding-top: 20px;
-                	padding-bottom: 15px;
-            	}
-        	}
-        }
+        
     }
     
     
@@ -713,6 +698,49 @@ header {
         p {
             max-width: 800px;
             margin: 5px auto;
+        }
+    }
+    
+    
+    .title {
+        margin-top: -70px;
+        
+        .content {
+            padding-top: 10px;
+            
+            h1 {
+                color: $white;
+                text-align: right;
+                font-size: 2em;
+                padding: 0 0 20px;
+                
+                &:after {
+                    background: none;
+                }
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+        	margin-top: 0;
+        	background-color: $white !important;
+        	margin-bottom: -30px;
+        	
+        	&:after {
+            	display: none;
+        	}
+        	
+        	.content {
+            	padding: 0 0 0px;
+            	
+            	h1 {
+                	background: $white;
+                	color: $black;
+                	text-align: center;
+                	width: 100%;
+                	padding-top: 20px;
+                	padding-bottom: 15px;
+            	}
+        	}
         }
     }
     
