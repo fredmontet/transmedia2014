@@ -122,6 +122,17 @@ p.button,
         }
     }
     
+    .characteristic {
+    
+        .content > article {
+            border-bottom: 1px solid $darkColor;
+            
+            div.on {
+                background-color: $darkColor;
+            }
+        }
+    }
+    
     .centered,
     .vote {
         background-color: $white;
@@ -539,9 +550,71 @@ header {
     /*** Characteristic ***/
     /**********************/
     .characteristic {
-        h1 {
-            text-align: left;
+    
+        article {
+            cursor: pointer;
+            overflow: auto;
+            
+            h1 {
+                text-align: left;
+                padding-left: 0;
+                display: inline-block;
+                
+                &:after {
+                    display: none;
+                }  
+            }
+            
+            section.points {
+                float: right;
+                display: inline-block;
+                
+                div {
+                    display: inline-block;
+                    margin: 20px 10px;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50px;
+                    background-color: $black;
+                }
+            }   
+            
+            @media only screen and (max-width: 500px) {
+                section.points {
+                    float: none;
+                    display: block;
+                    
+                    div {
+                        margin: 0px 20px 15px 0px;
+                    }
+                }
+            }
+            
+            section.details {
+                display: none;
+                
+                
+                h1 {
+                    font-size: 1.1em;
+                    color: $black;
+                    font-family: $font-bold;
+                    padding: 0;
+                }
+                
+                ul li {
+                    font-size: 0.9em;
+                }
+                
+                .left,
+                .right {
+                    display: inline-block;
+                    width: 49%;
+                    float: left;
+                    margin-bottom: 20px;
+                }
+            }
         }
+        
     }
     
     
@@ -713,30 +786,7 @@ header {
                     width: 50px;
                     height: 50px;
                     display: inline-block;
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                    background-position: right center;
                     padding-left: 5px;
-                }
-                
-                #facebook {
-                    background-image: url('../images/facebook.svg');
-                }
-                
-                #twitter {
-                    background-image: url('../images/twitter.svg');
-                }
-                
-                #instagram {
-                    background-image: url('../images/instagram.svg');
-                }
-                
-                #linkedin {
-                    background-image: url('../images/linkedIn.svg');
-                }
-                
-                #youtube {
-                    background-image: url('../images/youtube.svg');
                 }
             }
         }

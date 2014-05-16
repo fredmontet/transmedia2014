@@ -3,6 +3,7 @@ $(document).ready( function() {
 	
 	timer = setInterval(function() {
         resize();
+        clearInterval(timer);
     }, 100);
     
 	// If the window is resised
@@ -49,8 +50,6 @@ function resize() {
         $("#left, #right", this).css("height", videoHeight);
         
         var arrowHeight = $("#left", this).height();
-        
-        console.log(videoPos.top);
         
         var arrowTop = videoPos.top + videoHeight/2 - arrowHeight/2;
         var arrowWidth = (windowWidth - videoWidth) /2;
