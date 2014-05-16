@@ -95,6 +95,14 @@ p.button,
 /*****************************/
 @mixin content($darkColor, $lightColor) {
     
+    header {
+        background: $darkColor;
+        
+        nav {
+            background: $darkColor;
+        }
+    }
+    
     .testimony,
     .team,
     .offerProject {
@@ -105,7 +113,7 @@ p.button,
         }
     }
     
-    .tools,
+    .characteristic,
     .principalTestimony {
         background-color: $gray;
         
@@ -125,11 +133,11 @@ p.button,
     
     .video,
     header {
-        background-color: $black;
+        background-color: $darkColor;
         color: $white;
         
         &:after {
-            border-top-color: $black;
+            border-top-color: $darkColor;
         }
     }
     
@@ -158,8 +166,50 @@ p.button,
 /*** Theme ***/
 /*************/
 #container {
-    &.stalker {
-        @include content($darkStalker, $lightStalker);
+    
+    // Transmedia
+    &.transmedia {
+        @include content($darkTransmedia, $lightTransmedia);
+    }
+    
+    // Shortstalk
+    &.shortstalk {
+        @include content($darkShortstalk, $lightShortstalk);
+    }
+    
+    // Tedx
+    &.tedx {
+        @include content($darkTedx, $lightTedx);
+    }
+    
+    // Cinemalingua
+    &.cinemalingua {
+        @include content($darkCinemalingua, $lightCinemalingua);
+    }
+    
+    // Radiocomem
+    &.radiocomem {
+        @include content($darkRadiocomem, $lightRadiocomem);
+    }
+    
+    // Seminaire
+    &.seminaire {
+        @include content($darkSeminaire, $lightSeminaire);
+    }
+    
+    // Paleo
+    &.paleo {
+        @include content($darkPaleo, $lightPaleo);
+    }
+    
+    // Newsroom
+    &.newsroom {
+        @include content($darkNewsroom, $lightNewsroom);
+    }
+    
+    // Stuttgart
+    &.stuttgart {
+        @include content($darkStuttgart, $lightStuttgart);
     }
 }
 
@@ -168,7 +218,6 @@ p.button,
 /*** Header ***/
 /**************/
 header {
-    background: $black;
     color: $white;
     
     #burger {
@@ -202,6 +251,19 @@ header {
         }
     }
     
+    @media screen and (max-width: 1200px) {
+        .content {
+            nav {
+                margin-right: 45px;
+            }
+            
+            .logo {
+                margin-left: 35px;
+            }
+        }
+        
+    }
+    
     @media only screen and (max-width: 500px) {
     	height: 55px;
     	width: 100%;
@@ -231,7 +293,6 @@ header {
             	position: absolute;
             	top: 55px;
             	width: 100%;
-            	background: $black;
             	margin: 0;
             	z-index: 900;
             	
@@ -470,6 +531,16 @@ header {
                     float: none;
                 }
             }
+        }
+    }
+    
+    
+    /**********************/
+    /*** Characteristic ***/
+    /**********************/
+    .characteristic {
+        h1 {
+            text-align: left;
         }
     }
     

@@ -1,6 +1,10 @@
 $(document).ready( function() {
-	resize();
+	//resize();
 	
+	timer = setInterval(function() {
+        resize();
+    }, 100);
+    
 	// If the window is resised
 	$(window).resize(function() {
         resize();
@@ -14,6 +18,8 @@ function resize() {
     $(".player").each( function() {
         var playerWidth = $(this).width();
         $(this).css("height", playerWidth*9/16);
+        $("iframe", this).attr("width", playerWidth);
+        $("iframe", this).attr("height", playerWidth*9/16);
     });
     
     $(".content .right").each( function() {
