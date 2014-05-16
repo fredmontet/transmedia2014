@@ -4,16 +4,21 @@
 	<meta charset="utf-8">
         <title>#EB005E</title>
         <script type="text/javascript" src="../js/main.min.js"></script>
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, user-scalable=no, maximum-scale=1, width=device-width, minimal-ui">
         <link rel="stylesheet" href="../css/style.css" type="text/css" />
     </head>
     <body>
         <section id="container" class="stalker">
             <header>
                 <section class="content">
-                    <a id="simpleLogo"></a>
+                    <a id="simpleLogo" class="logo"></a>
+                    <a id="burger"></a>
                     <nav>
                         <ul>
-                            
+                            <li><a href="">Home</a></li>
+                            <li><a class="active" href="">Projets</a></li>
+                            <li><a href="">Profils</a></li>
+                            <li><a href="">Infos</a></li>
                         </ul>
                     </nav>
                 </section>
@@ -21,7 +26,12 @@
             
             <article class="video">
                 <section class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1>Stalker</h1>
+                    <a id="left" href=""></a>
+                    <div class="player">
+                        <iframe id="ytplayer" type="text/html" width="100%" height="100%" src="http://www.youtube.com/embed/nYRNWdV-4q8?autoplay=0&autohide=1&color=red&controls=1&iv_load_policy=3&modestbranding=1&theme=light&showinfo=0" frameborder="0"></iframe>
+                    </div>
+                    <a id="right" href=""></a>
                 </section>
             </article>
             
@@ -36,20 +46,109 @@
             
             <article class="testimony">
                 <section class="content">
+                    <h1>Témoignage</h1>
+                    <section class="left">
+                        <img src="../images/portrait.jpg" />
+                    </section><section class="right">
+                        <p class="quotes">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p class="button"><a href="">Marine Lemonis</a></p>
+                    </section>
+                </section>
+            </article>
+            
+            <article class="tools">
+                <section class="content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </section>
             </article>
             
-            <article class="tools"><section class="content"></section></article>
+            <article class="team">
+                <section class="content">
+                    <h1>Team du projet</h1>
+                    <a href=""><img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a><a href="">
+                        <img src="../images/portrait.jpg" />
+                    </a>
+                </section>
+            </article>
             
-            <article class="principalTestimony"><section class="content"></section></article>
+            <article class="principalTestimony">
+                <section class="content">
+                    <h1>Témoignage du mandant</h1>
+                    
+                    <section class="left">
+                        <img src="../images/logo_ma.svg" />
+                    </section><section class="right">
+                        <h2>Marc Atala Directeur</h2>
+                        <p class="quotes">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p class="button"><a href="">La maison d'ailleurs</a></p>
+                    </section>
+                </section>
+            </article>
             
-            <article class="vote"><section class="content"></section></article>
+            <article class="offerProject">
+                <section class="content">
+                    <h1>Proposer un projet</h1>
+                    <p>Vous souhaitez collaborer avec les étudiants en ingénierie des médias de la HEIG-VD ? Alors rédigez vos voeux en utilisant le bouton “proposer ici”. Après étude par la direction du département COMEM, ceux-ci feront peut-être l’objet d’un prochain projet dans le cadre d’un cours.</p>
+                    <p class="button"><a href="">Proposez ici</a></p>
+                </section>
+            </article>
             
-            <article class="offerProject"><section class="content"></section></article>
-            
-            
-            <footer></footer>
+            <footer>
+                <section class="content">
+                    <section class="top">
+                        <nav>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a class="active" href="">Projets</a></li>
+                                <li><a href="">Profils</a></li>
+                                <li><a href="">Infos</a></li>
+                            </ul>
+                        </nav>
+                        <p class="copyright">Copyright 2014 - MM40</p>
+                    </section>
+                    <section class="bottom">
+                        <p class="school"><a target="_blank" href="http://www.comem.ch/fr/accueil.aspx">Comem+</a> | <a target="_blank" href="http://www.heig-vd.ch/">Heig-vd</a></p>
+                        <article class="social">
+                            <a id="facebook"    target="_blank" href="https://www.facebook.com/EB005E"></a>
+                            <a id="twitter"     target="_blank" href="https://twitter.com/eb005e"></a>
+                            <a id="instagram"   target="_blank" href="http://instagram.com/eb005e"></a>
+                            <a id="linkedin"    target="_blank" href="#"></a>
+                            <a id="youtube"     target="_blank" href="#"></a>
+                        </article>
+                    </section>
+                </section>
+            </footer>
         </section>
     </body>
 </html>

@@ -1,58 +1,63 @@
 // @codekit-prepend "vendor/jquery-2.1.1.js"
 
-$(window).load(
+var burgerActive = false;
 
-//main function
-
-
-	function (){
-			
-		var map = document.getElementById("map").getSVGDocument();
-		console.log(map);	
-
-		mouseHandler();
-
-/*
-*	functions 
-*/
-
-
-		function mousePos() {
-
-			window.onmousemove = handleMouseMove;
-			handleMouseMove();
-
-			function handleMouseMove(event) {
-        	event = event || window.event; // IE-ism
-        	// event.clientX and event.clientY contain the mouse position
-        	var x = event.clientX;
-        	var y = event.clientY;
-        	console.log("x = "+event.clientX+" y = "+event.clientY);
-        	}
+$(document).ready( function() {
+	
+	$("header").on('click', '#burger', function() {
+    	if(burgerActive) {
+        	closeBurger();
+    	} else {
+        	openBurger();
+    	}
+	});
+	
+	$('html').click(function() {
+		if(burgerActive) {
+			closeBurger();
 		}
-
-		function scrollHandler(){
-
-		}
-
-		function mouseHandler(){
-			$("#viewport", map)
-				.mouseup(function() {
-				    console.log("mouse up");
-				    mousePos();
-				  })
-				.mousedown(function() {
-				    console.log("mouse down");
-				    mousePos();
-				  });
-		}
-	}
-);
+	});
+	
+});
 
 
+function openBurger() {
+    console.log("openBurger()");
+    
+    var navHeight = $("header nav").height();
+    var navTop = -navHeight - 55;
+    $("header nav").css("top", navTop);
+    
+    $("header nav").show();
+    
+    $("header nav").animate({
+        top: 55
+	}, 300, function() {
+    	burgerActive = true;
+	});
+    
+    $("header nav").css("position", "fixed");
+    $("header").css("position", "fixed");
+    $("header").next().css("margin-top", "55px");
+    
+}
 
-
-
-
-
- 
+function closeBurger() {
+    console.log("closeBurger()");
+    
+    var navHeight = $("header nav").height();
+    var navTop = -navHeight - 55;
+    
+    $("header nav").animate({
+        top: navTop
+	}, 300, function() {
+    	burgerActive = false;
+    	$("header nav").hide();
+    	$("header nav").css("position", "absolute");
+        $("header").css("position", "relative");
+        $("header").next().css("margin-top", 0);
+	});
+    
+    
+    
+}
