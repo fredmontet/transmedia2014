@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projet xmlns="http://ns.comem.ch/cours/TM" id="stalker-2014" url="http://ateliernewsroom.comem.ch/2014">
+    <nom>Newsroom</nom>
+    <video url="https://www.youtube.com/watch?v=Se1y2R5QRKU"/>
+    <carte url="http://jonasoesch.ch/tm/carte.svg"/>
+    <description>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </description>
+    <temoignage>
+        <profile id="marineLemonis-2014"/>
+        <p>«Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.»</p>
+    </temoignage>
+    <outils>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </outils>
+    <team>
+        <profile id="jonasOesch-2014"/>
+        <profile id="jonasOesch-2014"/>
+        <profile id="jonasOesch-2014"/>
+        <profile id="jonasOesch-2014"/>
+        <profile id="jonasOesch-2014"/>
+        <profile id="jonasOesch-2014"/>
+        <profile id="jonasOesch-2014"/>
+        <profile id="jonasOesch-2014"/>
+    </team>
+    <competences>
+        <competence>Journalisme</competence>
+    </competences>
+    <manadant url="http://www.volspecial.ch/en/page/42-fernand-melgar" logo="file:///Users/jonas/Dropbox/comem+/TM/transmedia2014/images/logo_ma.svg">
+        <nom>Marc Atala Directeur</nom>
+        <commentaire>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </commentaire>
+    </manadant>
+</projet>
