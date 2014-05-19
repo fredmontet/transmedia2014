@@ -2,7 +2,6 @@
 @import 'fonts';
 @import 'color';
 @import 'functions';
-@import 'home';
 
 $pageWidth: 1024px;
 
@@ -19,7 +18,7 @@ body {
 .content {
     max-width: $pageWidth;
     margin: 0 auto;
-    padding: 40px 3% 40px;
+    padding: 40px 3% 3%;
 }
 
 p {
@@ -96,18 +95,9 @@ p.button,
 /*****************************/
 @mixin content($darkColor, $lightColor) {
     
-    header {
-        background: $darkColor;
-        
-        nav {
-            background: $darkColor;
-        }
-    }
-    
     .testimony,
     .team,
-    .offerProject,
-    .my_projects {
+    .offerProject {
         background-color: $lightColor;
         
         &:after {
@@ -115,7 +105,7 @@ p.button,
         }
     }
     
-    .characteristic,
+    .tools,
     .principalTestimony {
         background-color: $gray;
         
@@ -124,23 +114,8 @@ p.button,
         }
     }
     
-    .characteristic {
-    
-        .content > article {
-            border-bottom: 1px solid $darkColor;
-            
-            div.on {
-                background-color: $darkColor;
-            }
-        }
-    }
-    
-    
-    
     .centered,
-    .vote,
-    .profil_desc,
-    .contact_me {
+    .vote {
         background-color: $white;
         
         &:after {
@@ -148,15 +123,13 @@ p.button,
         }
     }
     
-    
     .video,
-    header,
-    .title {
-        background-color: $darkColor;
+    header {
+        background-color: $black;
         color: $white;
         
         &:after {
-            border-top-color: $darkColor;
+            border-top-color: $black;
         }
     }
     
@@ -178,20 +151,6 @@ p.button,
         }
     }
     
-    article:last-of-type {
-        
-        &.print,
-        &.contact_me,
-        &.my_projects,
-        &.profil_desc {
-            background-color: $gray;
-            
-            &:after {
-                border-top-color: $gray;
-            }
-        }
-    }
-    
 }
 
 
@@ -199,54 +158,8 @@ p.button,
 /*** Theme ***/
 /*************/
 #container {
-    
-    // Transmedia
-    &.transmedia {
-        @include content($darkTransmedia, $lightTransmedia);
-        
-        #simpleLogo {
-            background-image: url('../images/logoTransmedia.svg');
-        }
-    }
-    
-    // Shortstalk
-    &.shortstalk {
-        @include content($darkShortstalk, $lightShortstalk);
-    }
-    
-    // Tedx
-    &.tedx {
-        @include content($darkTedx, $lightTedx);
-    }
-    
-    // Cinemalingua
-    &.cinemalingua {
-        @include content($darkCinemalingua, $lightCinemalingua);
-    }
-    
-    // Radiocomem
-    &.radiocomem {
-        @include content($darkRadiocomem, $lightRadiocomem);
-    }
-    
-    // Seminaire
-    &.seminaire {
-        @include content($darkSeminaire, $lightSeminaire);
-    }
-    
-    // Paleo
-    &.paleo {
-        @include content($darkPaleo, $lightPaleo);
-    }
-    
-    // Newsroom
-    &.newsroom {
-        @include content($darkNewsroom, $lightNewsroom);
-    }
-    
-    // Stuttgart
-    &.stuttgart {
-        @include content($darkStuttgart, $lightStuttgart);
+    &.stalker {
+        @include content($darkStalker, $lightStalker);
     }
 }
 
@@ -255,6 +168,7 @@ p.button,
 /*** Header ***/
 /**************/
 header {
+    background: $black;
     color: $white;
     
     #burger {
@@ -282,25 +196,10 @@ header {
                 
                 a.active:after {
                     content: "";
+                    
                 }
             }
         }
-    }
-    
-    @media screen and (max-width: 1200px) {
-        
-        &.has_a_video {
-            .content {
-                nav {
-                    margin-right: 45px;
-                }
-                
-                .logo {
-                    margin-left: 35px;
-                }
-            }
-        }
-        
     }
     
     @media only screen and (max-width: 500px) {
@@ -308,14 +207,6 @@ header {
     	width: 100%;
     	z-index: 1000;
     	top: 0;
-    	
-    	&.has_a_video {
-    	    .content {
-            	.logo {
-                    margin-left: 5px;
-                }
-            }
-    	}
     	
     	.content {
         	padding: 0;
@@ -340,6 +231,7 @@ header {
             	position: absolute;
             	top: 55px;
             	width: 100%;
+            	background: $black;
             	margin: 0;
             	z-index: 900;
             	
@@ -406,133 +298,12 @@ header {
         }
     }
     
-    
-    /***************/
-    /*** Profils ***/
-    /***************/
-    .profils {
-        
-        a {
-            width: 30%;
-            margin-right: 5%;
-            display: inline-block;
-            padding-top: 20px;
-            color: $white;
-            text-decoration: none;
-            
-            &:nth-child(3n + 1) {
-                margin-right: 0;
-            }
-            
-            img {
-                width: 100%;
-            }
-            
-            span {
-                display: block;
-                padding: 5px;
-                text-align: center;
-                font-family: $font-light;
-                text-transform: uppercase;
-                
-                &:after {
-                    content: " ";
-                    display: block;
-                    width: 50px;
-                    height: 1px;
-                    margin: 8px auto 0;
-                    background: $white;
-                }
-            }
-        }
-        
-        @media screen and (max-width: 500px) {
-            a {
-                width: 44%;
-                margin-left: 4%;
-                margin-right: 0;
-                
-                &:nth-child(2n - 1) {
-                    margin-right: 4%;
-                }
-            }
-        }
-        
-    }
-    
-    
-    /**************/
-    /*** Profil ***/
-    /**************/
-    .profil {
-        img {
-            margin: 0 auto;
-            display: block;
-            margin-top: 20px;
-        }
-        
-        h2 {
-            text-transform: uppercase;
-            font-size: 1.3em;
-            text-align: center;
-            padding: 20px;
-            font-family: $font-semi-bold;
-            
-            &:after {
-                content: " ";
-                height: 0;
-                width: 0;
-                display: block;
-                width: 50px;
-                height: 2px;
-                margin: 8px auto 0;
-                background: $white;
-            }
-        }
-    }
-    
-    
-    /*********************/
-    /*** Profil detail ***/
-    /*********************/
-    .profil_desc,
-    .my_projects,
-    .contact_me,
-    .print {
-    
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-            
-            ul li {
-                text-align: center;
-                padding: 5px;
-                
-                a {
-                    color: $darkTransmedia;
-                    text-decoration: none;
-                    
-                }
-            }
-            
-            a.print {
-                width: 50px;
-                height: 50px;
-                display: block;
-                margin: 0 auto;
-                background-image: url('../images/print.svg');
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
-        }
-        
-    }
-    
 
     /*************/
     /*** Video ***/
     /*************/
     .video {
+        margin-top: -70px;
         
         #left,
         #right {
@@ -568,15 +339,6 @@ header {
         }
         
         @media screen and (max-width: 500px) {
-        	margin-bottom: -30px;
-        	
-        	&:after {
-            	display: none;
-        	}
-        	
-            
-            background-color: $white !important;
-            
             .player {
                 margin: 0;
             }
@@ -607,7 +369,28 @@ header {
             }
         }
         
-        
+        @media only screen and (max-width: 500px) {
+        	margin-top: 0;
+        	background-color: $white !important;
+        	margin-bottom: -30px;
+        	
+        	&:after {
+            	display: none;
+        	}
+        	
+        	.content {
+            	padding: 0 0 0px;
+            	
+            	h1 {
+                	background: $white;
+                	color: $black;
+                	text-align: center;
+                	width: 100%;
+                	padding-top: 20px;
+                	padding-bottom: 15px;
+            	}
+        	}
+        }
     }
     
     
@@ -619,38 +402,6 @@ header {
         p {
             max-width: 800px;
             margin: 5px auto;
-        }
-    }
-    
-    /************/
-    /*** Info ***/
-    /************/
-    .info {
-        overflow: auto;
-        
-        .left {
-            width: 30%;
-            display: inline-block;
-            float: left;
-            
-            h2 {
-                text-align: left;
-                padding: 0;
-                padding-bottom: 5px;
-                font-family: $font-bold;
-            }
-            
-            a {
-                padding-top: 10px;
-                display: block;
-                color: $white;
-                
-            }
-        }
-        
-        .right {
-            width: 70%;
-            display: inline-block;
         }
     }
     
@@ -720,78 +471,6 @@ header {
                 }
             }
         }
-    }
-    
-    
-    /**********************/
-    /*** Characteristic ***/
-    /**********************/
-    .characteristic {
-    
-        article {
-            cursor: pointer;
-            overflow: auto;
-            
-            h1 {
-                text-align: left;
-                padding-left: 0;
-                display: inline-block;
-                
-                &:after {
-                    display: none;
-                }  
-            }
-            
-            section.points {
-                float: right;
-                display: inline-block;
-                
-                div {
-                    display: inline-block;
-                    margin: 20px 10px;
-                    width: 13px;
-                    height: 13px;
-                    border-radius: 50px;
-                    background-color: $black;
-                }
-            }   
-            
-            @media only screen and (max-width: 500px) {
-                section.points {
-                    float: none;
-                    display: block;
-                    
-                    div {
-                        margin: 0px 20px 15px 0px;
-                    }
-                }
-            }
-            
-            section.details {
-                display: none;
-                
-                
-                h1 {
-                    font-size: 1.1em;
-                    color: $black;
-                    font-family: $font-bold;
-                    padding: 0;
-                }
-                
-                ul li {
-                    font-size: 0.9em;
-                }
-                
-                .left,
-                .right {
-                    display: inline-block;
-                    width: 49%;
-                    float: left;
-                    margin-bottom: 20px;
-                }
-            }
-        }
-        
     }
     
     
@@ -894,46 +573,6 @@ header {
     }
     
     
-    /*************/
-    /*** Title ***/
-    /*************/
-    .title {
-        margin-top: -70px;
-        
-        .content {
-            padding-top: 10px;
-            
-            h1 {
-                color: $white;
-                text-align: right;
-                font-size: 2em;
-                padding: 0 0 20px;
-                
-                &:after {
-                    background: none;
-                }
-            }
-        }
-        
-        @media only screen and (max-width: 500px) {
-        	margin-top: 0;
-        	
-        	.content {
-            	padding: 0 0 0px;
-            	
-            	h1 {
-                	background: $white;
-                	color: $black;
-                	text-align: center;
-                	width: 100%;
-                	padding-top: 20px;
-                	padding-bottom: 15px;
-            	}
-        	}
-        }
-    }
-    
-    
     /**************/
     /*** Footer ***/
     /**************/
@@ -1003,7 +642,30 @@ header {
                     width: 50px;
                     height: 50px;
                     display: inline-block;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: right center;
                     padding-left: 5px;
+                }
+                
+                #facebook {
+                    background-image: url('../images/facebook.svg');
+                }
+                
+                #twitter {
+                    background-image: url('../images/twitter.svg');
+                }
+                
+                #instagram {
+                    background-image: url('../images/instagram.svg');
+                }
+                
+                #linkedin {
+                    background-image: url('../images/linkedIn.svg');
+                }
+                
+                #youtube {
+                    background-image: url('../images/youtube.svg');
                 }
             }
         }
