@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>#EB005E</title>
+    		<link rel="stylesheet" href="css/style.css" type="text/css" />
+    		<script src="js/vendor/jquery-2.1.1.js"></script>
+
+    </head>
+    <style>
+
+      #mapWrapper{
+        position:fixed;
+
+      }
+
+      #map{
+        transform:scale(1,-1);
+        -ms-transform:scale(1,-1);
+        -webkit-transform: scale(1,-1);
+      }
+
+    </style>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      //taille de l'écran
+      var screenHeight = $(window).height();
+      var screenWidth = $(window).width();
+      
+      console.log("height = "+screenHeight+" width = "+screenWidth);
+
+      $("#mapWrapper").css({
+        "width":"100%",
+        "height":"100%",
+        "position":"fixed",   
+        "top":0,
+        "left":0
+
+      });
+
+      
+      $("#map").css({
+        "height":screenHeight,
+        "width":screenWidth
+      });
+      
+
+
+    });
+
+    $(window).load(function() {
+
+      var map = document.getElementById("map").getSVGDocument();
+      console.log(map); 
+
+      //taille du svg
+      var svgWidth = $("#viewport", map).width();
+      var svgHeight = $("#viewport", map).height();
+ 
+      console.log( ' svgHeight:' + svgHeight +' svgWidth: ' + svgWidth );
+
+    });
+
+    
+
+
+    </script>
+    
+    <body>
+
+      <div id="mapWrapper">
+        <embed id="map" src="images/mapSvgpan.svg" />
+      </div>
+
+    </body>
+</html>
+
+
+ 

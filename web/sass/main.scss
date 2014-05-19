@@ -2,6 +2,7 @@
 @import 'fonts';
 @import 'color';
 @import 'functions';
+@import 'home';
 
 $pageWidth: 1024px;
 
@@ -95,6 +96,14 @@ p.button,
 /*****************************/
 @mixin content($darkColor, $lightColor) {
     
+    header {
+        background: $darkColor;
+        
+        nav {
+            background: $darkColor;
+        }
+    }
+    
     .testimony,
     .team,
     .offerProject {
@@ -105,12 +114,23 @@ p.button,
         }
     }
     
-    .tools,
+    .characteristic,
     .principalTestimony {
         background-color: $gray;
         
         &:after {
             border-top-color: $gray;
+        }
+    }
+    
+    .characteristic {
+    
+        .content > article {
+            border-bottom: 1px solid $darkColor;
+            
+            div.on {
+                background-color: $darkColor;
+            }
         }
     }
     
@@ -124,12 +144,13 @@ p.button,
     }
     
     .video,
-    header {
-        background-color: $black;
+    header,
+    .title {
+        background-color: $darkColor;
         color: $white;
         
         &:after {
-            border-top-color: $black;
+            border-top-color: $darkColor;
         }
     }
     
@@ -158,8 +179,54 @@ p.button,
 /*** Theme ***/
 /*************/
 #container {
-    &.stalker {
-        @include content($darkStalker, $lightStalker);
+    
+    // Transmedia
+    &.transmedia {
+        @include content($darkTransmedia, $lightTransmedia);
+        
+        #simpleLogo {
+            background-image: url('../images/logoTransmedia.svg');
+        }
+    }
+    
+    // Shortstalk
+    &.shortstalk {
+        @include content($darkShortstalk, $lightShortstalk);
+    }
+    
+    // Tedx
+    &.tedx {
+        @include content($darkTedx, $lightTedx);
+    }
+    
+    // Cinemalingua
+    &.cinemalingua {
+        @include content($darkCinemalingua, $lightCinemalingua);
+    }
+    
+    // Radiocomem
+    &.radiocomem {
+        @include content($darkRadiocomem, $lightRadiocomem);
+    }
+    
+    // Seminaire
+    &.seminaire {
+        @include content($darkSeminaire, $lightSeminaire);
+    }
+    
+    // Paleo
+    &.paleo {
+        @include content($darkPaleo, $lightPaleo);
+    }
+    
+    // Newsroom
+    &.newsroom {
+        @include content($darkNewsroom, $lightNewsroom);
+    }
+    
+    // Stuttgart
+    &.stuttgart {
+        @include content($darkStuttgart, $lightStuttgart);
     }
 }
 
@@ -168,7 +235,6 @@ p.button,
 /*** Header ***/
 /**************/
 header {
-    background: $black;
     color: $white;
     
     #burger {
@@ -202,6 +268,19 @@ header {
         }
     }
     
+    @media screen and (max-width: 1200px) {
+        .content {
+            nav {
+                margin-right: 45px;
+            }
+            
+            .logo {
+                margin-left: 35px;
+            }
+        }
+        
+    }
+    
     @media only screen and (max-width: 500px) {
     	height: 55px;
     	width: 100%;
@@ -231,7 +310,6 @@ header {
             	position: absolute;
             	top: 55px;
             	width: 100%;
-            	background: $black;
             	margin: 0;
             	z-index: 900;
             	
@@ -298,12 +376,13 @@ header {
         }
     }
     
+    
+    
 
     /*************/
     /*** Video ***/
     /*************/
     .video {
-        margin-top: -70px;
         
         #left,
         #right {
@@ -369,28 +448,7 @@ header {
             }
         }
         
-        @media only screen and (max-width: 500px) {
-        	margin-top: 0;
-        	background-color: $white !important;
-        	margin-bottom: -30px;
-        	
-        	&:after {
-            	display: none;
-        	}
-        	
-        	.content {
-            	padding: 0 0 0px;
-            	
-            	h1 {
-                	background: $white;
-                	color: $black;
-                	text-align: center;
-                	width: 100%;
-                	padding-top: 20px;
-                	padding-bottom: 15px;
-            	}
-        	}
-        }
+        
     }
     
     
@@ -471,6 +529,78 @@ header {
                 }
             }
         }
+    }
+    
+    
+    /**********************/
+    /*** Characteristic ***/
+    /**********************/
+    .characteristic {
+    
+        article {
+            cursor: pointer;
+            overflow: auto;
+            
+            h1 {
+                text-align: left;
+                padding-left: 0;
+                display: inline-block;
+                
+                &:after {
+                    display: none;
+                }  
+            }
+            
+            section.points {
+                float: right;
+                display: inline-block;
+                
+                div {
+                    display: inline-block;
+                    margin: 20px 10px;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50px;
+                    background-color: $black;
+                }
+            }   
+            
+            @media only screen and (max-width: 500px) {
+                section.points {
+                    float: none;
+                    display: block;
+                    
+                    div {
+                        margin: 0px 20px 15px 0px;
+                    }
+                }
+            }
+            
+            section.details {
+                display: none;
+                
+                
+                h1 {
+                    font-size: 1.1em;
+                    color: $black;
+                    font-family: $font-bold;
+                    padding: 0;
+                }
+                
+                ul li {
+                    font-size: 0.9em;
+                }
+                
+                .left,
+                .right {
+                    display: inline-block;
+                    width: 49%;
+                    float: left;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        
     }
     
     
@@ -573,6 +703,49 @@ header {
     }
     
     
+    .title {
+        margin-top: -70px;
+        
+        .content {
+            padding-top: 10px;
+            
+            h1 {
+                color: $white;
+                text-align: right;
+                font-size: 2em;
+                padding: 0 0 20px;
+                
+                &:after {
+                    background: none;
+                }
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+        	margin-top: 0;
+        	background-color: $white !important;
+        	margin-bottom: -30px;
+        	
+        	&:after {
+            	display: none;
+        	}
+        	
+        	.content {
+            	padding: 0 0 0px;
+            	
+            	h1 {
+                	background: $white;
+                	color: $black;
+                	text-align: center;
+                	width: 100%;
+                	padding-top: 20px;
+                	padding-bottom: 15px;
+            	}
+        	}
+        }
+    }
+    
+    
     /**************/
     /*** Footer ***/
     /**************/
@@ -642,30 +815,7 @@ header {
                     width: 50px;
                     height: 50px;
                     display: inline-block;
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                    background-position: right center;
                     padding-left: 5px;
-                }
-                
-                #facebook {
-                    background-image: url('../images/facebook.svg');
-                }
-                
-                #twitter {
-                    background-image: url('../images/twitter.svg');
-                }
-                
-                #instagram {
-                    background-image: url('../images/instagram.svg');
-                }
-                
-                #linkedin {
-                    background-image: url('../images/linkedIn.svg');
-                }
-                
-                #youtube {
-                    background-image: url('../images/youtube.svg');
                 }
             }
         }
