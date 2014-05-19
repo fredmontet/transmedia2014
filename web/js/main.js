@@ -6,6 +6,7 @@ var burgerActive = false;
 $(document).ready( function() {
 
     socialColor();
+    coulure();
 	
 	$("header").on('click', '#burger', function() {
     	if(burgerActive) {
@@ -28,6 +29,13 @@ $(document).ready( function() {
 	});
 	
 });
+
+
+function coulure() {
+    $("#container.transmedia .title").each( function() {
+        $(this).after('<div id="coulure"><div class="left"></div><div class="right"></div></div>');
+    });
+}
 
 
 function socialColor() {

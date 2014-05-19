@@ -41,6 +41,15 @@ function resize() {
         
     });
     
+    $("#coulure").each( function() {
+        var contentWidth = $(".content").width();
+        var coulureWidth = (windowWidth - contentWidth)/2;
+        
+        $(".left", this).css("width", coulureWidth);
+        $(".right", this).css("width", coulureWidth);
+        
+    });
+    
     
     $("article.video").each( function() {
         var videoPos = $(".player", this).position();
