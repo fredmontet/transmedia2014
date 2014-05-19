@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
-    <div id="content" data-template="profile:all"/>
+<?xml version="1.0" encoding="UTF-8" ?>
+<div data-template="templates:surround" data-template-with="templates/page2.html" data-template-at="content">
+    <div id="content" data-template="profile:all">
+        <article class="profil title">
+            <section class="content">
+                <h1 data-template="profile:nom"/>
+
+                <img src="images/portrait.jpg" data-template="profile:imgbase"/>
+                <h2 data-template="profile:usp"/>
+            </section>
+        </article>
+
+        <article class="profil_desc" data-template="profile:desc">
+            <section class="content">
+                <p/>
+            </section>
+        </article>
+
+        <article class="my_projects" data-template="profile:projet">
+            <section class="content">
+                <h1>Liste Projets Participés</h1>
+                <ul>
+                    <li><a href="">projet</a>
+                    </li>
+                    <li><a href="">projet</a>
+                    </li>
+                    <li><a href="">projet</a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <article class="contact_me">
+            <section class="content">
+                <h1>Me contacter</h1>
+                <ul>
+                    <li><a href="">LinkedIn</a>
+                    </li>
+                    <li><a href="">Site web</a>
+                    </li>
+                    <li><a href="">Twitter</a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <article class="print">
+            <section class="content">
+                <h1>Imprimer mon portfolio</h1>
+                <a href="" class="print"></a>
+            </section>
+        </article>
+
+    </div>
 </div>
