@@ -126,8 +126,8 @@ table {
 /***************/
 /*** Project ***/
 /***************/
-body {
-  background-color: #f00;
+#homeContainer {
+  color: red;
 }
 
 body {
@@ -255,12 +255,14 @@ p.button a,
   border-top-color: white;
 }
 #container.transmedia .video,
-#container.transmedia header {
+#container.transmedia header,
+#container.transmedia .title {
   background-color: #eb005e;
   color: white;
 }
 #container.transmedia .video:after,
-#container.transmedia header:after {
+#container.transmedia header:after,
+#container.transmedia .title:after {
   border-top-color: #eb005e;
 }
 #container.transmedia .button a {
@@ -274,6 +276,9 @@ p.button a,
 }
 #container.transmedia footer a.active {
   color: #eb005e;
+}
+#container.transmedia #simpleLogo {
+  background-image: url("../images/logoTransmedia.svg");
 }
 #container.shortstalk header {
   background: #766454;
@@ -314,12 +319,14 @@ p.button a,
   border-top-color: white;
 }
 #container.shortstalk .video,
-#container.shortstalk header {
+#container.shortstalk header,
+#container.shortstalk .title {
   background-color: #766454;
   color: white;
 }
 #container.shortstalk .video:after,
-#container.shortstalk header:after {
+#container.shortstalk header:after,
+#container.shortstalk .title:after {
   border-top-color: #766454;
 }
 #container.shortstalk .button a {
@@ -373,12 +380,14 @@ p.button a,
   border-top-color: white;
 }
 #container.tedx .video,
-#container.tedx header {
+#container.tedx header,
+#container.tedx .title {
   background-color: #ff2b06;
   color: white;
 }
 #container.tedx .video:after,
-#container.tedx header:after {
+#container.tedx header:after,
+#container.tedx .title:after {
   border-top-color: #ff2b06;
 }
 #container.tedx .button a {
@@ -432,12 +441,14 @@ p.button a,
   border-top-color: white;
 }
 #container.cinemalingua .video,
-#container.cinemalingua header {
+#container.cinemalingua header,
+#container.cinemalingua .title {
   background-color: #1b6834;
   color: white;
 }
 #container.cinemalingua .video:after,
-#container.cinemalingua header:after {
+#container.cinemalingua header:after,
+#container.cinemalingua .title:after {
   border-top-color: #1b6834;
 }
 #container.cinemalingua .button a {
@@ -491,12 +502,14 @@ p.button a,
   border-top-color: white;
 }
 #container.radiocomem .video,
-#container.radiocomem header {
+#container.radiocomem header,
+#container.radiocomem .title {
   background-color: #007da4;
   color: white;
 }
 #container.radiocomem .video:after,
-#container.radiocomem header:after {
+#container.radiocomem header:after,
+#container.radiocomem .title:after {
   border-top-color: #007da4;
 }
 #container.radiocomem .button a {
@@ -550,12 +563,14 @@ p.button a,
   border-top-color: white;
 }
 #container.seminaire .video,
-#container.seminaire header {
+#container.seminaire header,
+#container.seminaire .title {
   background-color: #336699;
   color: white;
 }
 #container.seminaire .video:after,
-#container.seminaire header:after {
+#container.seminaire header:after,
+#container.seminaire .title:after {
   border-top-color: #336699;
 }
 #container.seminaire .button a {
@@ -609,12 +624,14 @@ p.button a,
   border-top-color: white;
 }
 #container.paleo .video,
-#container.paleo header {
+#container.paleo header,
+#container.paleo .title {
   background-color: #3a2159;
   color: white;
 }
 #container.paleo .video:after,
-#container.paleo header:after {
+#container.paleo header:after,
+#container.paleo .title:after {
   border-top-color: #3a2159;
 }
 #container.paleo .button a {
@@ -668,12 +685,14 @@ p.button a,
   border-top-color: white;
 }
 #container.newsroom .video,
-#container.newsroom header {
+#container.newsroom header,
+#container.newsroom .title {
   background-color: #652d2a;
   color: white;
 }
 #container.newsroom .video:after,
-#container.newsroom header:after {
+#container.newsroom header:after,
+#container.newsroom .title:after {
   border-top-color: #652d2a;
 }
 #container.newsroom .button a {
@@ -727,12 +746,14 @@ p.button a,
   border-top-color: white;
 }
 #container.stuttgart .video,
-#container.stuttgart header {
+#container.stuttgart header,
+#container.stuttgart .title {
   background-color: #ab280f;
   color: white;
 }
 #container.stuttgart .video:after,
-#container.stuttgart header:after {
+#container.stuttgart header:after,
+#container.stuttgart .title:after {
   border-top-color: #ab280f;
 }
 #container.stuttgart .button a {
@@ -898,9 +919,6 @@ header .content nav ul li a.active:after {
     left: 46%;
   }
 }
-#container .video {
-  margin-top: -70px;
-}
 #container .video #left,
 #container .video #right {
   display: block;
@@ -952,27 +970,6 @@ header .content nav ul li a.active:after {
 }
 #container .video .content h1:after {
   background: none;
-}
-@media only screen and (max-width: 500px) {
-  #container .video {
-    margin-top: 0;
-    background-color: white !important;
-    margin-bottom: -30px;
-  }
-  #container .video:after {
-    display: none;
-  }
-  #container .video .content {
-    padding: 0 0 0px;
-  }
-  #container .video .content h1 {
-    background: white;
-    color: #010101;
-    text-align: center;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 15px;
-  }
 }
 #container .centered p {
   max-width: 800px;
@@ -1148,6 +1145,42 @@ header .content nav ul li a.active:after {
 #container .offerProject p {
   max-width: 800px;
   margin: 5px auto;
+}
+#container .title {
+  margin-top: -70px;
+}
+#container .title .content {
+  padding-top: 10px;
+}
+#container .title .content h1 {
+  color: white;
+  text-align: right;
+  font-size: 2em;
+  padding: 0 0 20px;
+}
+#container .title .content h1:after {
+  background: none;
+}
+@media only screen and (max-width: 500px) {
+  #container .title {
+    margin-top: 0;
+    background-color: white !important;
+    margin-bottom: -30px;
+  }
+  #container .title:after {
+    display: none;
+  }
+  #container .title .content {
+    padding: 0 0 0px;
+  }
+  #container .title .content h1 {
+    background: white;
+    color: #010101;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
 }
 #container footer {
   font-family: "open_sanssemibold", "open_sansregular", sans-serif;
