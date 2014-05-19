@@ -18,6 +18,10 @@
             <personne id="jerome-clot-mm40"/>
             <p>Le but de ce séminaire était de réaliser un assessment et de modéliser des processus d’une entreprise active dans le domaine du print, Merkur Druck AG. J’ai pu apprendre des concepts théoriques sur le Business Excellence pour ensuite les appliquer dans un environnement réel. La collaboration avec des étudiants étrangers était également très enrichissante.</p>
         </temoignage>
+        <temoignage>
+            <personne id="jonas-oesch-mm40"/>
+            <p>Le séminaire en entreprise m'a permis d'approcher la "Business Excellence" grâce à un apport théorique riche durant la première semaine du cours, suivi d'une application pratique au sein de l'entreprise Merkur Druck AG la seconde semaine. Ce séminaire m'a permis de prendre en main des outils de management et de schématiser des process existants, afin d'en tirer le potentiel d'amélioration continue d'une entreprise.</p>
+        </temoignage>
     </temoignages>
     <domaine poids="5" nom="Management">
         <tache>Interview</tache>
@@ -37,12 +41,14 @@
         <personne id="louisa-freymond-mm40"/>
         <personne id="jonas-oesch-mm40"/>
     </team>
-    <collaborateur url="http://www.ursflury.ch/">
+    <superviseur>
+        <logo url="http://www.carillionplc.com/media/79738/stn_logo.jpg"/>
         <prenom>Urs</prenom>
         <nom>Flury</nom>
         <role>Consultant indépendant en technique de management</role>
+        <organisation url="http://www.ursflury.ch/">Urs Flury Schulung und Beratung</organisation>
         <commentaire>
             <p>La collaboration a été très agréable, car les étudiants étaient persévérants et déterminés. J’ai particulièrement apprécié cette volonté de groupe d'atteindre des buts communs. Ce projet m'a aussi donné de nouveaux inputs car les étudiants ont une autre vision que les entrepreneurs que je forme habituellement. L’équipe a parfaitement bien fonctionné car chacun a assumé ses responsabilités durant le projet.</p>
         </commentaire>
-    </collaborateur>
+    </superviseur>
 </projet>
