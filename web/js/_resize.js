@@ -59,5 +59,7 @@ function resize() {
         $("#left, #right", this).css("top", arrowTop);
         $("#left, #right", this).css("width", arrowWidth);
         
+        $("#container > header").addClass("has_a_video");
+        
     });
 }

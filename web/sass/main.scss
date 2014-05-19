@@ -19,7 +19,7 @@ body {
 .content {
     max-width: $pageWidth;
     margin: 0 auto;
-    padding: 40px 3% 3%;
+    padding: 40px 3% 40px;
 }
 
 p {
@@ -106,7 +106,8 @@ p.button,
     
     .testimony,
     .team,
-    .offerProject {
+    .offerProject,
+    .my_projects {
         background-color: $lightColor;
         
         &:after {
@@ -115,7 +116,8 @@ p.button,
     }
     
     .characteristic,
-    .principalTestimony {
+    .principalTestimony,
+    .print {
         background-color: $gray;
         
         &:after {
@@ -135,13 +137,16 @@ p.button,
     }
     
     .centered,
-    .vote {
+    .vote,
+    .profil_desc,
+    .contact_me {
         background-color: $white;
         
         &:after {
             border-top-color: $white;
         }
     }
+    
     
     .video,
     header,
@@ -262,20 +267,22 @@ header {
                 
                 a.active:after {
                     content: "";
-                    
                 }
             }
         }
     }
     
     @media screen and (max-width: 1200px) {
-        .content {
-            nav {
-                margin-right: 45px;
-            }
-            
-            .logo {
-                margin-left: 35px;
+        
+        &.has_a_video {
+            .content {
+                nav {
+                    margin-right: 45px;
+                }
+                
+                .logo {
+                    margin-left: 35px;
+                }
             }
         }
         
@@ -286,6 +293,14 @@ header {
     	width: 100%;
     	z-index: 1000;
     	top: 0;
+    	
+    	&.has_a_video {
+    	    .content {
+            	.logo {
+                    margin-left: 5px;
+                }
+            }
+    	}
     	
     	.content {
         	padding: 0;
@@ -377,6 +392,124 @@ header {
     }
     
     
+    /***************/
+    /*** Profils ***/
+    /***************/
+    .profils {
+        
+        a {
+            width: 30%;
+            margin-right: 5%;
+            display: inline-block;
+            padding-top: 20px;
+            color: $white;
+            text-decoration: none;
+            
+            &:nth-child(3n + 1) {
+                margin-right: 0;
+            }
+            
+            img {
+                width: 100%;
+            }
+            
+            span {
+                display: block;
+                padding: 5px;
+                text-align: center;
+                font-family: $font-light;
+                text-transform: uppercase;
+                
+                &:after {
+                    content: " ";
+                    display: block;
+                    width: 50px;
+                    height: 1px;
+                    margin: 8px auto 0;
+                    background: $white;
+                }
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            a {
+                width: 44%;
+                margin-left: 4%;
+                margin-right: 0;
+                
+                &:nth-child(2n - 1) {
+                    margin-right: 4%;
+                }
+            }
+        }
+        
+    }
+    
+    
+    /**************/
+    /*** Profil ***/
+    /**************/
+    .profil {
+        img {
+            margin: 0 auto;
+            display: block;
+            margin-top: 20px;
+        }
+        
+        h2 {
+            text-transform: uppercase;
+            font-size: 1.3em;
+            text-align: center;
+            padding: 20px;
+            font-family: $font-semi-bold;
+            
+            &:after {
+                content: " ";
+                height: 0;
+                width: 0;
+                display: block;
+                width: 50px;
+                height: 2px;
+                margin: 8px auto 0;
+                background: $white;
+            }
+        }
+    }
+    
+    
+    /*********************/
+    /*** Profil detail ***/
+    /*********************/
+    .profil_desc,
+    .my_projects,
+    .contact_me,
+    .print {
+    
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            
+            ul li {
+                text-align: center;
+                padding: 5px;
+                
+                a {
+                    color: $darkTransmedia;
+                    text-decoration: none;
+                    
+                }
+            }
+            
+            a.print {
+                width: 50px;
+                height: 50px;
+                background: $darkTransmedia;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        
+    }
     
 
     /*************/
@@ -418,6 +551,15 @@ header {
         }
         
         @media screen and (max-width: 500px) {
+        	margin-bottom: -30px;
+        	
+        	&:after {
+            	display: none;
+        	}
+        	
+            
+            background-color: $white !important;
+            
             .player {
                 margin: 0;
             }
@@ -703,6 +845,9 @@ header {
     }
     
     
+    /*************/
+    /*** Title ***/
+    /*************/
     .title {
         margin-top: -70px;
         
@@ -723,12 +868,6 @@ header {
         
         @media only screen and (max-width: 500px) {
         	margin-top: 0;
-        	background-color: $white !important;
-        	margin-bottom: -30px;
-        	
-        	&:after {
-            	display: none;
-        	}
         	
         	.content {
             	padding: 0 0 0px;
