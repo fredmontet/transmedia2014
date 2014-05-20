@@ -1,3 +1,6 @@
+// @codekit-prepend "vendor/jquery-2.1.1.js"
+// @codekit-prepend "vendor/svg-pan-zoom.js"
+
 $(document).ready(function(){
 	
 	init();
