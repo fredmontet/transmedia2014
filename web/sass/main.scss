@@ -20,6 +20,7 @@ body {
     max-width: $pageWidth;
     margin: 0 auto;
     padding: 40px 3% 40px;
+    z-index: 100;
 }
 
 p {
@@ -247,6 +248,35 @@ p.button,
     // Stuttgart
     &.stuttgart {
         @include content($darkStuttgart, $lightStuttgart);
+    }
+}
+
+
+#coulure {
+    width: 100%;
+    display: block;
+    z-index: -100;
+    
+    .left,
+    .right {
+        position: absolute;
+        display: block;
+        height: 0px;
+        width: 0px;
+    }
+    
+    .left {
+        background-image: url('../images/coulureLeft.svg');
+        background-repeat: no-repeat;
+        background-position: right top;
+        left: 0;
+    }
+    
+    .right {
+        background-image: url('../images/coulureRight.svg');
+        background-repeat: no-repeat;
+        background-position: left top;
+        right: 0;
     }
 }
 
@@ -651,6 +681,122 @@ header {
         .right {
             width: 70%;
             display: inline-block;
+        }
+        
+        @media screen and (max-width: 500px) {
+            
+            .left {
+                margin-top: 20px;
+            }
+            
+            .left,
+            .right {
+                float: none;
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    
+    /*************/
+    /*** Offer ***/
+    /*************/
+    .offer {
+        overflow: auto;
+        
+        input,
+        textarea,
+        select {
+            //appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            margin-bottom: 20px;
+            border: 1px solid $white;
+            background: $white;
+            box-shadow: 0;
+            outline: none;
+            border-radius: 0;
+            color: $black;
+            padding: 5px;
+            font-size: 1.2em;
+            font-family: $font-light;
+            margin-top: 5px;
+            
+        }
+        
+        select {
+            box-sizing: content-box;
+            background-image: url('../images/select.svg');
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            cursor: pointer;
+            text-indent: 0.01px;
+            text-overflow: '';
+        }
+        
+        textarea {
+            width: 97%;
+            height: 250px;
+        }
+        
+        .left {
+            width: 50%;
+            display: inline-block;
+            float: left;
+            
+            input,
+            select {
+                width: 50%;
+                min-width: 200px;
+            }
+        }
+        
+        .right {
+            width: 50%;
+            display: inline-block;
+            
+            input[type=submit] {
+                color: $darkTransmedia;
+                background: $white;
+                float: right;
+                cursor: pointer;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+        
+            form {
+                padding: 5%;
+                
+                .left,
+                .right {
+                    width: 100%;
+                    display: block;
+                    float: none;
+                    
+                    input,
+                    select {
+                        width: 98%;
+                        padding-left: 1%;
+                        padding-right: 1%;
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+                    
+                    input[type=submit] {
+                        float: none;
+                    }
+                }
+                
+                .right {
+                    margin-top: 20px;
+                }
+            }
         }
     }
     
