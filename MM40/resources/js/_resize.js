@@ -1,6 +1,11 @@
 $(document).ready( function() {
-	resize();
+	//resize();
 	
+	timer = setInterval(function() {
+        resize();
+        clearInterval(timer);
+    }, 100);
+    
 	// If the window is resised
 	$(window).resize(function() {
         resize();
@@ -14,6 +19,8 @@ function resize() {
     $(".player").each( function() {
         var playerWidth = $(this).width();
         $(this).css("height", playerWidth*9/16);
+        $("iframe", this).attr("width", playerWidth);
+        $("iframe", this).attr("height", playerWidth*9/16);
     });
     
     $(".content .right").each( function() {
@@ -34,6 +41,28 @@ function resize() {
         
     });
     
+    $("#coulure").each( function() {
+        var contentWidth = $(".content").width();
+        var coulureWidth = (windowWidth - contentWidth)/2;
+        var htmlHeight = $("html").height();
+        
+        var coulurePos = $(this).position();
+        console.log(coulurePos.top);
+        
+        if(htmlHeight < windowHeight) {
+            var coulureHeight = windowHeight - coulurePos.top;
+        } else {
+            var coulureHeight = htmlHeight - coulurePos.top;
+        }
+        
+        $(".left", this).css("width", coulureWidth);
+        $(".right", this).css("width", coulureWidth);
+        
+        $(".left", this).css("height", coulureHeight);
+        $(".right", this).css("height", coulureHeight);
+        
+    });
+    
     
     $("article.video").each( function() {
         var videoPos = $(".player", this).position();
@@ -44,8 +73,6 @@ function resize() {
         
         var arrowHeight = $("#left", this).height();
         
-        console.log(videoPos.top);
-        
         var arrowTop = videoPos.top + videoHeight/2 - arrowHeight/2;
         var arrowWidth = (windowWidth - videoWidth) /2;
         
@@ -53,6 +80,8 @@ function resize() {
         $("#right", this).css("right", 0);
         $("#left, #right", this).css("top", arrowTop);
         $("#left, #right", this).css("width", arrowWidth);
+        
+        $("#container > header").addClass("has_a_video");
         
     });
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback xmlns="http://www.w3.org/1999/xhtml">
+    <name>Oesch</name>
+    <firstname>Jonas</firstname>
+    <company>Mediaman</company>
+    <email>jonas.oesch@mediaman.com</email>
+    <type>radiocomem</type>
+    <message>Hello</message>
+</feedback>

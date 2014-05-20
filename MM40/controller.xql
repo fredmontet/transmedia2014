@@ -29,7 +29,6 @@ else if (ends-with($exist:resource, ".html")) then
 		</error-handler>
     </dispatch>
     
-(: Resource paths starting with $shared are loaded from the shared-resources app :)
 else if (contains($exist:path, "/$shared/")) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <forward url="/shared-resources/{substring-after($exist:path, '/$shared/')}">
@@ -37,7 +36,6 @@ else if (contains($exist:path, "/$shared/")) then
         </forward>
     </dispatch>
     
-    (: Resource paths starting with $shared are loaded from the shared-resources app :)
 else if (contains($exist:path, "/css/")) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <forward url="{$exist:controller}/resources/css/{substring-after($exist:path, '/css/')}">
@@ -45,7 +43,6 @@ else if (contains($exist:path, "/css/")) then
         </forward>
     </dispatch>
     
-    (: Resource paths starting with $shared are loaded from the shared-resources app :)
 else if (contains($exist:path, "/js/")) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <forward url="{$exist:controller}/resources/js/{substring-after($exist:path, '/js/')}">
@@ -53,7 +50,6 @@ else if (contains($exist:path, "/js/")) then
         </forward>
     </dispatch>
     
-    (: Resource paths starting with $shared are loaded from the shared-resources app :)
 else if (contains($exist:path, "/images/")) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <forward url="{$exist:controller}/resources/images/{substring-after($exist:path, '/images/')}">
