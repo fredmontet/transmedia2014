@@ -41,8 +41,6 @@ function coulure() {
 function socialColor() {
     var color = $("p.button a").css("background-color");
     
-    console.log(color);
-    
     var facebook = $(".social #facebook svg");
     var twitter = $(".social #twitter svg");
     var instagram = $(".social #instagram svg");

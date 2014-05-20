@@ -261,8 +261,8 @@ p.button,
     .right {
         position: absolute;
         display: block;
-        height: 100%;
-        width: 200px;
+        height: 0px;
+        width: 0px;
     }
     
     .left {
@@ -711,6 +711,9 @@ header {
         input,
         textarea,
         select {
+            //appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
             margin-bottom: 20px;
             border: 1px solid $white;
             background: $white;
@@ -722,7 +725,7 @@ header {
             font-size: 1.2em;
             font-family: $font-light;
             margin-top: 5px;
-            -webkit-appearance: none;
+            
         }
         
         select {
@@ -731,9 +734,10 @@ header {
             background-position: right center;
             background-repeat: no-repeat;
             background-size: contain;
+            cursor: pointer;
+            text-indent: 0.01px;
+            text-overflow: '';
         }
-        
-        
         
         textarea {
             width: 97%;
@@ -760,6 +764,7 @@ header {
                 color: $darkTransmedia;
                 background: $white;
                 float: right;
+                cursor: pointer;
             }
         }
         

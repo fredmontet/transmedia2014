@@ -44,9 +44,22 @@ function resize() {
     $("#coulure").each( function() {
         var contentWidth = $(".content").width();
         var coulureWidth = (windowWidth - contentWidth)/2;
+        var htmlHeight = $("html").height();
+        
+        var coulurePos = $(this).position();
+        console.log(coulurePos.top);
+        
+        if(htmlHeight < windowHeight) {
+            var coulureHeight = windowHeight - coulurePos.top;
+        } else {
+            var coulureHeight = htmlHeight - coulurePos.top;
+        }
         
         $(".left", this).css("width", coulureWidth);
         $(".right", this).css("width", coulureWidth);
+        
+        $(".left", this).css("height", coulureHeight);
+        $(".right", this).css("height", coulureHeight);
         
     });
     
