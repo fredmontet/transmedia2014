@@ -47,7 +47,6 @@ function resize() {
         var htmlHeight = $("html").height();
         
         var coulurePos = $(this).position();
-        console.log(coulurePos.top);
         
         if(htmlHeight < windowHeight) {
             var coulureHeight = windowHeight - coulurePos.top;

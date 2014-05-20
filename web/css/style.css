@@ -858,6 +858,56 @@ p.button,
     background-position: left top;
     right: 0; }
 
+#project ul,
+#project_bottom ul {
+  position: absolute;
+  display: none;
+  padding-top: 20px; }
+  #project ul:before,
+  #project_bottom ul:before {
+    margin: 0 auto;
+    display: block;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border-color: transparent;
+    border-bottom-color: green;
+    border-width: 16px;
+    margin-top: -30px;
+    position: absolute;
+    margin-left: 10px; }
+  #project ul li,
+  #project_bottom ul li {
+    display: block;
+    background: blue;
+    padding: 0 5px; }
+    #project ul li a,
+    #project_bottom ul li a {
+      color: #010101;
+      display: block;
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 10px 10px 10px 0; }
+    #project ul li:after,
+    #project_bottom ul li:after {
+      content: " ";
+      width: 70px;
+      height: 2px;
+      background: #010101;
+      display: block;
+      margin-left: 15px; }
+    #project ul li:first-of-type,
+    #project_bottom ul li:first-of-type {
+      padding-top: 10px; }
+    #project ul li:last-of-type,
+    #project_bottom ul li:last-of-type {
+      padding-bottom: 10px; }
+      #project ul li:last-of-type:after,
+      #project_bottom ul li:last-of-type:after {
+        display: none; }
+
 /**************/
 /*** Header ***/
 /**************/
@@ -882,27 +932,6 @@ header {
           padding: 5px; }
         header .content nav ul li a.active:after {
           content: ""; }
-        header .content nav ul li ul {
-          position: absolute;
-          background: white;
-          margin-top: 10px;
-          padding: 10px 10px 20px 10px;
-          display: none; }
-          header .content nav ul li ul li {
-            display: block; }
-            header .content nav ul li ul li a {
-              color: #010101;
-              display: block;
-              margin-left: 15px;
-              margin-right: 15px;
-              padding: 15px 10px 5px 0; }
-            header .content nav ul li ul li:after {
-              content: " ";
-              width: 70px;
-              height: 2px;
-              background: #010101;
-              display: block;
-              margin-left: 15px; }
   @media screen and (max-width: 1200px) {
     header.has_a_video .content nav {
       margin-right: 45px; }
@@ -1414,7 +1443,12 @@ header {
           #container footer .top nav ul li a {
             color: #010101;
             text-decoration: none;
-            padding-right: 7px; }
+            padding-right: 7px;
+            cursor: pointer; }
+          #container footer .top nav ul li ul li {
+            display: block; }
+            #container footer .top nav ul li ul li:after {
+              content: " "; }
           #container footer .top nav ul li:after {
             content: "|"; }
         #container footer .top nav ul li:last-child:after {
