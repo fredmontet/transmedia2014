@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<projet xmlns="http://ns.comem.ch/cours/TM" id="newsroom-2014" url="http://ateliernewsroom.comem.ch/2014">
+<projet xmlns="http://ns.comem.ch/cours/TM" id="newsroom-2014" url="http://ateliernewsroom.comem.ch/2014" next="seminaire-entreprise-2014">
     <nom>Newsroom</nom>
     <video url="https://www.youtube.com/watch?v=Se1y2R5QRKU"/>
     <carte url="http://jonasoesch.ch/tm/carte.svg"/>

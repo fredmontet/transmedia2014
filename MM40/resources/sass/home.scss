@@ -1,0 +1,89 @@
+#homeContainer {
+	margin:0;
+	padding:0;
+
+	#homeSidebar{
+		position:absolute;
+		top:0;
+		left:0;
+		width:10em;	
+		background-color:$pink;
+		background-position:center center;
+		z-index:1;
+
+		.content{
+			margin:0;
+			padding:0;
+
+				#toggleMenu{
+					#simpleLogo{
+						background-image: url('../images/simpleLogo_white.svg');
+						background-size:100px;
+						background-origin:content-box;
+						background-position:center center;
+						margin:0 auto;
+						padding:0 auto;
+						width:100%;
+						height:100px;
+						}
+				}
+
+				#toggleMenu:after{
+		            margin: 0 auto;
+		            display: block;
+		            overflow:visible;
+		            display:both;
+		            border: solid transparent;
+		            content: " ";
+		            height: 0;
+		            width: 0;
+		            pointer-events: none;
+		            border-color: transparent;
+		            border-top-color: $pink;
+		            border-width: 16px;
+		            position: absolute;
+		            left: 39%;
+		        }
+
+					        
+		   				
+			
+			nav{
+				background-color:white;
+				margin:0;
+				padding:0;
+				padding-top:20px;	
+				padding-bottom:15px;	
+
+				li{
+					position:relative;
+					display:inline-block;
+
+					a{	
+
+						font-family: $font-regular;
+						color:$black;
+						text-align:left;
+						vertical-align: center;
+						padding:10px;
+						margin-left:10px;
+						display:inline-block;
+					}
+
+					a:hover{
+						color:$pink;
+					}
+				}
+
+			
+			}
+		}
+	}
+
+	#map{
+		background-color:#ffecc6;
+		
+	}
+}
+
+	   	

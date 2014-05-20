@@ -213,7 +213,7 @@ p.button,
 #container {
     
     // Transmedia
-    &.transmedia {
+    &.transmedia-2014 {
         @include content($darkTransmedia, $lightTransmedia);
         
         #simpleLogo {
@@ -222,27 +222,27 @@ p.button,
     }
     
     // Shortstalk
-    &.shortstalk {
+    &.stalker-2013 {
         @include content($darkShortstalk, $lightShortstalk);
     }
     
     // Tedx
-    &.tedx {
+    &.tedx-2013 {
         @include content($darkTedx, $lightTedx);
     }
     
     // Cinemalingua
-    &.cinemalingua {
+    &.cinemalingua-2011 {
         @include content($darkCinemalingua, $lightCinemalingua);
     }
     
     // Radiocomem
-    &.radiocomem {
+    &.radiocomem-2012 {
         @include content($darkRadiocomem, $lightRadiocomem);
     }
     
     // Seminaire
-    &.seminaire {
+    &.seminaire-entreprise-2014 {
         @include content($darkSeminaire, $lightSeminaire);
     }
     
@@ -252,12 +252,12 @@ p.button,
     }
     
     // Newsroom
-    &.newsroom {
+    &.newsroom-2014 {
         @include content($darkNewsroom, $lightNewsroom);
     }
     
     // Stuttgart
-    &.stuttgart {
+    &.stuttgart-2013 {
         @include content($darkStuttgart, $lightStuttgart);
     }
 }
