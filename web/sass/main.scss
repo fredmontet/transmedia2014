@@ -102,6 +102,17 @@ p.button,
         
         nav {
             background: $darkColor;
+            
+            ul li ul li {
+                
+                a {
+                    color: $darkColor;
+                }
+                
+                &:after {
+                    background: $darkColor;
+                }
+            }
         }
     }
     
@@ -201,8 +212,10 @@ p.button,
 /*************/
 #container {
     
+    @include content($darkTransmedia, $lightTransmedia);
+    
     // Transmedia
-    &.transmedia {
+    &.transmedia-2014 {
         @include content($darkTransmedia, $lightTransmedia);
         
         #simpleLogo {
@@ -211,27 +224,27 @@ p.button,
     }
     
     // Shortstalk
-    &.shortstalk {
+    &.stalker-2013 {
         @include content($darkShortstalk, $lightShortstalk);
     }
     
     // Tedx
-    &.tedx {
+    &.tedx-2013 {
         @include content($darkTedx, $lightTedx);
     }
     
     // Cinemalingua
-    &.cinemalingua {
+    &.cinemalingua-2011 {
         @include content($darkCinemalingua, $lightCinemalingua);
     }
     
     // Radiocomem
-    &.radiocomem {
+    &.radiocomem-2012 {
         @include content($darkRadiocomem, $lightRadiocomem);
     }
     
     // Seminaire
-    &.seminaire {
+    &.seminaire-entreprise-2014 {
         @include content($darkSeminaire, $lightSeminaire);
     }
     
@@ -241,12 +254,12 @@ p.button,
     }
     
     // Newsroom
-    &.newsroom {
+    &.newsroom-2014 {
         @include content($darkNewsroom, $lightNewsroom);
     }
     
     // Stuttgart
-    &.stuttgart {
+    &.stuttgart-2013 {
         @include content($darkStuttgart, $lightStuttgart);
     }
 }
@@ -303,6 +316,7 @@ header {
             
             ul li {
                 display: inline-block;
+                cursor: pointer;
                 
                 a {
                     color: $white;
@@ -312,6 +326,37 @@ header {
                 
                 a.active:after {
                     content: "";
+                }
+                
+                ul {
+                    position: absolute;
+                    background: $white;
+                    margin-top: 10px;
+                    padding: 10px 10px 20px 10px;
+                    display: none;
+                    
+                    li {
+                        display: block;
+                        
+                        
+                        a {
+                            color: $black;
+                            display: block;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            padding: 15px 10px 5px 0;
+                        }
+                        
+                        &:after {
+                            content: " ";
+                            width: 70px;
+                            height: 2px;
+                            background: $black;
+                            display: block;
+                            margin-left: 15px;
+                        }
+                        
+                    }
                 }
             }
         }
@@ -711,7 +756,6 @@ header {
         input,
         textarea,
         select {
-            //appearance: none;
             -webkit-appearance: none;
             -moz-appearance: none;
             margin-bottom: 20px;
@@ -761,7 +805,7 @@ header {
             display: inline-block;
             
             input[type=submit] {
-                color: $darkTransmedia;
+                color: $black;
                 background: $white;
                 float: right;
                 cursor: pointer;

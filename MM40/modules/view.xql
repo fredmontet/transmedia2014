@@ -20,7 +20,8 @@ declare option exist:serialize "method=html5 media-type=text/html enforce-xhtml=
 
 let $config := map {
     $templates:CONFIG_APP_ROOT := $config:app-root,
-    $templates:CONFIG_STOP_ON_ERROR := true()
+    $templates:CONFIG_STOP_ON_ERROR := true(),
+    "jonas" := "Jonas"
 }
 (:
  : We have to provide a lookup function to templates:apply to help it

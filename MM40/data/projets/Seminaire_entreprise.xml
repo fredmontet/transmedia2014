@@ -1,54 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<projet xmlns="http://ns.comem.ch/cours/TM" id="seminaire-entreprise-2014" url="http://blog.comem.ch/archives/1667">
-    <annee>2014</annee>
-    <nom>Séminaire d'entreprise</nom>
-    <nom_court>Séminaire d'entreprise</nom_court>
-    <video url="https://www.youtube.com/watch?v=vr0NBPRMe2E"/>
-    <description>
-        <p>Le séminaire en entreprise est un cours se déroulant sur deux semaines, qui sensibilise les étudiants au domaine du Business Excellence. Ce séminaire est proposé aux étudiants de la HEIG-VD ainsi qu’à ceux de la Hochschule der Medien (HdM) de Stuttgart.</p>
-        <p>L’atelier est divisé en deux parties : nous avons d’abord élargi nos connaissances dans le process management et nous sommes familiarisés avec les méthodes de Business Excellence telle que l’EFQM. Puis il a été question de mettre en pratique nos nouvelles compétences au sein de l’entreprise Merkur Druck AG en modélisant des processus et un assessment afin de relever le potentiel d’amélioration de l’entreprise.</p>
-        <p>Ce séminaire, compris dans les cours à option de troisième année, nous a permis d’appliquer nos connaissances théoriques en entreprise. Il nous a également appris à collaborer au sein d’une équipe d’étudiants internationale.</p>
-    </description>
-    <temoignages>
-        <temoignage>
-            <personne id="louisa-freymond-mm40"/>
-            <p>Le séminaire en entreprise m'a permis d'approcher la "Business Excellence" grâce à un apport théorique riche durant la première semaine du cours, suivi d'une application pratique au sein de l'entreprise Merkur Druck AG la seconde semaine. Ce séminaire m'a permis de prendre en main des outils de management et de schématiser des process existants, afin d'en tirer le potentiel d'amélioration continue d'une entreprise.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="jerome-clot-mm40"/>
-            <p>Le but de ce séminaire était de réaliser un assessment et de modéliser des processus d’une entreprise active dans le domaine du print, Merkur Druck AG. J’ai pu apprendre des concepts théoriques sur le Business Excellence pour ensuite les appliquer dans un environnement réel. La collaboration avec des étudiants étrangers était également très enrichissante.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="jonas-oesch-mm40"/>
-            <p>Le séminaire en entreprise m'a permis d'approcher la "Business Excellence" grâce à un apport théorique riche durant la première semaine du cours, suivi d'une application pratique au sein de l'entreprise Merkur Druck AG la seconde semaine. Ce séminaire m'a permis de prendre en main des outils de management et de schématiser des process existants, afin d'en tirer le potentiel d'amélioration continue d'une entreprise.</p>
-        </temoignage>
-    </temoignages>
-    <domaine poids="5" nom="Management">
-        <tache>Interview</tache>
-        <tache>Modélisation</tache>
-        <tache>Évalutation</tache>
-        <tache>Propositions d'améliorations</tache>
-        <outil>Business Excellence</outil>
-        <outil>Assessment</outil>
-        <outil>EFQM</outil>
-        <outil>BPMN</outil>
-        <outil>SWOT</outil>
-    </domaine>
-    <team>
-        <personne id="jerome-clot-mm40"/>
-        <personne id="mickael-justo--mm40"/>
-        <personne id="christophe-merkle-mm40"/>
-        <personne id="louisa-freymond-mm40"/>
-        <personne id="jonas-oesch-mm40"/>
-    </team>
-    <superviseur>
-        <logo url="http://www.carillionplc.com/media/79738/stn_logo.jpg"/>
-        <prenom>Urs</prenom>
-        <nom>Flury</nom>
-        <role>Consultant indépendant en technique de management</role>
-        <organisation url="http://www.ursflury.ch/">Urs Flury Schulung und Beratung</organisation>
-        <commentaire>
-            <p>La collaboration a été très agréable, car les étudiants étaient persévérants et déterminés. J’ai particulièrement apprécié cette volonté de groupe d'atteindre des buts communs. Ce projet m'a aussi donné de nouveaux inputs car les étudiants ont une autre vision que les entrepreneurs que je forme habituellement. L’équipe a parfaitement bien fonctionné car chacun a assumé ses responsabilités durant le projet.</p>
-        </commentaire>
-    </superviseur>
+<projet id="seminaire-entreprise-2014" url="http://blog.comem.ch/archives/1667" next="eb005e-2014" prev="precarite-2014" xmlns="http://ns.comem.ch/cours/TM">
+	<annee>2014</annee>                                
+	<nom>Séminaire d'entreprise</nom>
+	<nom_court>Séminaire d'entreprise</nom_court>
+	<video url="https://www.youtube.com/watch?v=vr0NBPRMe2E"/>
+	<image url="images/projets/photo_seminaire-entreprise-2014.jpg"/>
+	<description>
+		<p>Le séminaire en entreprise est un cours se déroulant sur deux semaines, qui sensibilise les étudiants au domaine du Business Excellence. Ce séminaire est proposé aux étudiants de la HEIG-VD ainsi qu’à ceux de la Hochschule der Medien (HdM) de Stuttgart.</p>
+		<p>L’atelier est divisé en deux parties : nous avons d’abord élargi nos connaissances dans le process management et nous sommes familiarisés avec les méthodes de Business Excellence telle que l’EFQM. Puis il a été question de mettre en pratique nos nouvelles compétences au sein de l’entreprise Merkur Druck AG en modélisant des processus et un assessment afin de relever le potentiel d’amélioration de l’entreprise.</p>
+		<p>Ce séminaire, compris dans les cours à option de troisième année, nous a permis d’appliquer nos connaissances théoriques en entreprise. Il nous a également appris à collaborer au sein d’une équipe d’étudiants internationale.</p>
+	</description>
+	<temoignages>
+		<temoignage>
+			<personne id="louisa-freymond-mm40"/>
+			<p>Le séminaire en entreprise m'a permis d'approcher la "Business Excellence" grâce à un apport théorique riche durant la première semaine du cours, suivi d'une application pratique au sein de l'entreprise Merkur Druck AG la seconde semaine. Ce séminaire m'a permis de prendre en main des outils de management et de schématiser des process existants, afin d'en tirer le potentiel d'amélioration continue d'une entreprise.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="jerome-clot-mm40"/>
+			<p>Le but de ce séminaire était de réaliser un assessment et de modéliser des processus d’une entreprise active dans le domaine du print, Merkur Druck AG. J’ai pu apprendre des concepts théoriques sur le Business Excellence pour ensuite les appliquer dans un environnement réel. La collaboration avec des étudiants étrangers était également très enrichissante.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="mickael-justo-mm40"/>
+			<p>Pouvoir se rendre dans une entreprise, mener un assessment, analyser les processus et pouvoir présenter son travail est sans doute une des meilleures expériences pratiques vécues pendant notre formation. Faisant partie du team “processus”, j’ai pu rencontrer des employés de Merkur Druck AG afin de dessiner les processus de travail existants. Il était très intéressant d’identifier les éventuels points d’amélioration et de proposer des solutions optimales.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="christophe-merkle-mm40"/>
+			<p>Très bonne expérience pratique qui nous a montré l’importance de bien intégrer des processus d’amélioration continue.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="jonas-oesch-mm40"/>
+			<p>L’occasion de faire un assessment dans l’entreprise Merkur Druck AG était unique. En trois jours nous avons pu comprendre le fonctionnement d’une imprimerie. Les interviews menées avec les collaborateurs ont permis de mettre en évidence des problématiques existantes. Nous avons alors pu appliquer les outils, développés pendant la partie théorique du cours, afin de proposer des pistes d’amélioration continue à l'entreprise.</p>
+		</temoignage>
+	</temoignages>
+	<domaine poids="5" nom="Management">
+		<tache>Interview</tache>
+		<tache>Modélisation</tache>
+		<tache>Évalutation</tache>
+		<tache>Propositions d'améliorations</tache>
+		<outil>Business Excellence</outil>
+		<outil>Assessment</outil>
+		<outil>EFQM</outil>
+		<outil>BPMN</outil>
+		<outil>SWOT</outil>
+	</domaine>
+	<team>
+		<personne id="jerome-clot-mm40"/>
+		<personne id="mickael-justo-mm40"/>
+		<personne id="christophe-merkle-mm40"/>
+		<personne id="louisa-freymond-mm40"/>
+		<personne id="jonas-oesch-mm40"/>
+	</team>
+	<superviseur>
+		<prenom>Urs</prenom>
+		<nom>Flury</nom>
+		<role>Consultant indépendant en technique de management</role>
+		<logo url="images/superviseurs/logo_flury_seminaire.svg"/>
+		<organisation url="http://www.ursflury.ch/">Urs Flury - Schulung und Beratung</organisation>
+		<commentaire>
+			<p>La collaboration a été très agréable, car les étudiants étaient persévérants et déterminés. J’ai particulièrement apprécié cette volonté de groupe d'atteindre des buts communs. Ce projet m'a aussi donné de nouveaux inputs car les étudiants ont une autre vision que les entrepreneurs que je forme habituellement. L’équipe a parfaitement bien fonctionné car chacun a assumé ses responsabilités durant le projet.</p>
+		</commentaire>
+	</superviseur>
 </projet>

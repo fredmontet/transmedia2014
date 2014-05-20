@@ -2,6 +2,8 @@
 // @codekit-append "_resize.js"
 
 var burgerActive = false;
+var projectsActive = false;
+var projectProcess = false;
 
 $(document).ready( function() {
 
@@ -16,9 +18,21 @@ $(document).ready( function() {
     	}
 	});
 	
+	$("header").on('click', '#project', function() {
+    	if(projectsActive) {
+        	closeProject();
+    	} else {
+        	openProject();
+    	}
+	});
+	
 	$('html').click(function() {
 		if(burgerActive) {
 			closeBurger();
+		}
+		
+		if(projectsActive) {
+			closeProject();
 		}
 	});
 	
@@ -32,9 +46,51 @@ $(document).ready( function() {
 
 
 function coulure() {
-    $("#container.transmedia .title").each( function() {
+    $("#container.transmedia-2014 .title").each( function() {
         $(this).after('<div id="coulure"><div class="left"></div><div class="right"></div></div>');
     });
+}
+
+
+function openProject() {
+
+    if(projectProcess) {
+        return;
+    }
+    projectProcess = true;
+	
+    var navHeight = $("#project ul").height();
+    
+    $("#project ul").height(0);
+    $("#project ul").show();
+    
+    $("#project ul").animate({
+        height: navHeight
+    }, 300, function() {
+        projectsActive = true;
+        projectProcess = false;
+    });
+
+}
+
+function closeProject() {
+    
+    if(projectProcess) {
+        return;
+    }
+    projectProcess = true;
+    
+    var navHeight = $("#project ul").height();
+    
+    $("#project ul").animate({
+        height: 0
+    }, 300, function() {
+        projectsActive = false;
+        projectProcess = false;
+        $("#project ul").hide();
+        $("#project ul").height("inherit");
+    });
+	
 }
 
 

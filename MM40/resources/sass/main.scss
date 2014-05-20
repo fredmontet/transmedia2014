@@ -2,6 +2,7 @@
 @import 'fonts';
 @import 'color';
 @import 'functions';
+@import 'home';
 
 $pageWidth: 1024px;
 
@@ -18,7 +19,8 @@ body {
 .content {
     max-width: $pageWidth;
     margin: 0 auto;
-    padding: 40px 3% 3%;
+    padding: 40px 3% 40px;
+    z-index: 100;
 }
 
 p {
@@ -95,9 +97,29 @@ p.button,
 /*****************************/
 @mixin content($darkColor, $lightColor) {
     
+    header {
+        background: $darkColor;
+        
+        nav {
+            background: $darkColor;
+            
+            ul li ul li {
+                
+                a {
+                    color: $darkColor;
+                }
+                
+                &:after {
+                    background: $darkColor;
+                }
+            }
+        }
+    }
+    
     .testimony,
     .team,
-    .offerProject {
+    .offerProject,
+    .my_projects {
         background-color: $lightColor;
         
         &:after {
@@ -105,7 +127,7 @@ p.button,
         }
     }
     
-    .tools,
+    .characteristic,
     .principalTestimony {
         background-color: $gray;
         
@@ -114,8 +136,23 @@ p.button,
         }
     }
     
+    .characteristic {
+    
+        .content > article {
+            border-bottom: 1px solid $darkColor;
+            
+            div.on {
+                background-color: $darkColor;
+            }
+        }
+    }
+    
+    
+    
     .centered,
-    .vote {
+    .vote,
+    .profil_desc,
+    .contact_me {
         background-color: $white;
         
         &:after {
@@ -123,13 +160,15 @@ p.button,
         }
     }
     
+    
     .video,
-    header {
-        background-color: $black;
+    header,
+    .title {
+        background-color: $darkColor;
         color: $white;
         
         &:after {
-            border-top-color: $black;
+            border-top-color: $darkColor;
         }
     }
     
@@ -151,6 +190,20 @@ p.button,
         }
     }
     
+    article:last-of-type {
+        
+        &.print,
+        &.contact_me,
+        &.my_projects,
+        &.profil_desc {
+            background-color: $gray;
+            
+            &:after {
+                border-top-color: $gray;
+            }
+        }
+    }
+    
 }
 
 
@@ -158,8 +211,83 @@ p.button,
 /*** Theme ***/
 /*************/
 #container {
-    &.stalker {
-        @include content($darkStalker, $lightStalker);
+    
+    // Transmedia
+    &.transmedia-2014 {
+        @include content($darkTransmedia, $lightTransmedia);
+        
+        #simpleLogo {
+            background-image: url('../images/logoTransmedia.svg');
+        }
+    }
+    
+    // Shortstalk
+    &.stalker-2013 {
+        @include content($darkShortstalk, $lightShortstalk);
+    }
+    
+    // Tedx
+    &.tedx-2013 {
+        @include content($darkTedx, $lightTedx);
+    }
+    
+    // Cinemalingua
+    &.cinemalingua-2011 {
+        @include content($darkCinemalingua, $lightCinemalingua);
+    }
+    
+    // Radiocomem
+    &.radiocomem-2012 {
+        @include content($darkRadiocomem, $lightRadiocomem);
+    }
+    
+    // Seminaire
+    &.seminaire-entreprise-2014 {
+        @include content($darkSeminaire, $lightSeminaire);
+    }
+    
+    // Paleo
+    &.paleo {
+        @include content($darkPaleo, $lightPaleo);
+    }
+    
+    // Newsroom
+    &.newsroom-2014 {
+        @include content($darkNewsroom, $lightNewsroom);
+    }
+    
+    // Stuttgart
+    &.stuttgart-2013 {
+        @include content($darkStuttgart, $lightStuttgart);
+    }
+}
+
+
+#coulure {
+    width: 100%;
+    display: block;
+    z-index: -100;
+    
+    .left,
+    .right {
+        position: absolute;
+        display: block;
+        height: 0px;
+        width: 0px;
+    }
+    
+    .left {
+        background-image: url('../images/coulureLeft.svg');
+        background-repeat: no-repeat;
+        background-position: right top;
+        left: 0;
+    }
+    
+    .right {
+        background-image: url('../images/coulureRight.svg');
+        background-repeat: no-repeat;
+        background-position: left top;
+        right: 0;
     }
 }
 
@@ -168,7 +296,6 @@ p.button,
 /*** Header ***/
 /**************/
 header {
-    background: $black;
     color: $white;
     
     #burger {
@@ -187,6 +314,7 @@ header {
             
             ul li {
                 display: inline-block;
+                cursor: pointer;
                 
                 a {
                     color: $white;
@@ -196,10 +324,56 @@ header {
                 
                 a.active:after {
                     content: "";
+                }
+                
+                ul {
+                    position: absolute;
+                    background: $white;
+                    margin-top: 10px;
+                    padding: 10px;
+                    display: none;
                     
+                    li {
+                        display: block;
+                        
+                        
+                        a {
+                            color: $black;
+                            display: block;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            padding: 10px 10px 10px 0;
+                        }
+                        
+                        &:after {
+                            content: " ";
+                            width: 50px;
+                            height: 2px;
+                            background: $black;
+                            display: block;
+                            margin-left: 15px;
+                        }
+                        
+                    }
                 }
             }
         }
+    }
+    
+    @media screen and (max-width: 1200px) {
+        
+        &.has_a_video {
+            .content {
+                nav {
+                    margin-right: 45px;
+                }
+                
+                .logo {
+                    margin-left: 35px;
+                }
+            }
+        }
+        
     }
     
     @media only screen and (max-width: 500px) {
@@ -207,6 +381,14 @@ header {
     	width: 100%;
     	z-index: 1000;
     	top: 0;
+    	
+    	&.has_a_video {
+    	    .content {
+            	.logo {
+                    margin-left: 5px;
+                }
+            }
+    	}
     	
     	.content {
         	padding: 0;
@@ -231,7 +413,6 @@ header {
             	position: absolute;
             	top: 55px;
             	width: 100%;
-            	background: $black;
             	margin: 0;
             	z-index: 900;
             	
@@ -298,12 +479,133 @@ header {
         }
     }
     
+    
+    /***************/
+    /*** Profils ***/
+    /***************/
+    .profils {
+        
+        a {
+            width: 30%;
+            margin-right: 5%;
+            display: inline-block;
+            padding-top: 20px;
+            color: $white;
+            text-decoration: none;
+            
+            &:nth-child(3n + 1) {
+                margin-right: 0;
+            }
+            
+            img {
+                width: 100%;
+            }
+            
+            span {
+                display: block;
+                padding: 5px;
+                text-align: center;
+                font-family: $font-light;
+                text-transform: uppercase;
+                
+                &:after {
+                    content: " ";
+                    display: block;
+                    width: 50px;
+                    height: 1px;
+                    margin: 8px auto 0;
+                    background: $white;
+                }
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            a {
+                width: 44%;
+                margin-left: 4%;
+                margin-right: 0;
+                
+                &:nth-child(2n - 1) {
+                    margin-right: 4%;
+                }
+            }
+        }
+        
+    }
+    
+    
+    /**************/
+    /*** Profil ***/
+    /**************/
+    .profil {
+        img {
+            margin: 0 auto;
+            display: block;
+            margin-top: 20px;
+        }
+        
+        h2 {
+            text-transform: uppercase;
+            font-size: 1.3em;
+            text-align: center;
+            padding: 20px;
+            font-family: $font-semi-bold;
+            
+            &:after {
+                content: " ";
+                height: 0;
+                width: 0;
+                display: block;
+                width: 50px;
+                height: 2px;
+                margin: 8px auto 0;
+                background: $white;
+            }
+        }
+    }
+    
+    
+    /*********************/
+    /*** Profil detail ***/
+    /*********************/
+    .profil_desc,
+    .my_projects,
+    .contact_me,
+    .print {
+    
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            
+            ul li {
+                text-align: center;
+                padding: 5px;
+                
+                a {
+                    color: $darkTransmedia;
+                    text-decoration: none;
+                    
+                }
+            }
+            
+            a.print {
+                width: 50px;
+                height: 50px;
+                display: block;
+                margin: 0 auto;
+                background-image: url('../images/print.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+        
+    }
+    
 
     /*************/
     /*** Video ***/
     /*************/
     .video {
-        margin-top: -70px;
         
         #left,
         #right {
@@ -339,6 +641,15 @@ header {
         }
         
         @media screen and (max-width: 500px) {
+        	margin-bottom: -30px;
+        	
+        	&:after {
+            	display: none;
+        	}
+        	
+            
+            background-color: $white !important;
+            
             .player {
                 margin: 0;
             }
@@ -369,28 +680,7 @@ header {
             }
         }
         
-        @media only screen and (max-width: 500px) {
-        	margin-top: 0;
-        	background-color: $white !important;
-        	margin-bottom: -30px;
-        	
-        	&:after {
-            	display: none;
-        	}
-        	
-        	.content {
-            	padding: 0 0 0px;
-            	
-            	h1 {
-                	background: $white;
-                	color: $black;
-                	text-align: center;
-                	width: 100%;
-                	padding-top: 20px;
-                	padding-bottom: 15px;
-            	}
-        	}
-        }
+        
     }
     
     
@@ -402,6 +692,153 @@ header {
         p {
             max-width: 800px;
             margin: 5px auto;
+        }
+    }
+    
+    /************/
+    /*** Info ***/
+    /************/
+    .info {
+        overflow: auto;
+        
+        .left {
+            width: 30%;
+            display: inline-block;
+            float: left;
+            
+            h2 {
+                text-align: left;
+                padding: 0;
+                padding-bottom: 5px;
+                font-family: $font-bold;
+            }
+            
+            a {
+                padding-top: 10px;
+                display: block;
+                color: $white;
+                
+            }
+        }
+        
+        .right {
+            width: 70%;
+            display: inline-block;
+        }
+        
+        @media screen and (max-width: 500px) {
+            
+            .left {
+                margin-top: 20px;
+            }
+            
+            .left,
+            .right {
+                float: none;
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    
+    /*************/
+    /*** Offer ***/
+    /*************/
+    .offer {
+        overflow: auto;
+        
+        input,
+        textarea,
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            margin-bottom: 20px;
+            border: 1px solid $white;
+            background: $white;
+            box-shadow: 0;
+            outline: none;
+            border-radius: 0;
+            color: $black;
+            padding: 5px;
+            font-size: 1.2em;
+            font-family: $font-light;
+            margin-top: 5px;
+            
+        }
+        
+        select {
+            box-sizing: content-box;
+            background-image: url('../images/select.svg');
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            cursor: pointer;
+            text-indent: 0.01px;
+            text-overflow: '';
+        }
+        
+        textarea {
+            width: 97%;
+            height: 250px;
+        }
+        
+        .left {
+            width: 50%;
+            display: inline-block;
+            float: left;
+            
+            input,
+            select {
+                width: 50%;
+                min-width: 200px;
+            }
+        }
+        
+        .right {
+            width: 50%;
+            display: inline-block;
+            
+            input[type=submit] {
+                color: $black;
+                background: $white;
+                float: right;
+                cursor: pointer;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+        
+            form {
+                padding: 5%;
+                
+                .left,
+                .right {
+                    width: 100%;
+                    display: block;
+                    float: none;
+                    
+                    input,
+                    select {
+                        width: 98%;
+                        padding-left: 1%;
+                        padding-right: 1%;
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+                    
+                    input[type=submit] {
+                        float: none;
+                    }
+                }
+                
+                .right {
+                    margin-top: 20px;
+                }
+            }
         }
     }
     
@@ -471,6 +908,78 @@ header {
                 }
             }
         }
+    }
+    
+    
+    /**********************/
+    /*** Characteristic ***/
+    /**********************/
+    .characteristic {
+    
+        article {
+            cursor: pointer;
+            overflow: auto;
+            
+            h1 {
+                text-align: left;
+                padding-left: 0;
+                display: inline-block;
+                
+                &:after {
+                    display: none;
+                }  
+            }
+            
+            section.points {
+                float: right;
+                display: inline-block;
+                
+                div {
+                    display: inline-block;
+                    margin: 20px 10px;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50px;
+                    background-color: $black;
+                }
+            }   
+            
+            @media only screen and (max-width: 500px) {
+                section.points {
+                    float: none;
+                    display: block;
+                    
+                    div {
+                        margin: 0px 20px 15px 0px;
+                    }
+                }
+            }
+            
+            section.details {
+                display: none;
+                
+                
+                h1 {
+                    font-size: 1.1em;
+                    color: $black;
+                    font-family: $font-bold;
+                    padding: 0;
+                }
+                
+                ul li {
+                    font-size: 0.9em;
+                }
+                
+                .left,
+                .right {
+                    display: inline-block;
+                    width: 49%;
+                    float: left;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        
     }
     
     
@@ -573,6 +1082,46 @@ header {
     }
     
     
+    /*************/
+    /*** Title ***/
+    /*************/
+    .title {
+        margin-top: -70px;
+        
+        .content {
+            padding-top: 10px;
+            
+            h1 {
+                color: $white;
+                text-align: right;
+                font-size: 2em;
+                padding: 0 0 20px;
+                
+                &:after {
+                    background: none;
+                }
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+        	margin-top: 0;
+        	
+        	.content {
+            	padding: 0 0 0px;
+            	
+            	h1 {
+                	background: $white;
+                	color: $black;
+                	text-align: center;
+                	width: 100%;
+                	padding-top: 20px;
+                	padding-bottom: 15px;
+            	}
+        	}
+        }
+    }
+    
+    
     /**************/
     /*** Footer ***/
     /**************/
@@ -642,30 +1191,7 @@ header {
                     width: 50px;
                     height: 50px;
                     display: inline-block;
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                    background-position: right center;
                     padding-left: 5px;
-                }
-                
-                #facebook {
-                    background-image: url('../images/facebook.svg');
-                }
-                
-                #twitter {
-                    background-image: url('../images/twitter.svg');
-                }
-                
-                #instagram {
-                    background-image: url('../images/instagram.svg');
-                }
-                
-                #linkedin {
-                    background-image: url('../images/linkedIn.svg');
-                }
-                
-                #youtube {
-                    background-image: url('../images/youtube.svg');
                 }
             }
         }

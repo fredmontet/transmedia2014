@@ -1,0 +1,11 @@
+xquery version "3.0";
+
+
+import module namespace xmldb="http://exist-db.org/xquery/xmldb";
+
+
+let $log-in := xmldb:login("/db", "admin", "admin")
+let $create-collection := xmldb:create-collection("/db/apps/MM40/data", "output")
+let $content := <hi>Test</hi>
+return xmldb:store("/db/apps/MM40/data", "test.xml", 
+$content)

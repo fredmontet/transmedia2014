@@ -33,8 +33,9 @@ declare function profile:desc($node as node(), $model as map(*))
 <article class="profil_desc">
             <section class="content">
             { for $p in $model("profile")//TM:p
-                    return
-                <p>{$p}</p>
+                return (
+                <p>{$p/text()}</p>
+                )
             }
             </section>
         </article>
@@ -46,12 +47,27 @@ declare function profile:projet($node as node(), $model as map(*))
                 <h1>Liste Projets Participés</h1>
                 <ul>
                     { for $project in $model("profile")//TM:projet
-                    return
+                    return (
                     <li>
-                        <a href="projet.html?id={$project[@id]}">{$project}</a>
-                    </li>
+                        <a href="projet.html?id={$project/@id}">{$project/text()}</a>
+                    </li> 
+                    )
                     }
                 </ul>
             </section>
         </article>
+};
+declare function profile:contact($node as node(), $model as map(*))
+{
+    <article class="contact_me">
+                <section class="content">
+                    <h1>Me contacter</h1>
+                    <ul>
+                        { for $lien in $model("profile")//TM:lien
+                    return
+                        <li><a href="{$lien/@url}">{$lien/text()}</a></li>
+                        }
+                    </ul>
+                </section>
+            </article>
 };
