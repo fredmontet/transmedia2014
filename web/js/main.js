@@ -2,6 +2,7 @@
 // @codekit-append "_resize.js"
 
 var burgerActive = false;
+var projectsActive = false;
 
 $(document).ready( function() {
 
@@ -13,6 +14,14 @@ $(document).ready( function() {
         	closeBurger();
     	} else {
         	openBurger();
+    	}
+	});
+	
+	$("header").on('click', '#project', function() {
+    	if(projectsActive) {
+        	closeProject();
+    	} else {
+        	openProject();
     	}
 	});
 	
@@ -35,6 +44,19 @@ function coulure() {
     $("#container.transmedia .title").each( function() {
         $(this).after('<div id="coulure"><div class="left"></div><div class="right"></div></div>');
     });
+}
+
+
+function openProject() {
+    $("header nav").animate({
+        top: 55
+	}, 300, function() {
+    	burgerActive = true;
+	});
+	
+	$("header nav").toggle(slow);
+	
+	
 }
 
 

@@ -1,7 +1,1 @@
-#Ignore css generated from sass
-web/css/*
-
-#Ignore all .min.js
-*.min.js
-
 web/sass/.sass-cache/*
