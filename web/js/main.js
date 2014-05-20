@@ -3,6 +3,7 @@
 
 var burgerActive = false;
 var projectsActive = false;
+var projectProcess = false;
 
 $(document).ready( function() {
 
@@ -29,6 +30,10 @@ $(document).ready( function() {
 		if(burgerActive) {
 			closeBurger();
 		}
+		
+		if(projectsActive) {
+			closeProject();
+		}
 	});
 	
 	$("html").on('click', '.characteristic .content > article', function() {
@@ -41,21 +46,50 @@ $(document).ready( function() {
 
 
 function coulure() {
-    $("#container.transmedia .title").each( function() {
+    $("#container.transmedia-2014 .title").each( function() {
         $(this).after('<div id="coulure"><div class="left"></div><div class="right"></div></div>');
     });
 }
 
 
 function openProject() {
-    $("header nav").animate({
-        top: 55
-	}, 300, function() {
-    	burgerActive = true;
-	});
+
+    if(projectProcess) {
+        return;
+    }
+    projectProcess = true;
 	
-	$("header nav").toggle(slow);
-	
+    var navHeight = $("#project ul").height();
+    
+    $("#project ul").height(0);
+    $("#project ul").show();
+    
+    $("#project ul").animate({
+        height: navHeight
+    }, 300, function() {
+        projectsActive = true;
+        projectProcess = false;
+    });
+
+}
+
+function closeProject() {
+    
+    if(projectProcess) {
+        return;
+    }
+    projectProcess = true;
+    
+    var navHeight = $("#project ul").height();
+    
+    $("#project ul").animate({
+        height: 0
+    }, 300, function() {
+        projectsActive = false;
+        projectProcess = false;
+        $("#project ul").hide();
+        $("#project ul").height("inherit");
+    });
 	
 }
 

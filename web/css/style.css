@@ -244,361 +244,420 @@ p.button,
 /*************/
 /*** Theme ***/
 /*************/
-#container.transmedia header {
+#container header {
   background: #eb005e; }
-  #container.transmedia header nav {
+  #container header nav {
     background: #eb005e; }
-    #container.transmedia header nav ul li ul li a {
+    #container header nav ul li ul li a {
       color: #eb005e; }
-    #container.transmedia header nav ul li ul li:after {
+    #container header nav ul li ul li:after {
       background: #eb005e; }
-#container.transmedia .testimony,
-#container.transmedia .team,
-#container.transmedia .offerProject,
-#container.transmedia .my_projects {
+#container .testimony,
+#container .team,
+#container .offerProject,
+#container .my_projects {
   background-color: #f9f7f0; }
-  #container.transmedia .testimony:after,
-  #container.transmedia .team:after,
-  #container.transmedia .offerProject:after,
-  #container.transmedia .my_projects:after {
+  #container .testimony:after,
+  #container .team:after,
+  #container .offerProject:after,
+  #container .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.transmedia .characteristic,
-#container.transmedia .principalTestimony {
+#container .characteristic,
+#container .principalTestimony {
   background-color: #ededed; }
-  #container.transmedia .characteristic:after,
-  #container.transmedia .principalTestimony:after {
+  #container .characteristic:after,
+  #container .principalTestimony:after {
     border-top-color: #ededed; }
-#container.transmedia .characteristic .content > article {
+#container .characteristic .content > article {
   border-bottom: 1px solid #eb005e; }
-  #container.transmedia .characteristic .content > article div.on {
+  #container .characteristic .content > article div.on {
     background-color: #eb005e; }
-#container.transmedia .centered,
-#container.transmedia .vote,
-#container.transmedia .profil_desc,
-#container.transmedia .contact_me {
+#container .centered,
+#container .vote,
+#container .profil_desc,
+#container .contact_me {
   background-color: white; }
-  #container.transmedia .centered:after,
-  #container.transmedia .vote:after,
-  #container.transmedia .profil_desc:after,
-  #container.transmedia .contact_me:after {
+  #container .centered:after,
+  #container .vote:after,
+  #container .profil_desc:after,
+  #container .contact_me:after {
     border-top-color: white; }
-#container.transmedia .video,
-#container.transmedia header,
-#container.transmedia .title {
+#container .video,
+#container header,
+#container .title {
   background-color: #eb005e;
   color: white; }
-  #container.transmedia .video:after,
-  #container.transmedia header:after,
-  #container.transmedia .title:after {
+  #container .video:after,
+  #container header:after,
+  #container .title:after {
     border-top-color: #eb005e; }
-#container.transmedia .button a {
+#container .button a {
   background: #eb005e; }
-#container.transmedia h1 {
+#container h1 {
   color: #eb005e; }
-  #container.transmedia h1:after {
+  #container h1:after {
     background: #eb005e; }
-#container.transmedia footer a.active {
+#container footer a.active {
   color: #eb005e; }
-#container.transmedia article:last-of-type.print, #container.transmedia article:last-of-type.contact_me, #container.transmedia article:last-of-type.my_projects, #container.transmedia article:last-of-type.profil_desc {
+#container article:last-of-type.print, #container article:last-of-type.contact_me, #container article:last-of-type.my_projects, #container article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.transmedia article:last-of-type.print:after, #container.transmedia article:last-of-type.contact_me:after, #container.transmedia article:last-of-type.my_projects:after, #container.transmedia article:last-of-type.profil_desc:after {
+  #container article:last-of-type.print:after, #container article:last-of-type.contact_me:after, #container article:last-of-type.my_projects:after, #container article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
-#container.transmedia #simpleLogo {
-  background-image: url("../images/logoTransmedia.svg"); }
-#container.shortstalk header {
-  background: #766454; }
-  #container.shortstalk header nav {
-    background: #766454; }
-    #container.shortstalk header nav ul li ul li a {
-      color: #766454; }
-    #container.shortstalk header nav ul li ul li:after {
-      background: #766454; }
-#container.shortstalk .testimony,
-#container.shortstalk .team,
-#container.shortstalk .offerProject,
-#container.shortstalk .my_projects {
+#container.transmedia-2014 header {
+  background: #eb005e; }
+  #container.transmedia-2014 header nav {
+    background: #eb005e; }
+    #container.transmedia-2014 header nav ul li ul li a {
+      color: #eb005e; }
+    #container.transmedia-2014 header nav ul li ul li:after {
+      background: #eb005e; }
+#container.transmedia-2014 .testimony,
+#container.transmedia-2014 .team,
+#container.transmedia-2014 .offerProject,
+#container.transmedia-2014 .my_projects {
   background-color: #f9f7f0; }
-  #container.shortstalk .testimony:after,
-  #container.shortstalk .team:after,
-  #container.shortstalk .offerProject:after,
-  #container.shortstalk .my_projects:after {
+  #container.transmedia-2014 .testimony:after,
+  #container.transmedia-2014 .team:after,
+  #container.transmedia-2014 .offerProject:after,
+  #container.transmedia-2014 .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.shortstalk .characteristic,
-#container.shortstalk .principalTestimony {
+#container.transmedia-2014 .characteristic,
+#container.transmedia-2014 .principalTestimony {
   background-color: #ededed; }
-  #container.shortstalk .characteristic:after,
-  #container.shortstalk .principalTestimony:after {
+  #container.transmedia-2014 .characteristic:after,
+  #container.transmedia-2014 .principalTestimony:after {
     border-top-color: #ededed; }
-#container.shortstalk .characteristic .content > article {
-  border-bottom: 1px solid #766454; }
-  #container.shortstalk .characteristic .content > article div.on {
-    background-color: #766454; }
-#container.shortstalk .centered,
-#container.shortstalk .vote,
-#container.shortstalk .profil_desc,
-#container.shortstalk .contact_me {
+#container.transmedia-2014 .characteristic .content > article {
+  border-bottom: 1px solid #eb005e; }
+  #container.transmedia-2014 .characteristic .content > article div.on {
+    background-color: #eb005e; }
+#container.transmedia-2014 .centered,
+#container.transmedia-2014 .vote,
+#container.transmedia-2014 .profil_desc,
+#container.transmedia-2014 .contact_me {
   background-color: white; }
-  #container.shortstalk .centered:after,
-  #container.shortstalk .vote:after,
-  #container.shortstalk .profil_desc:after,
-  #container.shortstalk .contact_me:after {
+  #container.transmedia-2014 .centered:after,
+  #container.transmedia-2014 .vote:after,
+  #container.transmedia-2014 .profil_desc:after,
+  #container.transmedia-2014 .contact_me:after {
     border-top-color: white; }
-#container.shortstalk .video,
-#container.shortstalk header,
-#container.shortstalk .title {
+#container.transmedia-2014 .video,
+#container.transmedia-2014 header,
+#container.transmedia-2014 .title {
+  background-color: #eb005e;
+  color: white; }
+  #container.transmedia-2014 .video:after,
+  #container.transmedia-2014 header:after,
+  #container.transmedia-2014 .title:after {
+    border-top-color: #eb005e; }
+#container.transmedia-2014 .button a {
+  background: #eb005e; }
+#container.transmedia-2014 h1 {
+  color: #eb005e; }
+  #container.transmedia-2014 h1:after {
+    background: #eb005e; }
+#container.transmedia-2014 footer a.active {
+  color: #eb005e; }
+#container.transmedia-2014 article:last-of-type.print, #container.transmedia-2014 article:last-of-type.contact_me, #container.transmedia-2014 article:last-of-type.my_projects, #container.transmedia-2014 article:last-of-type.profil_desc {
+  background-color: #ededed; }
+  #container.transmedia-2014 article:last-of-type.print:after, #container.transmedia-2014 article:last-of-type.contact_me:after, #container.transmedia-2014 article:last-of-type.my_projects:after, #container.transmedia-2014 article:last-of-type.profil_desc:after {
+    border-top-color: #ededed; }
+#container.transmedia-2014 #simpleLogo {
+  background-image: url("../images/logoTransmedia.svg"); }
+#container.stalker-2013 header {
+  background: #766454; }
+  #container.stalker-2013 header nav {
+    background: #766454; }
+    #container.stalker-2013 header nav ul li ul li a {
+      color: #766454; }
+    #container.stalker-2013 header nav ul li ul li:after {
+      background: #766454; }
+#container.stalker-2013 .testimony,
+#container.stalker-2013 .team,
+#container.stalker-2013 .offerProject,
+#container.stalker-2013 .my_projects {
+  background-color: #f9f7f0; }
+  #container.stalker-2013 .testimony:after,
+  #container.stalker-2013 .team:after,
+  #container.stalker-2013 .offerProject:after,
+  #container.stalker-2013 .my_projects:after {
+    border-top-color: #f9f7f0; }
+#container.stalker-2013 .characteristic,
+#container.stalker-2013 .principalTestimony {
+  background-color: #ededed; }
+  #container.stalker-2013 .characteristic:after,
+  #container.stalker-2013 .principalTestimony:after {
+    border-top-color: #ededed; }
+#container.stalker-2013 .characteristic .content > article {
+  border-bottom: 1px solid #766454; }
+  #container.stalker-2013 .characteristic .content > article div.on {
+    background-color: #766454; }
+#container.stalker-2013 .centered,
+#container.stalker-2013 .vote,
+#container.stalker-2013 .profil_desc,
+#container.stalker-2013 .contact_me {
+  background-color: white; }
+  #container.stalker-2013 .centered:after,
+  #container.stalker-2013 .vote:after,
+  #container.stalker-2013 .profil_desc:after,
+  #container.stalker-2013 .contact_me:after {
+    border-top-color: white; }
+#container.stalker-2013 .video,
+#container.stalker-2013 header,
+#container.stalker-2013 .title {
   background-color: #766454;
   color: white; }
-  #container.shortstalk .video:after,
-  #container.shortstalk header:after,
-  #container.shortstalk .title:after {
+  #container.stalker-2013 .video:after,
+  #container.stalker-2013 header:after,
+  #container.stalker-2013 .title:after {
     border-top-color: #766454; }
-#container.shortstalk .button a {
+#container.stalker-2013 .button a {
   background: #766454; }
-#container.shortstalk h1 {
+#container.stalker-2013 h1 {
   color: #766454; }
-  #container.shortstalk h1:after {
+  #container.stalker-2013 h1:after {
     background: #766454; }
-#container.shortstalk footer a.active {
+#container.stalker-2013 footer a.active {
   color: #766454; }
-#container.shortstalk article:last-of-type.print, #container.shortstalk article:last-of-type.contact_me, #container.shortstalk article:last-of-type.my_projects, #container.shortstalk article:last-of-type.profil_desc {
+#container.stalker-2013 article:last-of-type.print, #container.stalker-2013 article:last-of-type.contact_me, #container.stalker-2013 article:last-of-type.my_projects, #container.stalker-2013 article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.shortstalk article:last-of-type.print:after, #container.shortstalk article:last-of-type.contact_me:after, #container.shortstalk article:last-of-type.my_projects:after, #container.shortstalk article:last-of-type.profil_desc:after {
+  #container.stalker-2013 article:last-of-type.print:after, #container.stalker-2013 article:last-of-type.contact_me:after, #container.stalker-2013 article:last-of-type.my_projects:after, #container.stalker-2013 article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
-#container.tedx header {
+#container.tedx-2013 header {
   background: #ff2b06; }
-  #container.tedx header nav {
+  #container.tedx-2013 header nav {
     background: #ff2b06; }
-    #container.tedx header nav ul li ul li a {
+    #container.tedx-2013 header nav ul li ul li a {
       color: #ff2b06; }
-    #container.tedx header nav ul li ul li:after {
+    #container.tedx-2013 header nav ul li ul li:after {
       background: #ff2b06; }
-#container.tedx .testimony,
-#container.tedx .team,
-#container.tedx .offerProject,
-#container.tedx .my_projects {
+#container.tedx-2013 .testimony,
+#container.tedx-2013 .team,
+#container.tedx-2013 .offerProject,
+#container.tedx-2013 .my_projects {
   background-color: #f9f7f0; }
-  #container.tedx .testimony:after,
-  #container.tedx .team:after,
-  #container.tedx .offerProject:after,
-  #container.tedx .my_projects:after {
+  #container.tedx-2013 .testimony:after,
+  #container.tedx-2013 .team:after,
+  #container.tedx-2013 .offerProject:after,
+  #container.tedx-2013 .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.tedx .characteristic,
-#container.tedx .principalTestimony {
+#container.tedx-2013 .characteristic,
+#container.tedx-2013 .principalTestimony {
   background-color: #ededed; }
-  #container.tedx .characteristic:after,
-  #container.tedx .principalTestimony:after {
+  #container.tedx-2013 .characteristic:after,
+  #container.tedx-2013 .principalTestimony:after {
     border-top-color: #ededed; }
-#container.tedx .characteristic .content > article {
+#container.tedx-2013 .characteristic .content > article {
   border-bottom: 1px solid #ff2b06; }
-  #container.tedx .characteristic .content > article div.on {
+  #container.tedx-2013 .characteristic .content > article div.on {
     background-color: #ff2b06; }
-#container.tedx .centered,
-#container.tedx .vote,
-#container.tedx .profil_desc,
-#container.tedx .contact_me {
+#container.tedx-2013 .centered,
+#container.tedx-2013 .vote,
+#container.tedx-2013 .profil_desc,
+#container.tedx-2013 .contact_me {
   background-color: white; }
-  #container.tedx .centered:after,
-  #container.tedx .vote:after,
-  #container.tedx .profil_desc:after,
-  #container.tedx .contact_me:after {
+  #container.tedx-2013 .centered:after,
+  #container.tedx-2013 .vote:after,
+  #container.tedx-2013 .profil_desc:after,
+  #container.tedx-2013 .contact_me:after {
     border-top-color: white; }
-#container.tedx .video,
-#container.tedx header,
-#container.tedx .title {
+#container.tedx-2013 .video,
+#container.tedx-2013 header,
+#container.tedx-2013 .title {
   background-color: #ff2b06;
   color: white; }
-  #container.tedx .video:after,
-  #container.tedx header:after,
-  #container.tedx .title:after {
+  #container.tedx-2013 .video:after,
+  #container.tedx-2013 header:after,
+  #container.tedx-2013 .title:after {
     border-top-color: #ff2b06; }
-#container.tedx .button a {
+#container.tedx-2013 .button a {
   background: #ff2b06; }
-#container.tedx h1 {
+#container.tedx-2013 h1 {
   color: #ff2b06; }
-  #container.tedx h1:after {
+  #container.tedx-2013 h1:after {
     background: #ff2b06; }
-#container.tedx footer a.active {
+#container.tedx-2013 footer a.active {
   color: #ff2b06; }
-#container.tedx article:last-of-type.print, #container.tedx article:last-of-type.contact_me, #container.tedx article:last-of-type.my_projects, #container.tedx article:last-of-type.profil_desc {
+#container.tedx-2013 article:last-of-type.print, #container.tedx-2013 article:last-of-type.contact_me, #container.tedx-2013 article:last-of-type.my_projects, #container.tedx-2013 article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.tedx article:last-of-type.print:after, #container.tedx article:last-of-type.contact_me:after, #container.tedx article:last-of-type.my_projects:after, #container.tedx article:last-of-type.profil_desc:after {
+  #container.tedx-2013 article:last-of-type.print:after, #container.tedx-2013 article:last-of-type.contact_me:after, #container.tedx-2013 article:last-of-type.my_projects:after, #container.tedx-2013 article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
-#container.cinemalingua header {
+#container.cinemalingua-2011 header {
   background: #1b6834; }
-  #container.cinemalingua header nav {
+  #container.cinemalingua-2011 header nav {
     background: #1b6834; }
-    #container.cinemalingua header nav ul li ul li a {
+    #container.cinemalingua-2011 header nav ul li ul li a {
       color: #1b6834; }
-    #container.cinemalingua header nav ul li ul li:after {
+    #container.cinemalingua-2011 header nav ul li ul li:after {
       background: #1b6834; }
-#container.cinemalingua .testimony,
-#container.cinemalingua .team,
-#container.cinemalingua .offerProject,
-#container.cinemalingua .my_projects {
+#container.cinemalingua-2011 .testimony,
+#container.cinemalingua-2011 .team,
+#container.cinemalingua-2011 .offerProject,
+#container.cinemalingua-2011 .my_projects {
   background-color: #f9f7f0; }
-  #container.cinemalingua .testimony:after,
-  #container.cinemalingua .team:after,
-  #container.cinemalingua .offerProject:after,
-  #container.cinemalingua .my_projects:after {
+  #container.cinemalingua-2011 .testimony:after,
+  #container.cinemalingua-2011 .team:after,
+  #container.cinemalingua-2011 .offerProject:after,
+  #container.cinemalingua-2011 .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.cinemalingua .characteristic,
-#container.cinemalingua .principalTestimony {
+#container.cinemalingua-2011 .characteristic,
+#container.cinemalingua-2011 .principalTestimony {
   background-color: #ededed; }
-  #container.cinemalingua .characteristic:after,
-  #container.cinemalingua .principalTestimony:after {
+  #container.cinemalingua-2011 .characteristic:after,
+  #container.cinemalingua-2011 .principalTestimony:after {
     border-top-color: #ededed; }
-#container.cinemalingua .characteristic .content > article {
+#container.cinemalingua-2011 .characteristic .content > article {
   border-bottom: 1px solid #1b6834; }
-  #container.cinemalingua .characteristic .content > article div.on {
+  #container.cinemalingua-2011 .characteristic .content > article div.on {
     background-color: #1b6834; }
-#container.cinemalingua .centered,
-#container.cinemalingua .vote,
-#container.cinemalingua .profil_desc,
-#container.cinemalingua .contact_me {
+#container.cinemalingua-2011 .centered,
+#container.cinemalingua-2011 .vote,
+#container.cinemalingua-2011 .profil_desc,
+#container.cinemalingua-2011 .contact_me {
   background-color: white; }
-  #container.cinemalingua .centered:after,
-  #container.cinemalingua .vote:after,
-  #container.cinemalingua .profil_desc:after,
-  #container.cinemalingua .contact_me:after {
+  #container.cinemalingua-2011 .centered:after,
+  #container.cinemalingua-2011 .vote:after,
+  #container.cinemalingua-2011 .profil_desc:after,
+  #container.cinemalingua-2011 .contact_me:after {
     border-top-color: white; }
-#container.cinemalingua .video,
-#container.cinemalingua header,
-#container.cinemalingua .title {
+#container.cinemalingua-2011 .video,
+#container.cinemalingua-2011 header,
+#container.cinemalingua-2011 .title {
   background-color: #1b6834;
   color: white; }
-  #container.cinemalingua .video:after,
-  #container.cinemalingua header:after,
-  #container.cinemalingua .title:after {
+  #container.cinemalingua-2011 .video:after,
+  #container.cinemalingua-2011 header:after,
+  #container.cinemalingua-2011 .title:after {
     border-top-color: #1b6834; }
-#container.cinemalingua .button a {
+#container.cinemalingua-2011 .button a {
   background: #1b6834; }
-#container.cinemalingua h1 {
+#container.cinemalingua-2011 h1 {
   color: #1b6834; }
-  #container.cinemalingua h1:after {
+  #container.cinemalingua-2011 h1:after {
     background: #1b6834; }
-#container.cinemalingua footer a.active {
+#container.cinemalingua-2011 footer a.active {
   color: #1b6834; }
-#container.cinemalingua article:last-of-type.print, #container.cinemalingua article:last-of-type.contact_me, #container.cinemalingua article:last-of-type.my_projects, #container.cinemalingua article:last-of-type.profil_desc {
+#container.cinemalingua-2011 article:last-of-type.print, #container.cinemalingua-2011 article:last-of-type.contact_me, #container.cinemalingua-2011 article:last-of-type.my_projects, #container.cinemalingua-2011 article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.cinemalingua article:last-of-type.print:after, #container.cinemalingua article:last-of-type.contact_me:after, #container.cinemalingua article:last-of-type.my_projects:after, #container.cinemalingua article:last-of-type.profil_desc:after {
+  #container.cinemalingua-2011 article:last-of-type.print:after, #container.cinemalingua-2011 article:last-of-type.contact_me:after, #container.cinemalingua-2011 article:last-of-type.my_projects:after, #container.cinemalingua-2011 article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
-#container.radiocomem header {
+#container.radiocomem-2012 header {
   background: #007da4; }
-  #container.radiocomem header nav {
+  #container.radiocomem-2012 header nav {
     background: #007da4; }
-    #container.radiocomem header nav ul li ul li a {
+    #container.radiocomem-2012 header nav ul li ul li a {
       color: #007da4; }
-    #container.radiocomem header nav ul li ul li:after {
+    #container.radiocomem-2012 header nav ul li ul li:after {
       background: #007da4; }
-#container.radiocomem .testimony,
-#container.radiocomem .team,
-#container.radiocomem .offerProject,
-#container.radiocomem .my_projects {
+#container.radiocomem-2012 .testimony,
+#container.radiocomem-2012 .team,
+#container.radiocomem-2012 .offerProject,
+#container.radiocomem-2012 .my_projects {
   background-color: #f9f7f0; }
-  #container.radiocomem .testimony:after,
-  #container.radiocomem .team:after,
-  #container.radiocomem .offerProject:after,
-  #container.radiocomem .my_projects:after {
+  #container.radiocomem-2012 .testimony:after,
+  #container.radiocomem-2012 .team:after,
+  #container.radiocomem-2012 .offerProject:after,
+  #container.radiocomem-2012 .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.radiocomem .characteristic,
-#container.radiocomem .principalTestimony {
+#container.radiocomem-2012 .characteristic,
+#container.radiocomem-2012 .principalTestimony {
   background-color: #ededed; }
-  #container.radiocomem .characteristic:after,
-  #container.radiocomem .principalTestimony:after {
+  #container.radiocomem-2012 .characteristic:after,
+  #container.radiocomem-2012 .principalTestimony:after {
     border-top-color: #ededed; }
-#container.radiocomem .characteristic .content > article {
+#container.radiocomem-2012 .characteristic .content > article {
   border-bottom: 1px solid #007da4; }
-  #container.radiocomem .characteristic .content > article div.on {
+  #container.radiocomem-2012 .characteristic .content > article div.on {
     background-color: #007da4; }
-#container.radiocomem .centered,
-#container.radiocomem .vote,
-#container.radiocomem .profil_desc,
-#container.radiocomem .contact_me {
+#container.radiocomem-2012 .centered,
+#container.radiocomem-2012 .vote,
+#container.radiocomem-2012 .profil_desc,
+#container.radiocomem-2012 .contact_me {
   background-color: white; }
-  #container.radiocomem .centered:after,
-  #container.radiocomem .vote:after,
-  #container.radiocomem .profil_desc:after,
-  #container.radiocomem .contact_me:after {
+  #container.radiocomem-2012 .centered:after,
+  #container.radiocomem-2012 .vote:after,
+  #container.radiocomem-2012 .profil_desc:after,
+  #container.radiocomem-2012 .contact_me:after {
     border-top-color: white; }
-#container.radiocomem .video,
-#container.radiocomem header,
-#container.radiocomem .title {
+#container.radiocomem-2012 .video,
+#container.radiocomem-2012 header,
+#container.radiocomem-2012 .title {
   background-color: #007da4;
   color: white; }
-  #container.radiocomem .video:after,
-  #container.radiocomem header:after,
-  #container.radiocomem .title:after {
+  #container.radiocomem-2012 .video:after,
+  #container.radiocomem-2012 header:after,
+  #container.radiocomem-2012 .title:after {
     border-top-color: #007da4; }
-#container.radiocomem .button a {
+#container.radiocomem-2012 .button a {
   background: #007da4; }
-#container.radiocomem h1 {
+#container.radiocomem-2012 h1 {
   color: #007da4; }
-  #container.radiocomem h1:after {
+  #container.radiocomem-2012 h1:after {
     background: #007da4; }
-#container.radiocomem footer a.active {
+#container.radiocomem-2012 footer a.active {
   color: #007da4; }
-#container.radiocomem article:last-of-type.print, #container.radiocomem article:last-of-type.contact_me, #container.radiocomem article:last-of-type.my_projects, #container.radiocomem article:last-of-type.profil_desc {
+#container.radiocomem-2012 article:last-of-type.print, #container.radiocomem-2012 article:last-of-type.contact_me, #container.radiocomem-2012 article:last-of-type.my_projects, #container.radiocomem-2012 article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.radiocomem article:last-of-type.print:after, #container.radiocomem article:last-of-type.contact_me:after, #container.radiocomem article:last-of-type.my_projects:after, #container.radiocomem article:last-of-type.profil_desc:after {
+  #container.radiocomem-2012 article:last-of-type.print:after, #container.radiocomem-2012 article:last-of-type.contact_me:after, #container.radiocomem-2012 article:last-of-type.my_projects:after, #container.radiocomem-2012 article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
-#container.seminaire header {
+#container.seminaire-entreprise-2014 header {
   background: #336699; }
-  #container.seminaire header nav {
+  #container.seminaire-entreprise-2014 header nav {
     background: #336699; }
-    #container.seminaire header nav ul li ul li a {
+    #container.seminaire-entreprise-2014 header nav ul li ul li a {
       color: #336699; }
-    #container.seminaire header nav ul li ul li:after {
+    #container.seminaire-entreprise-2014 header nav ul li ul li:after {
       background: #336699; }
-#container.seminaire .testimony,
-#container.seminaire .team,
-#container.seminaire .offerProject,
-#container.seminaire .my_projects {
+#container.seminaire-entreprise-2014 .testimony,
+#container.seminaire-entreprise-2014 .team,
+#container.seminaire-entreprise-2014 .offerProject,
+#container.seminaire-entreprise-2014 .my_projects {
   background-color: #f9f7f0; }
-  #container.seminaire .testimony:after,
-  #container.seminaire .team:after,
-  #container.seminaire .offerProject:after,
-  #container.seminaire .my_projects:after {
+  #container.seminaire-entreprise-2014 .testimony:after,
+  #container.seminaire-entreprise-2014 .team:after,
+  #container.seminaire-entreprise-2014 .offerProject:after,
+  #container.seminaire-entreprise-2014 .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.seminaire .characteristic,
-#container.seminaire .principalTestimony {
+#container.seminaire-entreprise-2014 .characteristic,
+#container.seminaire-entreprise-2014 .principalTestimony {
   background-color: #ededed; }
-  #container.seminaire .characteristic:after,
-  #container.seminaire .principalTestimony:after {
+  #container.seminaire-entreprise-2014 .characteristic:after,
+  #container.seminaire-entreprise-2014 .principalTestimony:after {
     border-top-color: #ededed; }
-#container.seminaire .characteristic .content > article {
+#container.seminaire-entreprise-2014 .characteristic .content > article {
   border-bottom: 1px solid #336699; }
-  #container.seminaire .characteristic .content > article div.on {
+  #container.seminaire-entreprise-2014 .characteristic .content > article div.on {
     background-color: #336699; }
-#container.seminaire .centered,
-#container.seminaire .vote,
-#container.seminaire .profil_desc,
-#container.seminaire .contact_me {
+#container.seminaire-entreprise-2014 .centered,
+#container.seminaire-entreprise-2014 .vote,
+#container.seminaire-entreprise-2014 .profil_desc,
+#container.seminaire-entreprise-2014 .contact_me {
   background-color: white; }
-  #container.seminaire .centered:after,
-  #container.seminaire .vote:after,
-  #container.seminaire .profil_desc:after,
-  #container.seminaire .contact_me:after {
+  #container.seminaire-entreprise-2014 .centered:after,
+  #container.seminaire-entreprise-2014 .vote:after,
+  #container.seminaire-entreprise-2014 .profil_desc:after,
+  #container.seminaire-entreprise-2014 .contact_me:after {
     border-top-color: white; }
-#container.seminaire .video,
-#container.seminaire header,
-#container.seminaire .title {
+#container.seminaire-entreprise-2014 .video,
+#container.seminaire-entreprise-2014 header,
+#container.seminaire-entreprise-2014 .title {
   background-color: #336699;
   color: white; }
-  #container.seminaire .video:after,
-  #container.seminaire header:after,
-  #container.seminaire .title:after {
+  #container.seminaire-entreprise-2014 .video:after,
+  #container.seminaire-entreprise-2014 header:after,
+  #container.seminaire-entreprise-2014 .title:after {
     border-top-color: #336699; }
-#container.seminaire .button a {
+#container.seminaire-entreprise-2014 .button a {
   background: #336699; }
-#container.seminaire h1 {
+#container.seminaire-entreprise-2014 h1 {
   color: #336699; }
-  #container.seminaire h1:after {
+  #container.seminaire-entreprise-2014 h1:after {
     background: #336699; }
-#container.seminaire footer a.active {
+#container.seminaire-entreprise-2014 footer a.active {
   color: #336699; }
-#container.seminaire article:last-of-type.print, #container.seminaire article:last-of-type.contact_me, #container.seminaire article:last-of-type.my_projects, #container.seminaire article:last-of-type.profil_desc {
+#container.seminaire-entreprise-2014 article:last-of-type.print, #container.seminaire-entreprise-2014 article:last-of-type.contact_me, #container.seminaire-entreprise-2014 article:last-of-type.my_projects, #container.seminaire-entreprise-2014 article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.seminaire article:last-of-type.print:after, #container.seminaire article:last-of-type.contact_me:after, #container.seminaire article:last-of-type.my_projects:after, #container.seminaire article:last-of-type.profil_desc:after {
+  #container.seminaire-entreprise-2014 article:last-of-type.print:after, #container.seminaire-entreprise-2014 article:last-of-type.contact_me:after, #container.seminaire-entreprise-2014 article:last-of-type.my_projects:after, #container.seminaire-entreprise-2014 article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
 #container.paleo header {
   background: #3a2159; }
@@ -659,123 +718,123 @@ p.button,
   background-color: #ededed; }
   #container.paleo article:last-of-type.print:after, #container.paleo article:last-of-type.contact_me:after, #container.paleo article:last-of-type.my_projects:after, #container.paleo article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
-#container.newsroom header {
+#container.newsroom-2014 header {
   background: #652d2a; }
-  #container.newsroom header nav {
+  #container.newsroom-2014 header nav {
     background: #652d2a; }
-    #container.newsroom header nav ul li ul li a {
+    #container.newsroom-2014 header nav ul li ul li a {
       color: #652d2a; }
-    #container.newsroom header nav ul li ul li:after {
+    #container.newsroom-2014 header nav ul li ul li:after {
       background: #652d2a; }
-#container.newsroom .testimony,
-#container.newsroom .team,
-#container.newsroom .offerProject,
-#container.newsroom .my_projects {
+#container.newsroom-2014 .testimony,
+#container.newsroom-2014 .team,
+#container.newsroom-2014 .offerProject,
+#container.newsroom-2014 .my_projects {
   background-color: #f9f7f0; }
-  #container.newsroom .testimony:after,
-  #container.newsroom .team:after,
-  #container.newsroom .offerProject:after,
-  #container.newsroom .my_projects:after {
+  #container.newsroom-2014 .testimony:after,
+  #container.newsroom-2014 .team:after,
+  #container.newsroom-2014 .offerProject:after,
+  #container.newsroom-2014 .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.newsroom .characteristic,
-#container.newsroom .principalTestimony {
+#container.newsroom-2014 .characteristic,
+#container.newsroom-2014 .principalTestimony {
   background-color: #ededed; }
-  #container.newsroom .characteristic:after,
-  #container.newsroom .principalTestimony:after {
+  #container.newsroom-2014 .characteristic:after,
+  #container.newsroom-2014 .principalTestimony:after {
     border-top-color: #ededed; }
-#container.newsroom .characteristic .content > article {
+#container.newsroom-2014 .characteristic .content > article {
   border-bottom: 1px solid #652d2a; }
-  #container.newsroom .characteristic .content > article div.on {
+  #container.newsroom-2014 .characteristic .content > article div.on {
     background-color: #652d2a; }
-#container.newsroom .centered,
-#container.newsroom .vote,
-#container.newsroom .profil_desc,
-#container.newsroom .contact_me {
+#container.newsroom-2014 .centered,
+#container.newsroom-2014 .vote,
+#container.newsroom-2014 .profil_desc,
+#container.newsroom-2014 .contact_me {
   background-color: white; }
-  #container.newsroom .centered:after,
-  #container.newsroom .vote:after,
-  #container.newsroom .profil_desc:after,
-  #container.newsroom .contact_me:after {
+  #container.newsroom-2014 .centered:after,
+  #container.newsroom-2014 .vote:after,
+  #container.newsroom-2014 .profil_desc:after,
+  #container.newsroom-2014 .contact_me:after {
     border-top-color: white; }
-#container.newsroom .video,
-#container.newsroom header,
-#container.newsroom .title {
+#container.newsroom-2014 .video,
+#container.newsroom-2014 header,
+#container.newsroom-2014 .title {
   background-color: #652d2a;
   color: white; }
-  #container.newsroom .video:after,
-  #container.newsroom header:after,
-  #container.newsroom .title:after {
+  #container.newsroom-2014 .video:after,
+  #container.newsroom-2014 header:after,
+  #container.newsroom-2014 .title:after {
     border-top-color: #652d2a; }
-#container.newsroom .button a {
+#container.newsroom-2014 .button a {
   background: #652d2a; }
-#container.newsroom h1 {
+#container.newsroom-2014 h1 {
   color: #652d2a; }
-  #container.newsroom h1:after {
+  #container.newsroom-2014 h1:after {
     background: #652d2a; }
-#container.newsroom footer a.active {
+#container.newsroom-2014 footer a.active {
   color: #652d2a; }
-#container.newsroom article:last-of-type.print, #container.newsroom article:last-of-type.contact_me, #container.newsroom article:last-of-type.my_projects, #container.newsroom article:last-of-type.profil_desc {
+#container.newsroom-2014 article:last-of-type.print, #container.newsroom-2014 article:last-of-type.contact_me, #container.newsroom-2014 article:last-of-type.my_projects, #container.newsroom-2014 article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.newsroom article:last-of-type.print:after, #container.newsroom article:last-of-type.contact_me:after, #container.newsroom article:last-of-type.my_projects:after, #container.newsroom article:last-of-type.profil_desc:after {
+  #container.newsroom-2014 article:last-of-type.print:after, #container.newsroom-2014 article:last-of-type.contact_me:after, #container.newsroom-2014 article:last-of-type.my_projects:after, #container.newsroom-2014 article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
-#container.stuttgart header {
+#container.stuttgart-2013 header {
   background: #ab280f; }
-  #container.stuttgart header nav {
+  #container.stuttgart-2013 header nav {
     background: #ab280f; }
-    #container.stuttgart header nav ul li ul li a {
+    #container.stuttgart-2013 header nav ul li ul li a {
       color: #ab280f; }
-    #container.stuttgart header nav ul li ul li:after {
+    #container.stuttgart-2013 header nav ul li ul li:after {
       background: #ab280f; }
-#container.stuttgart .testimony,
-#container.stuttgart .team,
-#container.stuttgart .offerProject,
-#container.stuttgart .my_projects {
+#container.stuttgart-2013 .testimony,
+#container.stuttgart-2013 .team,
+#container.stuttgart-2013 .offerProject,
+#container.stuttgart-2013 .my_projects {
   background-color: #f9f7f0; }
-  #container.stuttgart .testimony:after,
-  #container.stuttgart .team:after,
-  #container.stuttgart .offerProject:after,
-  #container.stuttgart .my_projects:after {
+  #container.stuttgart-2013 .testimony:after,
+  #container.stuttgart-2013 .team:after,
+  #container.stuttgart-2013 .offerProject:after,
+  #container.stuttgart-2013 .my_projects:after {
     border-top-color: #f9f7f0; }
-#container.stuttgart .characteristic,
-#container.stuttgart .principalTestimony {
+#container.stuttgart-2013 .characteristic,
+#container.stuttgart-2013 .principalTestimony {
   background-color: #ededed; }
-  #container.stuttgart .characteristic:after,
-  #container.stuttgart .principalTestimony:after {
+  #container.stuttgart-2013 .characteristic:after,
+  #container.stuttgart-2013 .principalTestimony:after {
     border-top-color: #ededed; }
-#container.stuttgart .characteristic .content > article {
+#container.stuttgart-2013 .characteristic .content > article {
   border-bottom: 1px solid #ab280f; }
-  #container.stuttgart .characteristic .content > article div.on {
+  #container.stuttgart-2013 .characteristic .content > article div.on {
     background-color: #ab280f; }
-#container.stuttgart .centered,
-#container.stuttgart .vote,
-#container.stuttgart .profil_desc,
-#container.stuttgart .contact_me {
+#container.stuttgart-2013 .centered,
+#container.stuttgart-2013 .vote,
+#container.stuttgart-2013 .profil_desc,
+#container.stuttgart-2013 .contact_me {
   background-color: white; }
-  #container.stuttgart .centered:after,
-  #container.stuttgart .vote:after,
-  #container.stuttgart .profil_desc:after,
-  #container.stuttgart .contact_me:after {
+  #container.stuttgart-2013 .centered:after,
+  #container.stuttgart-2013 .vote:after,
+  #container.stuttgart-2013 .profil_desc:after,
+  #container.stuttgart-2013 .contact_me:after {
     border-top-color: white; }
-#container.stuttgart .video,
-#container.stuttgart header,
-#container.stuttgart .title {
+#container.stuttgart-2013 .video,
+#container.stuttgart-2013 header,
+#container.stuttgart-2013 .title {
   background-color: #ab280f;
   color: white; }
-  #container.stuttgart .video:after,
-  #container.stuttgart header:after,
-  #container.stuttgart .title:after {
+  #container.stuttgart-2013 .video:after,
+  #container.stuttgart-2013 header:after,
+  #container.stuttgart-2013 .title:after {
     border-top-color: #ab280f; }
-#container.stuttgart .button a {
+#container.stuttgart-2013 .button a {
   background: #ab280f; }
-#container.stuttgart h1 {
+#container.stuttgart-2013 h1 {
   color: #ab280f; }
-  #container.stuttgart h1:after {
+  #container.stuttgart-2013 h1:after {
     background: #ab280f; }
-#container.stuttgart footer a.active {
+#container.stuttgart-2013 footer a.active {
   color: #ab280f; }
-#container.stuttgart article:last-of-type.print, #container.stuttgart article:last-of-type.contact_me, #container.stuttgart article:last-of-type.my_projects, #container.stuttgart article:last-of-type.profil_desc {
+#container.stuttgart-2013 article:last-of-type.print, #container.stuttgart-2013 article:last-of-type.contact_me, #container.stuttgart-2013 article:last-of-type.my_projects, #container.stuttgart-2013 article:last-of-type.profil_desc {
   background-color: #ededed; }
-  #container.stuttgart article:last-of-type.print:after, #container.stuttgart article:last-of-type.contact_me:after, #container.stuttgart article:last-of-type.my_projects:after, #container.stuttgart article:last-of-type.profil_desc:after {
+  #container.stuttgart-2013 article:last-of-type.print:after, #container.stuttgart-2013 article:last-of-type.contact_me:after, #container.stuttgart-2013 article:last-of-type.my_projects:after, #container.stuttgart-2013 article:last-of-type.profil_desc:after {
     border-top-color: #ededed; }
 
 #coulure {
@@ -827,7 +886,7 @@ header {
           position: absolute;
           background: white;
           margin-top: 10px;
-          padding: 10px;
+          padding: 10px 10px 20px 10px;
           display: none; }
           header .content nav ul li ul li {
             display: block; }
@@ -836,10 +895,10 @@ header {
               display: block;
               margin-left: 15px;
               margin-right: 15px;
-              padding: 10px 10px 10px 0; }
+              padding: 15px 10px 5px 0; }
             header .content nav ul li ul li:after {
               content: " ";
-              width: 50px;
+              width: 70px;
               height: 2px;
               background: #010101;
               display: block;
