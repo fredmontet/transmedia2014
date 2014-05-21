@@ -104,13 +104,35 @@ p.button,
             background: $darkColor;
             
             ul li ul li {
-                
+            
                 a {
                     color: $darkColor;
                 }
                 
                 &:after {
                     background: $darkColor;
+                }
+            }
+        }
+    }
+    
+    footer {
+        nav {
+            ul li ul {
+                &:after {
+                    border-top-color: $darkColor;
+                }
+                
+                li {
+                    background: $darkColor;
+                    
+                    a {
+                        color: $white;
+                    }
+                    
+                    &:after {
+                        background: $white;
+                    }
                 }
             }
         }
@@ -204,6 +226,16 @@ p.button,
         }
     }
     
+    #project_bottom ul {
+        li {
+            background: $darkColor;
+        }
+        
+        &:after {
+            border-top-color: $darkColor;
+        }
+    }
+    
 }
 
 
@@ -265,6 +297,9 @@ p.button,
 }
 
 
+/***************/
+/*** Coulure ***/
+/***************/
 #coulure {
     width: 100%;
     display: block;
@@ -294,15 +329,18 @@ p.button,
 }
 
 
+/*********************/
+/*** Projects menu ***/
+/*********************/
 #project,
 #project_bottom {
     ul {
         position: absolute;
         display: none;
         padding-top: 20px;
+        margin-left: -28px;
         
         &:before {
-            margin: 0 auto;
             display: block;
             border: solid transparent;
             content: " ";
@@ -310,16 +348,17 @@ p.button,
             width: 0;
             pointer-events: none;
             border-color: transparent;
-            border-bottom-color: green;
+            border-bottom-color: $white;
             border-width: 16px;
             margin-top: -30px;
-            position: absolute;
+            //position: absolute;
             margin-left: 10px;
+            margin-left: 40px;
         }
         
         li {
             display: block;
-            background: blue;
+            background: $white;
             padding: 0 5px;
             
             a {
@@ -353,7 +392,176 @@ p.button,
             
         }
     }
+    
+    @media only screen and (max-width: 500px) {
+        ul {
+            
+            li {
+                
+                
+            }
+        }
+    }
 
+}
+
+/****************************/
+/*** Footer Projects menu ***/
+/****************************/
+footer {
+    nav {
+        position: absolute;
+        
+        ul {
+            
+            li {
+            
+                &#project_bottom ul {
+                    display: none;
+                    position:absolute;
+                    bottom: 100%;
+                    margin-left: -40px;
+                    
+                    &:before {
+                        display: none;
+                    }
+                    
+                    &:after {
+                        margin-left: 50px;
+                        display: block;
+                        border: solid transparent;
+                        content: " ";
+                        height: 0;
+                        width: 0;
+                        pointer-events: none;
+                        border-color: transparent;
+                        border-top-color: $white;
+                        position: relative;
+                        border-width: 16px;
+                    }
+                    
+                    li {
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+
+ul li ul li a {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    z-index: 100;
+    
+    &.transmedia {
+        background-image: url('../images/transmedia.svg');
+    }
+    
+    &.cinemaLingua {
+        background-image: url('../images/cinemalingua.svg');
+    }
+    
+    &.stuttgart {
+        background-image: url('../images/stuttgart.svg');
+    }
+    
+    &.newsroom {
+        background-image: url('../images/newsroom.svg');
+    }
+    
+    &.paleo {
+        background-image: url('../images/paleo.svg');
+    }
+    
+    &.radio {
+        background-image: url('../images/radio.svg');
+    }
+    
+    &.seminaire {
+        background-image: url('../images/seminaire.svg');
+    }
+    
+    &.stalker {
+        background-image: url('../images/stalker.svg');
+    }
+    
+    &.tedx {
+        background-image: url('../images/tedx.svg');
+    }
+
+}
+
+
+/***********************************/
+/*** Footer projects menu mobile ***/
+/***********************************/
+#container footer {
+    @media only screen and (max-width: 640px) {
+    
+        .content {
+            padding: 40px 2%;
+        }
+    
+        .top nav {
+            position: relative;
+            
+            ul {
+                li {
+                    &#project_bottom ul {
+                        width: 100%;
+                        left: 0;
+                        margin-left: 0;
+                        display: none;
+                        background: transparent;
+                        
+                        li {
+                            
+                            margin: 0;
+                            padding: 0;
+                            display: inline-block;
+                            width: 10%;
+                            height: 50px;
+                            padding-left: 1%;
+                            margin-bottom: -4px;
+                            
+                            &:first-of-type {
+                                border-radius: 10px 0 0 10px;
+                            }
+                            
+                            &:last-of-type {
+                                border-radius: 0 10px 10px 0;
+                                padding-right: 1%;
+                            }
+                            
+                            a {
+                                padding: 0;
+                                margin: 0;
+                            }
+                            
+                            &:after {
+                                display: none;
+                            }
+                        }
+                        
+                        &:after {
+                            margin: 0;
+                            left: 35%;
+                            margin-bottom: -20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -444,7 +652,7 @@ header {
         	}
         	
         	nav {
-            	display: none;
+            	//display: none;
             	position: absolute;
             	top: 55px;
             	width: 100%;
@@ -459,6 +667,37 @@ header {
                 	text-align: center;
                 	font-family: $font-regular;
                 	font-size: 1.3em;
+                	
+                	&#project ul {
+                	    display: block;
+                	    position: relative;
+                	    margin: 0;
+                	    padding: 0;
+                	    padding-top: 5px;
+                	    
+                	    &:before {
+                    	    display: none;
+                	    }
+                	    
+                    	li {
+                        	display: inline-block;
+                        	background: transparent;
+                        	width: 10%;
+                        	height: 50px;
+                        	padding: 0;
+                        	margin: 0;
+                        	padding-left: 1%;
+                        	
+                        	a {
+                            	margin: 0;
+                            	padding: 0;
+                        	}
+                        	
+                        	&:after {
+                            	display: none;
+                        	}
+                    	}
+                	}
             	}
         	}
         	
@@ -1251,6 +1490,11 @@ header {
                 display: block;
                 padding: 10px 0;
                 float: none;
+                position: relative;
+            }
+            
+            ul li ul li a {
+                text-align: left;
             }
             
             .top,

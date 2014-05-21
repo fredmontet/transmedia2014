@@ -91,6 +91,10 @@ function openProject() {
 
 function closeProject() {
     
+    if($(window).width() < 500) {
+        return;
+    }
+    
     if(projectProcess) {
         return;
     }
@@ -184,6 +188,12 @@ function socialColor() {
 
 
 function openBurger() {
+    
+    if($(window).width() > 500) {
+        return;
+    }
+    
+    $("header nav ul li ul").show();
     
     var navHeight = $("header nav").height();
     var navTop = -navHeight - 55;
