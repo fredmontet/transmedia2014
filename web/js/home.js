@@ -5,6 +5,7 @@
 $(document).ready(function(){
 	
 	init();
+	menu();
 
 	//Interactions avec la map
 	/************************************************************/
@@ -12,9 +13,9 @@ $(document).ready(function(){
 	//Initialisation des action pour les différents projets
 	$(".project").mouseenter(function(){
 		var project = "\#"+$(this).attr("id");
-		Snap.select(project).animate({fill: 'red'}, 100, mina.ease);
+		Snap.select(project).animate({fill: 'rgb(149, 216, 242)'}, 100, mina.ease);
 		
-	});
+	});	
 
 	$(".project").mouseleave(function(){
 		var project = "\#"+$(this).attr("id");
@@ -22,22 +23,79 @@ $(document).ready(function(){
 
 	});
 
-	$(".ligne").mouseover(function(){
-		var ligne = "\#"+$(this).attr("id")
-	});
 
-	$(".pole").mouseover(function(){
+	//Initialisation des actions pour les lignes de metro
+	$(".ligne").mouseenter(function(){
+		
 		var ligne = "\#"+$(this).attr("id");
+
+		//Si le curseur rentre dans une autre ligne, on reset la couleur de toues les lignes...
+		//if($(this).hasClass("active")==false){
+		    Snap.select("#ligne1").animate({fill: '#CCCCCC'}, 100, mina.ease);
+			Snap.select("#ligne2").animate({fill: '#B3B3B3'}, 100, mina.ease);
+			Snap.select("#ligne3").animate({fill: '#666666'}, 100, mina.ease);
+
+			//On cache toutes les infos
+			$(".infoArticle").hide();
+
+			//On enlève toutes les classes actives
+			$("#ligne1 #ligne2 #ligne3").removeClass("active");
+
+		//}
+
+			//On set la nouvelle ligne active avec la classe active
+			$(this).addClass("active");
+
+			//Coloration de la ligne ou la souris est entrée
+			Snap.select(ligne).animate({fill: 'rgb(149, 216, 242)'}, 100, mina.ease);
+
+			//Affichage de l'infobox correspondante
+			var infoId = ligne+"Info";
+			displayInfo(infoId);
+		
+	});
+
+
+	//Initialisation des actions pour les poles
+	$(".pole").mouseenter(function(){
+		var pole = "\#"+$(this).attr("id");
+		console.log(pole);
+		snapPole = Snap.select(pole);
+		console.log(snapPole);
+		snapPole.selectAll().animate({fill: '#010102'}, 100, mina.ease);
+	});
+
+	$(".pole").mouseleave(function(){
+		var pole = "\#"+$(this).attr("id");
+		snapPole = Snap.select(pole);
+		console.log(snapPole);
+		snapPole.selectAll().animate({fill: '#010102'}, 100, mina.ease);
+	});
+
+	//Initialisation des actions avec les avatars
+	$(".avatar").mouseenter(function(){
+		var cercle = "\#"+$(this).attr("id")+" .cercle";
+		console.log(cercle);
+		Snap.select(cercle).animate({fill: '#f4e210'}, 100, mina.ease);
+	});
+
+	$(".avatar").mouseleave(function(){
+		var cercle = "\#"+$(this).attr("id")+" .cercle";
+		console.log(cercle);
+		Snap.select(cercle).animate({fill: '#ffffff'}, 100, mina.ease);
 	});
 
 
 
 
+	//Interactions infobox
+	/************************************************************/
 
+	$("#infoButton").click(function(){
+		$(".infoArticle").hide();
+		$("#generalInfo").toggle();
+	});
 
-	function test(){
-		console.log("je tesssssssssssssssst");
-	};
 
 
 });//$(document).ready END
@@ -45,9 +103,7 @@ $(document).ready(function(){
 
 $(window).load(function(){
 
-	menu();
-
-
+	
 	//Initialisation et management de l'affichage de la map
 	/************************************************************/
 
@@ -67,51 +123,41 @@ $(window).load(function(){
 	panZoomTiger.setMaxZoom(17);
 	panZoomTiger.setMinZoom(1);
 	panZoomTiger.zoomAtPointBy(11, {x: svgPosX, y: svgPosY});
-
-
-
-	
-
-	//Préparation pour pouvoir appeler les éléments de la carte dans
-	//le DOM SVG en jQuery sans confusions.
-	//var map = document.getElementById("map");
-	//console.log(map);
-
-	//var project = Snap(".project");
-
-	
-
-
-	/*
-	var seminaire = Snap("#seminaire");
-	var stuttgart = Snap("#stuttgart");
-	var transmedia = Snap("#transmedia");
-	var cinemalingua = Snap("#cinemalingua");
-	var stalker = Snap("#stalker");
-	var radiocomem = Snap("#radiocomem");
-	var paleo = Snap("#paleo");
-	*/
-
-
 	
 
 
 });//$(window).load END
 
 
-
 //Functions
 /************************************************************/
 
-function init(){
-	$("#menu").hide();
-}
+	function init(){
+		$(".infoArticle").not("#generalInfo").hide();
+		$("#menu").hide();
+	}
 
-function menu(){
-	$("#toggleMenu").click(function(){
-		$("#menu").slideToggle();
-	});
-}
+	function menu(){
+		$("#toggleMenu").click(function(){
+			$("#menu").slideToggle();
+		});
+	}
+
+	function test(){
+			console.log("je tesssssssssssssssst");
+	}
+
+	function displayInfo(articleToDisplay){
+		$("#generalInfo").hide();
+		var articleReceived = articleToDisplay.toString();
+		var articleSelector = articleReceived;
+		console.log("displayInfo ArticleToDisplay function = "+articleToDisplay);
+		$(articleSelector).show();	
+	}
+			
+
+
+
 
 
 
