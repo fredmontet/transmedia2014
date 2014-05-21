@@ -15,6 +15,7 @@ import module namespace config="http://mm40.comem.ch/config" at "config.xqm";
 import module namespace app="http://mm40.comem.ch/templates" at "app.xql";
 import module namespace profile="http://mm40.comem.ch/profile" at "profile.xq";
 import module namespace projet="http://mm40.comem.ch/projet" at "projet.xq";
+import module namespace team="http://mm40.comem.ch/team" at "team.xq";
 
 declare option exist:serialize "method=html5 media-type=text/html enforce-xhtml=yes";
 
