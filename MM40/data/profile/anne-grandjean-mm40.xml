@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile id="anne-grandjean-mm40"  mail_print="anne.grandjean@bluewin.ch" sexe="f">
+<profile xmlns="http://ns.comem.ch/cours/TM" id="anne-grandjean-mm40"  mail_print="anne.grandjean@bluewin.ch" sexe="f">
 	<nom>Grandjean</nom>
 	<prenom>Anne</prenom>
 	<usp>Organisée et volontaire, au service de la cohérence des équipes projet</usp>

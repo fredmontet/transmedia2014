@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile id="marine-lemonis-mm40" mail_print="marine.lemonis@gmail.com" sexe="f">
+<profile xmlns="http://ns.comem.ch/cours/TM" id="marine-lemonis-mm40" mail_print="marine.lemonis@gmail.com" sexe="f">
 	<nom>Lemonis</nom>
 	<prenom>Marine</prenom>
 	<usp>Une vision globale des processus, entre curiosité et organisation</usp>

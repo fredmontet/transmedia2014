@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile id="louisa-freymond-mm40" mail_print="louisa.freymond@gmail.com" sexe="f">
+<profile xmlns="http://ns.comem.ch/cours/TM" id="louisa-freymond-mm40" mail_print="louisa.freymond@gmail.com" sexe="f">
 	<nom>Freymond</nom>
 	<prenom>Louisa</prenom>
 	<usp>Créatrice de solutions innovantes</usp>
