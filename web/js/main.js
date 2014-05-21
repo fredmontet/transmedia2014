@@ -4,6 +4,8 @@
 var burgerActive = false;
 var projectsActive = false;
 var projectProcess = false;
+var projectsBottomActive = false;
+var projectBottomProcess = false;
 
 $(document).ready( function() {
 
@@ -26,6 +28,14 @@ $(document).ready( function() {
     	}
 	});
 	
+	$("footer").on('click', '#project_bottom', function() {
+    	if(projectsBottomActive) {
+        	closeProjectBottom();
+    	} else {
+        	openProjectBottom();
+    	}
+	});
+	
 	$('html').click(function() {
 		if(burgerActive) {
 			closeBurger();
@@ -33,6 +43,10 @@ $(document).ready( function() {
 		
 		if(projectsActive) {
 			closeProject();
+		}
+		
+		if(projectsBottomActive) {
+			closeProjectBottom();
 		}
 	});
 	
@@ -73,7 +87,13 @@ function openProject() {
 
 }
 
+
+
 function closeProject() {
+    
+    if($(window).width() < 500) {
+        return;
+    }
     
     if(projectProcess) {
         return;
@@ -89,6 +109,49 @@ function closeProject() {
         projectProcess = false;
         $("#project ul").hide();
         $("#project ul").height("inherit");
+    });
+	
+}
+
+
+function openProjectBottom() {
+
+    if(projectBottomProcess) {
+        return;
+    }
+    projectBottomProcess = true;
+	
+    var navHeight = $("#project_bottom ul").height();
+    
+    $("#project_bottom ul").height(0);
+    $("#project_bottom ul").show();
+    
+    $("#project_bottom ul").animate({
+        height: navHeight
+    }, 300, function() {
+        projectsBottomActive = true;
+        projectBottomProcess = false;
+    });
+
+}
+
+
+function closeProjectBottom() {
+    
+    if(projectBottomProcess) {
+        return;
+    }
+    projectBottomProcess = true;
+    
+    var navHeight = $("#project_bottom ul").height();
+    
+    $("#project_bottom ul").animate({
+        height: 0
+    }, 300, function() {
+        projectsBottomActive = false;
+        projectBottomProcess = false;
+        $("#project_bottom ul").hide();
+        $("#project_bottom ul").height("inherit");
     });
 	
 }
@@ -125,6 +188,12 @@ function socialColor() {
 
 
 function openBurger() {
+    
+    if($(window).width() > 500) {
+        return;
+    }
+    
+    $("header nav ul li ul").show();
     
     var navHeight = $("header nav").height();
     var navTop = -navHeight - 55;

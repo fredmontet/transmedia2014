@@ -8,17 +8,17 @@ import module namespace Functions='Functions' at 'functions.xq';
 
 declare default element namespace "http://www.w3.org/1999/xhtml";
 
-declare %templates:default("id", "jonas-oesch-mm40") function profile:all($node as node(), $model as map(*), $id as xs:string) as 
+declare %templates:default("id", "marine-lemonis-mm40") function profile:all($node as node(), $model as map(*), $id as xs:string) as 
 map(*) {
-    let $projet := collection("/db/apps/MM40/data/projets")//TM:projet
+    let $projets := collection("/db/apps/MM40/data/projets")//TM:projet
     let $profile := collection("/db/apps/MM40/data/profile")/TM:profile[contains(@id, $id)]
     return
-        map { "projet" := $projet, "profile" := $profile}
+        map { "projets" := $projets, "profile" := $profile}
 };
 
 declare %templates:wrap function profile:nom($node as node(), $model as map(*))
 {
-    concat($model("profile")/TM:prenom, " ", $model("profile")/TM:nom)
+    concat($model("profile")/TM:prenom/text(), " ", $model("profile")/TM:nom/text())
 };
 declare function profile:imgbase($node as node(), $model as map(*))
 {
@@ -49,7 +49,7 @@ declare function profile:projet($node as node(), $model as map(*))
                     { for $project in $model("profile")//TM:projet
                     return (
                     <li>
-                        <a href="projet.html?id={$project/@id}">{$project/text()}</a>
+                        <a href="projet.html?id={$project/@id}">{$model("projets")[contains(@id, $project/@id )]/TM:nom}</a>
                     </li> 
                     )
                     }

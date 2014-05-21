@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projet prev="radio-comem-2012" url="http://jonasoesch.ch/hdm/brochure-hdm.pdf" next="short-stalk-2013" id="workshop-hdm-2013" xmlns="http://ns.comem.ch/cours/TM">
+	<annee>2013</annee>
+	<nom>Workshop HdM Stuttgart</nom>
+	<nom_court>Workshop HdM</nom_court>
+	<video url="www.youtube.com/embed/95vFPs1WmbM"/>
+	<image url="images/projets/photo_workshop-hdm-2013.jpg"/>
+	<description>
+		<p>Le workshop à la Hochschule der Medien (HdM) de Stuttgart a été une occasion unique pour nous d’élargir nos connaissances dans le domaine des médias imprimés. Nous nous sommes familiarisés avec les technologies print, à disposition à la HdM.</p><p>Au travers de productions telles que des cartes de visites ou de T-shirts, nous avons pu utiliser nous-mêmes des machines et apprendre des techniques d’impression. Ne disposant pas de matériel aussi spécialisé à la HEIG-VD, ce voyage nous a permis de découvrir concrètement l’ensemble des technologies print actuelles.</p><p>Le workshop médias imprimés est un incontournable de la formation d’ingénieur des médias et s’intègre à un module de spécialisation en technologies d’impression. Chaque année, il est réalisé grâce au partenariat qu’entretient la HEIG-VD avec la Hochschule der Medien de Stuttgart.</p>
+	</description>
+	<temoignages>
+		<temoignage>
+			<personne id="andreane-mercier-mm40"/>
+			<p>Le workshop à la Haute École des Médias (HdM) de Stuttgart fut une expérience très enrichissante. Cela m’a permis de découvrir concrètement diverses techniques d’impression et de me familiariser aux différentes presses et machines. J’ai pu les prendre en main par la création d’imprimés en sérigraphie ou d’impression à grand tirage en héliogravure.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="flavien-knuchel-mm40"/>
+			<p>Deux semaines de découverte, de pratique d’allemand et d’échanges d’expériences dont je me souviendrai longtemps. Les installations étaient incroyables, les cours intenses et les compétences à mettre en œuvre très variées. Autant dire que depuis, j’ai tendance à regarder de plus près les produits imprimés qui me passent entre les mains, et à savoir en apprécier la qualité !</p>
+		</temoignage>
+		<temoignage>
+			<personne id="frederic-montet-mm40"/>
+			<p>À la HdM de Stuttgart, j’ai découvert de multiples technologies d’impression utilisées pour des produits que nous utilisons au quotidien. J’ai pu comprendre de manière détaillée les processus et contraintes de production auxquels sont confrontés les imprimeurs, ainsi que les coûts d’une infrastructure d’impression. En plus, ce voyage a été bénéfique pour pratiquer l’allemand de manière intense !</p>
+			</temoignage>
+			<temoignage>
+			<personne id="jerome-clot-mm40"/>
+			<p>Le workshop à la HdM de Stuttgart m’a permis d’aborder de manière pratique le workflow d’impression. Nous avons été sensibilisé aux étapes du prépresse jusqu’aux finitions, en passant par différentes techniques d’impression. Cette expérience a également enrichi mes connaissances en communication, dans la mesure où il faut comprendre et se faire comprendre dans un domaine technique, et, de surplus, dans une langue étrangère.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="louis-allemann-mm40"/>
+			<p>Le workshop à la HdM de Stuttgart m’a permis d’aborder de manière pratique le workflow d’impression. Nous avons été sensibilisé aux étapes du prépresse jusqu’aux finitions, en passant par différentes techniques d’impression. Cette expérience a également enrichi mes connaissances en communication, dans la mesure où il faut comprendre et se faire comprendre dans un domaine technique, et, de surplus, dans une langue étrangère.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="louisa-freymond-mm40"/>
+			<p>Le workshop à la HdM de Stuttgart a permis d'aborder la partie "médias imprimés" de la formation comem+. Ces deux semaines d'apprentissage intensif m'ont fait découvrir les techniques d'impression telles que l'offset, la flexographie, la sérigraphie, l'impression numérique et bien d'autres. Une sensibilisation importante et utile lors du processus de production graphique des imprimés.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="mickael-justo-mm40"/>
+			<p>Le workshop à Stuttgart était très constructif et nécessaire pour approfondir ses connaissances en technologies d’impression. Il était également très intéressant d’être dans une grande école, extrêmement bien équipée pour le print. J’en ai profité pour parfaire mon allemand. J’ai particulièrement apprécié pouvoir tester les machines et fournir les photos pour la brochure que nous avons imprimée, résumant notre séjour.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="miranda-martinet-mm40"/>
+			<p>Découvrir les différents procédés d’impression, avoir la possibilité de pratiquer la sérigraphie en personnalisant nos propres t-shirts et suivre le processus complet de l’héliographie étaient des expériences très enrichissantes. J’ai été très impressionnée par la qualité des équipements et machines print, mais aussi par les installations audiovisuelles de cette école.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="noemie-sandoz-mm40"/>
+			<p>Pendant le workshop à la Hochschule der Medien (HdM) de Stuttgart, nous avons pu apprendre un grand nombre de techniques d’impression et pratiquer sur les machines à disposition. Bagage précieux, dans la mesure où notre formation touche également les médias imprimés.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="jonas-oesch-mm40"/>
+			<p>L’infrastructure complète de la HdM de Stuttgart nous a permis de voir une multitude de facettes du monde de l’impression. Quelques technologies présentées sont rarement présentes en Suisse (comme l’héliogravure). La compréhension concrète des possibilités et des défis du print a été naturellement saisi par les étudiants durant ce workshop.</p>
+		</temoignage>
+	</temoignages>
+	<domaine nom="Print" poids="5">
+		<tache>Prépresse</tache>
+		<tache>Impostion</tache>
+		<tache>Façonnage</tache>
+		<tache>Color management</tache>
+		<tache>Mise en page</tache>
+		<tache>Typographie</tache>
+		<outil>Sérigraphie</outil>
+		<outil>Héliogravure</outil>
+		<outil>Flexographie</outil>
+		<outil>Offset</outil>
+		<outil>Impression numérique</outil>
+		<outil>Adobe InDesign</outil>
+		<outil>Adobe Illustrator</outil>
+		<outil>Adobe Photoshop</outil>
+	</domaine>
+	<team>
+		<personne id="louis-allemann-mm40"/>
+		<personne id="jerome-clot-mm40"/>
+		<personne id="mickael-justo-mm40"/>
+		<personne id="marine-lemonis-mm40"/>
+		<personne id="miranda-martinet-mm40"/>
+		<personne id="christophe-merkle-mm40"/>
+		<personne id="frederic-montet-mm40"/>
+		<personne id="noemie-sandoz-mm40"/>
+		<personne id="louisa-freymond-mm40"/>
+		<personne id="jonas-oesch-mm40"/>
+		<personne id="flavien-knuchel-mm40"/>
+		<personne id="andreane-mercier-mm40"/>
+		<personne id="yoann-gern-mm40"/>
+		<personne id="christophe-rast-mm40"/>
+	</team>
+	<superviseur>
+		<prenom>Sébastien</prenom>
+		<nom>Pahud</nom>
+		<role>Chargé de cours à Comem+, HEIG-VD</role>
+		<logo url="images/superviseurs/logo_pahud_hdm.svg"/>
+		<organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
+		<commentaire>
+			<p>En collaboration avec la Hochschule Der Medien, la HEIG-VD offre aux étudiants de deuxième année du département COMEM+ l’opportunité de découvrir les différentes techniques d’impression par un workshop de deux semaines à Stuttgart. Cette approche plus sensorielle et tactile permet aux élèves d’avoir un avant goût des possibilités présentes sur le marché tout en privilégiant la communication et la pratique d’une langue étrangère. Appliquant la théorie vue en cours, ils créent un imprimé selon un fil rouge, suivant chaque étape de l’élaboration du produit, et repartent avec à la fin du séjour.​</p>
+		</commentaire>
+	</superviseur>
+</projet>

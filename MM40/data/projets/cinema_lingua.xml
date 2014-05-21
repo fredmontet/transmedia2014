@@ -3,7 +3,7 @@
 	<annee>2011</annee>
 	<nom>Cinéma Lingua</nom>
 	<nom_court>Cinéma Lingua</nom_court>
-	<video url="XXX"/>
+	<video url="www.youtube.com/embed/XO_CGNy3MNI"/>
 	<image url="images/projets/photo_cinema-lingua-2011.jpg"/>
 	<description>
 		<p>L’atelier Cinéma Lingua est une introduction au monde du cinéma à travers la création d’un court-métrage. Cet atelier nous donne un aperçu sur les méthodes et les besoins à la réalisation d’un film.</p>
@@ -13,15 +13,15 @@
 	</description>
 	<temoignages>
 		<temoignage>
-			<personne id="christophe-rast-2014"/>
+			<personne id="christophe-rast-mm40"/>
 			<p>CinemaLingua fut une excellente expérience personnelle qui m’a permis de découvrir et d’expérimenter les multiples domaines de la prise d’image et de son. En créant un court-métrage en allemand, du scénario jusqu’à la gravure des DVD, nous avons pu exercer notre pratique de la langue, se familiariser avec les termes techniques. J’en retiens que la réalisation d’un film n’est pas aussi simple qu’imaginé.</p>
 		</temoignage>
 		<temoignage>
-			<personne id="christophe-merkle-2014"/>
+			<personne id="christophe-merkle-mm40"/>
 			<p>Manière très originale d’apprendre la langue et bonne introduction au monde du cinéma. On a découvert les étapes de création d’un court-métrage de A à Z.</p>
 		</temoignage>
 		<temoignage>
-			<personne id="jonas-oesch-2014"/>
+			<personne id="jonas-oesch-mm40"/>
 			<p>De langue maternelle allemande, CinemaLingua m'a offert un bon départ dans le début de ma formation. J'ai pu prendre l'habitude de travailler en français, et l'atelier était aussi une introduction au travail en mode "projet". De plus, CinemaLingua a posé une base fertile pour des projets audiovisuels futurs.</p>
 		</temoignage>
 	</temoignages>

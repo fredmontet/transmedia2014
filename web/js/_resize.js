@@ -16,6 +16,75 @@ function resize() {
     var windowWidth = $(window).width();
     var windowHeight = $(window).height();
     
+    closeProjectBottom();
+    closeProject();
+    
+    if(burgerActive) {
+        closeBurger();
+    }
+    
+    if(windowWidth > 500) {
+        $("header nav").css("top", 0);
+        $("header nav").show();
+        $("header nav").css("position", "relative");
+    } else {
+        $("header nav").css("position", "absolute");
+        $("header nav").hide();
+    }
+    
+    if(windowWidth < 500) {
+        $("header ul li ul li a").each( function() {
+            
+            if(!$(this).hasClass("mobile")) {
+                $(this).addClass("mobile");
+            
+                var txt = $(this).text();
+                $(this).attr("data-txt", txt);
+                $(this).text("");
+            }
+        });
+        
+    } else {
+        $("header ul li ul li a").each( function() {
+            
+            if($(this).hasClass("mobile")) {
+                $(this).removeClass("mobile");
+            
+                var txt = $(this).attr("data-txt");
+                
+                $(this).text(txt);
+            }
+        });
+    }
+    
+    if(windowWidth < 640) {
+        console.log("mobile");
+        
+        $("footer ul li ul li a").each( function() {
+            
+            if(!$(this).hasClass("mobile")) {
+                $(this).addClass("mobile");
+            
+                var txt = $(this).text();
+                $(this).attr("data-txt", txt);
+                $(this).text("");
+            }
+        });
+        
+    } else {
+        $("footer ul li ul li a").each( function() {
+            
+            if($(this).hasClass("mobile")) {
+                $(this).removeClass("mobile");
+            
+                var txt = $(this).attr("data-txt");
+                
+                $(this).text(txt);
+            }
+        });
+        
+    }
+    
     $(".player").each( function() {
         var playerWidth = $(this).width();
         $(this).css("height", playerWidth*9/16);
@@ -47,7 +116,6 @@ function resize() {
         var htmlHeight = $("html").height();
         
         var coulurePos = $(this).position();
-        console.log(coulurePos.top);
         
         if(htmlHeight < windowHeight) {
             var coulureHeight = windowHeight - coulurePos.top;

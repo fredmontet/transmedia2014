@@ -1,23 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title data-template="config:app-title">EB005E</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta data-template="config:app-meta"/>
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
-        <script type="text/javascript" src="js/main.js"/>
-    </head>
-    <body>
-        <section id="container" class="">
-            <script>
+
+<head>
+    <title data-template="config:app-title">EB005E</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta data-template="config:app-meta" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script type="text/javascript" src="js/main.min.js" />
+</head>
+
+<body>
+    <section id="container" class="">
+        <script>
             var container = document.getElementById("container");
             var className = location.search.split('id=')[1] ? location.search.split('id=')[1] : 'newsroom-2014';
             container.setAttribute("class", className);
         </script>
-            <header>
-                <section class="content">
-                    <a id="simpleLogo" class="logo"/>
-                    <a id="burger"/>
+        <header>
+            <section class="content">
+                <a id="simpleLogo" class="logo" />
+                <a id="burger" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a>
+                        </li>
+                        <li id="project">
+                            <a class="active">Projets</a>
+                            <ul data-template="app:nav" />
+                        </li>
+                        <li><a class="active" href="profils.html">Profils</a>
+                        </li>
+                        <li><a href="infos.html">Infos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <div id="content" />
+        <article class="offerProject">
+            <section class="content">
+                <h1>Proposer un projet</h1>
+                <p>Vous souhaitez collaborer avec les étudiants en ingénierie des médias de la HEIG-VD ? Alors rédigez vos voeux en utilisant le bouton “proposer ici”. Après étude par la direction du département COMEM, ceux-ci feront peut-être l’objet d’un prochain projet dans le cadre d’un cours.</p>
+                <p class="button">
+                    <a href="">Proposez ici</a>
+                </p>
+            </section>
+        </article>
+        <footer>
+            <section class="content">
+                <section class="top">
                     <nav>
                         <ul>
                             <li>
@@ -34,53 +65,23 @@
                             </li>
                         </ul>
                     </nav>
+                    <p class="copyright">Copyright 2014 - MM40</p>
                 </section>
-            </header>
-            <div id="content"/>
-            <article class="offerProject">
-                <section class="content">
-                    <h1>Proposer un projet</h1>
-                    <p>Vous souhaitez collaborer avec les étudiants en ingénierie des médias de la HEIG-VD ? Alors rédigez vos voeux en utilisant le bouton “proposer ici”. Après étude par la direction du département COMEM, ceux-ci feront peut-être l’objet d’un prochain projet dans le cadre d’un cours.</p>
-                    <p class="button">
-                        <a href="">Proposez ici</a>
+                <section class="bottom">
+                    <p class="school">
+                        <a target="_blank" href="http://www.comem.ch/fr/accueil.aspx">Comem+</a> | <a target="_blank" href="http://www.heig-vd.ch/">Heig-vd</a>
                     </p>
+                    <article class="social">
+                        <a id="facebook" target="_blank" href="https://www.facebook.com/EB005E" />
+                        <a id="twitter" target="_blank" href="https://twitter.com/eb005e" />
+                        <a id="instagram" target="_blank" href="http://instagram.com/eb005e" />
+                        <a id="linkedin" target="_blank" href="#" />
+                        <a id="youtube" target="_blank" href="#" />
+                    </article>
                 </section>
-            </article>
-            <footer>
-                <section class="content">
-                    <section class="top">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="">Home</a>
-                                </li>
-                                <li>
-                                    <a class="active" href="">Projets</a>
-                                </li>
-                                <li>
-                                    <a href="">Profils</a>
-                                </li>
-                                <li>
-                                    <a href="">Infos</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <p class="copyright">Copyright 2014 - MM40</p>
-                    </section>
-                    <section class="bottom">
-                        <p class="school">
-                            <a target="_blank" href="http://www.comem.ch/fr/accueil.aspx">Comem+</a> | <a target="_blank" href="http://www.heig-vd.ch/">Heig-vd</a>
-                        </p>
-                        <article class="social">
-                            <a id="facebook" target="_blank" href="https://www.facebook.com/EB005E"/>
-                            <a id="twitter" target="_blank" href="https://twitter.com/eb005e"/>
-                            <a id="instagram" target="_blank" href="http://instagram.com/eb005e"/>
-                            <a id="linkedin" target="_blank" href="#"/>
-                            <a id="youtube" target="_blank" href="#"/>
-                        </article>
-                    </section>
-                </section>
-            </footer>
-        </section>
-    </body>
+            </section>
+        </footer>
+    </section>
+</body>
+
 </html>

@@ -3,13 +3,12 @@
 	<annee>2014</annee>
 	<nom>Projets Paléo</nom>
 	<nom_court>Paléo</nom_court>
-	<video url="XXX"/>
+	<video url="www.youtube.com/embed/S5IWECgo8aA"/>
 	<image url="images/projets/photo_paleo-2013.jpg"/>
 	<description>
 		<p>Depuis 4 ans, les ingénieurs des médias ont rejoint les étudiants des autres filières de la HES-SO afin de réaliser une animation durant toute la semaine du Paléo Festival, dans le village HES-SO.</p>
 		<p>Pour ces projets, nous avons formé un groupe d’une dizaine d’étudiants, qui, sous la direction d’un chef de projet, avait comme tâche la conceptualisation d’un thème donné. Une deuxième partie, consistait à mettre en place une animation ludique sur le site du festival, permettant de présenter les compétences des ingénieurs des médias.</p>
-		<p>Pour les étudiants, c’est une occasion unique au cours de leur formation, de présenter un projet concret à un très large public. L’expérience est très intéressante car elle fait appel à la gestion de projet à large échelle et présente un côté créatif très apprécié.
-Le projet Paléo est un atelier annuel facultatif qui se déroule de janvier à juillet, pour se terminer en beauté lors de la semaine du festival.</p>
+		<p>Pour les étudiants, c’est une occasion unique au cours de leur formation, de présenter un projet concret à un très large public. L’expérience est très intéressante car elle fait appel à la gestion de projet à large échelle et présente un côté créatif très apprécié.</p><p>Le projet Paléo est un atelier annuel facultatif qui se déroule de janvier à juillet, pour se terminer en beauté lors de la semaine du festival.</p>
 	</description>
 	<temoignages>
 		<temoignage>
@@ -71,7 +70,7 @@ Le projet Paléo est un atelier annuel facultatif qui se déroule de janvier à 
 		<nom>Tellenbach</nom>
 		<role>Responsable communication, HES-SO</role>
 		<logo url="images/superviseurs/logo_tellenbach_paleo.svg"/>
-		<organisation url="http://www.hes-so.ch">Haute Ecole Spécialisée de Suisse Occidentale</organisation>
+		<organisation url="http://www.hes-so.ch">HES - SO</organisation>
 		<commentaire>
 			<p>La participation de l’Ingénierie des Médias au projet Paléo fait découvrir de manière ludique l’univers des nouvelles technologies dans notre quotidien. Les ingénieures et ingénieurs de cette filière participent depuis quatre ans au projet HES-SO Paléo. Leur engagement contribue à rendre attractive cette filière technologique, souvent mal connue du public. Des animations originales, ludiques et interactives sont proposées aux visiteurs lors de chaque édition. Les étudiants, souvent très "geeks", apportent la fraîcheur de leur approche sur les nouvelles tendances très en vogue auprès du jeune public.</p>
 		</commentaire>
