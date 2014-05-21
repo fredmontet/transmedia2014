@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<projet prev="cinema-lingua-2011" url="http://radio.comem.ch/" next="workshop-hdm-2013" id="radio-comem-2012" xmlns="http://ns.comem.ch/cours/TM">
-	<annee>2012</annee>
-	<nom>Radio Comem, spread the world !</nom>
-	<nom_court>Radio Comem</nom_court>
-	<video url="xxx"/>
-	<image url="images/projets/photo_radio-comem-2012.jpg"/>
-	<description>
-		<p>Radio Comem a pour concept l'expérimentation d’une nouvelle méthode d’enseignement des langues étrangères. Dans un cadre très libre, coaché par des enseignants en sociologie et communication, nous avons pu choisir la langue cible (allemand, anglais ou français pour les non-francophones) dans laquelle nous voulions nous perfectionner à l’écrit comme à l’oral.</p>
-		<p>Chaque étudiant était responsable de son émission, de son identité visuelle, et assurait la réalisation des podcasts sur la thématique de son choix. En plus de la valeur linguistique, ce projet nous a permis d’acquérir des compétences dans le domaine de l’audio.</p>
-		<p>Radio Comem, spread the world! a été réalisé en deuxième année durant les cours de langue dispensés à la HEIG-VD et est devenu, à la suite de cette première année expérimentale, un projet à part entière dans la formation comem+.</p>
-	</description>
-	<temoignages>
-		<temoignage>
-			<personne id="marine-lemonis-mm40"/>
-			<p>Le côté “liberté” - choix de la langue cible, choix du sujet de mon émission - est ce qui m’a principalement attirée dans le projet RadioComem. J’ai accompli, pour la première fois, la réalisation de podcasts, de surplus dans une langue étrangère, ce qui a été un véritable challenge. Grâce à ce projet, j’ai pu améliorer mes connaissances en anglais et en allemand.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="christophe-merkle-mm40"/>
-			<p>Manière très originale d’apprendre les langues et bonne introduction au monde de la radio et de l'expression libre.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="frederic-montet-mm40"/>
-			<p>J’ai abordé ce projet avec appréhension pendant le premier semestre de ma deuxième année. Le but était de remplacer les cours de langue allemande. Ceci a été un réel challenge pour moi vu mes compétences initiales dans cette langue. Heureusement, les processus de production de nos émissions ont permis d’adapter le niveau de langue nécessaire. Le deuxième semestre, j’ai continué, mais en anglais. Cette langue étant plus facile pour moi, j’ai pu améliorer ma diction et aborder des thèmes de manière plus approfondie.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="noemie-sandoz-mm40"/>
-			<p>Grâce au concept RadioComem, j’ai pu exercer une langue de manière ludique. Nous avons travaillé sur l’entier du processus, du choix du sujet au montage du podcast, en passant par la réalisation d’interviews et de jingles. J’ai particulièrement apprécié les rencontres avec les personnes à interviewer et la possibilité d’utiliser du matériel de prise de son.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="jonas-oesch-mm40"/>
-			<p>Apprendre une langue en créant un podcast. Un amalgame intéressant était né. La réalisation de cette idée a par contre posé un grand défi. Comme équipe de pilotage, nous avons eu la possibilité d’explorer cette idée et d’apprendre ce qui fonctionne et ce qui ne fonctionne pas.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="flavien-knuchel-mm40"/>
-			<p>Durant deux ans de ma formation, j’ai participé au projet RadioComem. En plus d’exercer l’allemand et l’anglais, j’ai eu l’opportunité de m’exprimer sur des sujets qui me tiennent à cœur, ce qui m’a fortement aidé à améliorer mon niveau. Je ne m’en étais pas rendu compte, mais avec du recul, j’ai pris conscience de mes progrès. De plus, je faisais partie de la “mothership” (conseil d’élèves gérant la radio), ce qui m’a donné une belle expérience de gestion d’équipe et de planning. C’est un moyen agréable et différent et avantageux d’apprendre des langues étrangères.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="andreane-mercier-mm40"/>
-			<p>Avoir participé à RadioComem m’a permis de développer de nombreuses compétences telles que l’utilisation des différents micros, des logiciels de montage du son. La prise de contact avec les personnes à interviewer est une tâche intéressante de RadioComem. De plus, l’intérêt principal de cette radio est de créer des podcasts dans une langue étrangère, ce qui est très stimulant et favorise l’apprentissage de la langue.</p>
-		</temoignage>
-	</temoignages>
-	<domaine nom="Audio" poids="5">
-		<tache>Prise de son</tache>
-		<tache>Montage</tache>
-		<tache>Post-production</tache>
-		<tache>Encodage</tache>
-		<outil>Tascam</outil>
-		<outil>Adobe soundbooth</outil>
-		<outil>sonothèque</outil>
-	</domaine>
-	<domaine nom="Communication" poids="4">
-		<tache>Identification du public cible</tache>
-		<tache>Choix des canaux</tache>
-		<tache>Définition d’une stratégie</tache>
-		<tache>Community management</tache>
-		<tache>Création des éléments de communication</tache>
-		<outil>Réseaux sociaux</outil>
-		<outil>Gantt</outil>
-	</domaine>
-	<domaine nom="Web" poids="3">
-		<tache>Mockups</tache>
-		<tache>Maquettes</tache>
-		<tache>Modelisation</tache>
-		<tache>Développement</tache>
-		<tache>Intégration</tache>
-		<tache>Tests</tache>
-		<outil>Wordpress</outil>
-		<outil>HTML 5</outil>
-		<outil>CSS 3</outil>
-		<outil>raphaelJS</outil>
-	</domaine>
-	<domaine nom="Management" poids="3">
-		<tache>Planification</tache>
-		<tache>Coordination</tache>
-		<outil>Gantt</outil>
-		<outil>planning des ressources</outil>
-	</domaine>
-	<team>
-		<personne id="marine-lemonis-mm40"/>
-		<personne id="christophe-merkle-mm40"/>
-		<personne id="frederic-montet-mm40"/>
-		<personne id="noemie-sandoz-mm40"/>
-		<personne id="jonas-oesch-mm40"/>
-		<personne id="flavien-knuchel-mm40"/>
-		<personne id="andreane-mercier-mm40"/>
-	</team>
-	<superviseur>
-		<prenom>Marcelle</prenom>
-		<nom>Brücher</nom>
-		<role>Professeur Comem+, HEIG-VD</role>
-		<logo url="images/superviseurs/logo_brucher_radioComem.svg"/>
-		<organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
-		<commentaire>
-			<p>Un jour, le souvenir de la radio live de mon école primaire me traverse l’esprit. Cela n’était vraiment pas un hasard étant donné que le département comem+ planchait sur des alternatives pour l’apprentissage des langues. L’idée a donc été retenue : un atelier pour pratiquer les langues en créant des podcasts. Je souhaitais créer un espace de créativité riche en échanges, une pédagogie ciblée sur l’entraide et l’autonomie.</p>
-			<p>Soutenue par le département, l’aventure a démarré. J’étais loin d’imaginer l’ampleur qu’elle allait prendre : un concours, un site, des events, un live et bien d'autres ! Tout cela n’aurait pas été possible sans l’implication des étudiants, sans leur enthousiasme et leur palette de compétences acquises dans le cadre de leur formation. Cette intelligence collective m’a vraiment beaucoup appris; cette expérience des plus enrichissantes m’a également marquée. Plusieurs noms me viennent à l’esprit et je tiens à remercier tous ceux qui ont osé se lancer dans l’aventure.</p>
-		</commentaire>
-	</superviseur>
+<projet xmlns="http://ns.comem.ch/cours/TM" url="http://radio.comem.ch/" next="workshop-hdm-2013" id="radio-comem-2012">
+    <annee>2012</annee>
+    <nom>Radio Comem, spread the world !</nom>
+    <nom_court>Radio Comem</nom_court>
+    <video url="xxx"/>
+    <image url="images/projets/photo_radio-comem-2012.jpg"/>
+    <description>
+        <p>Radio Comem a pour concept l'expérimentation d’une nouvelle méthode d’enseignement des langues étrangères. Dans un cadre très libre, coaché par des enseignants en sociologie et communication, nous avons pu choisir la langue cible (allemand, anglais ou français pour les non-francophones) dans laquelle nous voulions nous perfectionner à l’écrit comme à l’oral.</p>
+        <p>Chaque étudiant était responsable de son émission, de son identité visuelle, et assurait la réalisation des podcasts sur la thématique de son choix. En plus de la valeur linguistique, ce projet nous a permis d’acquérir des compétences dans le domaine de l’audio.</p>
+        <p>Radio Comem, spread the world! a été réalisé en deuxième année durant les cours de langue dispensés à la HEIG-VD et est devenu, à la suite de cette première année expérimentale, un projet à part entière dans la formation comem+.</p>
+    </description>
+    <temoignages>
+        <temoignage>
+            <personne id="marine-lemonis-mm40"/>
+            <p>Le côté “liberté” - choix de la langue cible, choix du sujet de mon émission - est ce qui m’a principalement attirée dans le projet RadioComem. J’ai accompli, pour la première fois, la réalisation de podcasts, de surplus dans une langue étrangère, ce qui a été un véritable challenge. Grâce à ce projet, j’ai pu améliorer mes connaissances en anglais et en allemand.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="christophe-merkle-mm40"/>
+            <p>Manière très originale d’apprendre les langues et bonne introduction au monde de la radio et de l'expression libre.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="frederic-montet-mm40"/>
+            <p>J’ai abordé ce projet avec appréhension pendant le premier semestre de ma deuxième année. Le but était de remplacer les cours de langue allemande. Ceci a été un réel challenge pour moi vu mes compétences initiales dans cette langue. Heureusement, les processus de production de nos émissions ont permis d’adapter le niveau de langue nécessaire. Le deuxième semestre, j’ai continué, mais en anglais. Cette langue étant plus facile pour moi, j’ai pu améliorer ma diction et aborder des thèmes de manière plus approfondie.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="noemie-sandoz-mm40"/>
+            <p>Grâce au concept RadioComem, j’ai pu exercer une langue de manière ludique. Nous avons travaillé sur l’entier du processus, du choix du sujet au montage du podcast, en passant par la réalisation d’interviews et de jingles. J’ai particulièrement apprécié les rencontres avec les personnes à interviewer et la possibilité d’utiliser du matériel de prise de son.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="jonas-oesch-mm40"/>
+            <p>Apprendre une langue en créant un podcast. Un amalgame intéressant était né. La réalisation de cette idée a par contre posé un grand défi. Comme équipe de pilotage, nous avons eu la possibilité d’explorer cette idée et d’apprendre ce qui fonctionne et ce qui ne fonctionne pas.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="flavien-knuchel-mm40"/>
+            <p>Durant deux ans de ma formation, j’ai participé au projet RadioComem. En plus d’exercer l’allemand et l’anglais, j’ai eu l’opportunité de m’exprimer sur des sujets qui me tiennent à cœur, ce qui m’a fortement aidé à améliorer mon niveau. Je ne m’en étais pas rendu compte, mais avec du recul, j’ai pris conscience de mes progrès. De plus, je faisais partie de la “mothership” (conseil d’élèves gérant la radio), ce qui m’a donné une belle expérience de gestion d’équipe et de planning. C’est un moyen agréable et différent et avantageux d’apprendre des langues étrangères.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="andreane-mercier-mm40"/>
+            <p>Avoir participé à RadioComem m’a permis de développer de nombreuses compétences telles que l’utilisation des différents micros, des logiciels de montage du son. La prise de contact avec les personnes à interviewer est une tâche intéressante de RadioComem. De plus, l’intérêt principal de cette radio est de créer des podcasts dans une langue étrangère, ce qui est très stimulant et favorise l’apprentissage de la langue.</p>
+        </temoignage>
+    </temoignages>
+    <domaine nom="Audio" poids="5">
+        <tache>Prise de son</tache>
+        <tache>Montage</tache>
+        <tache>Post-production</tache>
+        <tache>Encodage</tache>
+        <outil>Tascam</outil>
+        <outil>Adobe soundbooth</outil>
+        <outil>sonothèque</outil>
+    </domaine>
+    <domaine nom="Communication" poids="4">
+        <tache>Identification du public cible</tache>
+        <tache>Choix des canaux</tache>
+        <tache>Définition d’une stratégie</tache>
+        <tache>Community management</tache>
+        <tache>Création des éléments de communication</tache>
+        <outil>Réseaux sociaux</outil>
+        <outil>Gantt</outil>
+    </domaine>
+    <domaine nom="Web" poids="3">
+        <tache>Mockups</tache>
+        <tache>Maquettes</tache>
+        <tache>Modelisation</tache>
+        <tache>Développement</tache>
+        <tache>Intégration</tache>
+        <tache>Tests</tache>
+        <outil>Wordpress</outil>
+        <outil>HTML 5</outil>
+        <outil>CSS 3</outil>
+        <outil>raphaelJS</outil>
+    </domaine>
+    <domaine nom="Management" poids="3">
+        <tache>Planification</tache>
+        <tache>Coordination</tache>
+        <outil>Gantt</outil>
+        <outil>planning des ressources</outil>
+    </domaine>
+    <team>
+        <personne id="marine-lemonis-mm40"/>
+        <personne id="christophe-merkle-mm40"/>
+        <personne id="frederic-montet-mm40"/>
+        <personne id="noemie-sandoz-mm40"/>
+        <personne id="jonas-oesch-mm40"/>
+        <personne id="flavien-knuchel-mm40"/>
+        <personne id="andreane-mercier-mm40"/>
+    </team>
+    <superviseur>
+        <prenom>Marcelle</prenom>
+        <nom>Brücher</nom>
+        <role>Professeur Comem+, HEIG-VD</role>
+        <logo url="images/superviseurs/logo_brucher_radioComem.svg"/>
+        <organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
+        <commentaire>
+            <p>Un jour, le souvenir de la radio live de mon école primaire me traverse l’esprit. Cela n’était vraiment pas un hasard étant donné que le département comem+ planchait sur des alternatives pour l’apprentissage des langues. L’idée a donc été retenue : un atelier pour pratiquer les langues en créant des podcasts. Je souhaitais créer un espace de créativité riche en échanges, une pédagogie ciblée sur l’entraide et l’autonomie.</p>
+            <p>Soutenue par le département, l’aventure a démarré. J’étais loin d’imaginer l’ampleur qu’elle allait prendre : un concours, un site, des events, un live et bien d'autres ! Tout cela n’aurait pas été possible sans l’implication des étudiants, sans leur enthousiasme et leur palette de compétences acquises dans le cadre de leur formation. Cette intelligence collective m’a vraiment beaucoup appris; cette expérience des plus enrichissantes m’a également marquée. Plusieurs noms me viennent à l’esprit et je tiens à remercier tous ceux qui ont osé se lancer dans l’aventure.</p>
+        </commentaire>
+    </superviseur>
 </projet>

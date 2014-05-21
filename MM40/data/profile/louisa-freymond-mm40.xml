@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns="http://ns.comem.ch/cours/TM" id="louisa-freymond-mm40" mail_print="louisa.freymond@gmail.com" sexe="f">
+	<nom>Freymond</nom>
+	<prenom>Louisa</prenom>
+	<usp>Créatrice de solutions innovantes</usp>
+	<photos>
+		<photo url="images/profiles/base_louisa-freymond-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_louisa-freymond-mm40.svg" genre="avatar"/>
+	</photos>
+	<description>
+		<p>Le customer care est au centre de mes préoccupations. En effet, la satisfaction du client est l'un de mes objectifs majeurs. Il doit être bien accueilli, compris, suivi, épaulé et satisfait de la solution ou du produit proposés.</p>
+		<p>La gestion de projet est l'une de mes forces, car je suis capable de garder une bonne vision globale du projet et d’organiser ses tâches de façon logique. Prendre le leadership d’une équipe m’est aisé, car je comprends et m’adapte à chaque personnalité. De plus, cela facilite la communication et la collaboration au sein d’un team, mais également le déroulement même du projet. Lors de l'atelier <a href="projet.html?id=precarite-2014">Newsroom</a>, assistant le chef de projet, j'ai pu mettre en œuvre ces compétences. </p>
+		<p>La capacité d'anticiper rapidement les risques, de les éviter et de trouver des solutions efficaces suit naturellement. De plus, j'aperçois rapidement le potentiel d'amélioration d'un processus et donc, d'une entreprise. Lors du séminaire <a href="projet.html?id=seminaire-entreprise-2014">Business Excellence</a>, ces compétences furent un atout.</p>
+		<p>D’une créativité débordante, je ne perds cependant pas ma lucidité et mon pragmatisme. Le processus créatif doit rester réalisable, il est donc bien de garder un pied sur terre. Le projet <a href="projet.html?id=eb005e-2014">Transmédia</a> m'a permis d'apporter des idées créatives tant pour le projet que pour gagner des followers sur twitter. Le community management est tout un art !</p>
+		<p>En résumé, ces quelques mots définissent parfaitement mon profil : créativité, human management, risk management, customer care, organisation, vision globale et solutions adaptées.</p>
+	</description>
+	<projets>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="eb005e-2014"/>
+		<projet id="seminaire-entreprise-2014"/>
+	</projets>
+	<liens>
+		<lien url="mailto:asiouldnomyerf@gmail.com" genre="mail">Mail</lien>
+		<lien url="http://www.linkedin.com/pub/louisa-freymond/93/792/494" genre="linkedin">LinkedIn</lien>
+	</liens>
+</profile>
