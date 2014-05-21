@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<projet id="precarite-2014" url="http://precarite.ch/" next="seminaire-entreprise-2014" prev="paleo-2013" xmlns="http://ns.comem.ch/cours/TM">
-	<annee>2014</annee>
-	<nom>Precarite.ch</nom>
-	<nom_court>Precarite.ch</nom_court>
-	<video url="XXX"/>
-	<image url="images/projets/photo_precarite-2014.jpg"/>
-	<description>
-		<p>Le site web precarite.ch a été un des projets les plus multidisciplinaires de la formation d’ingénieur des médias. Sur une très courte période, la classe a fourni un travail commun, en utilisant la totalité des compétences acquises sur trois ans en management, en communication ainsi qu’en technique.</p>
-		<p>Nous avons produit du contenu multimédia autour de la thématique “la précarité” que nous avons présentée par un site web.</p>
-		<p>Pour ce projet, nous avons rencontré le cinéaste suisse Fernand Melgar qui nous a donné quelques pistes de réflexion et guidé sur la thématique délicate de la précarité, imposée par nos professeurs.</p>
-		<p>Cet exercice a été réalisé dans le cadre du cours Newsroom, un atelier de création de médias d’information, en troisième année, sur une durée limitée d’une dizaine de jours.</p>
-	</description>
-	<temoignages>
-		<temoignage>
-			<personne id="louis-allemann-mm40"/>
-			<p>Durant ce projet, nous avons travaillé sur le thème de la précarité en se focalisant sur le contenu. Encadré par des journalistes, j’ai pu améliorer mes compétences en matière de rédaction et d’interview en réalisant un micro-trottoir. Ce projet a permis à la classe de travailler sur un projet commun et de devoir gérer une partie organisationnelle.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="mickael-justo-mm40"/>
-			<p>Transmédia marquait la fin du cursus de la formation d’ingénieur des médias. À travers de ce projet, nous avons pu mettre en commun tous les domaines appris au cours de notre formation : management, engineering et communication. En tant que coordinateur du projet, la partie management a été prépondérante pour ma part.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="marine-lemonis-mm40"/>
-			<p>Le projet Newsroom m’a permis d’aller directement sur le terrain pour réaliser mon reportage vidéo. Entourée d’une équipe technique, j’ai préparé mes interviews et suis allée à la rencontre des étudiants en situation de précarité. J’ai apprécié ces rencontres car la dimension sociale y est prépondérante. Je suis également passionnée par les productions audiovisuelles, c’est pourquoi ce projet m’a particulièrement plu.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="miranda-martinet-mm40"/>
-			<p>Durant le projet Newsroom, j’ai pu endosser deux rôles différents. J’ai rencontré une famille en situation de précarité. Mener cette interview a été très instructif, mais surtout enrichissant au niveau humain. J’ai aussi participé à la réalisation d’un micro-trottoir où j’ai pu développer mon côté relationnel et mon audace.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="christophe-merkle-mm40"/>
-			<p>L’introduction de Fernand Melgar et les divers témoignages des personnes qui vivent dans une situation de précarité nous ont bien motivés à s’investir à fond dans ce projet</p>
-		</temoignage>
-		<temoignage>
-			<personne id="frederic-montet-mm40"/>
-			<p>Dans ce projet, j’ai été responsable du design du site precarite.ch. Pendant deux semaines, j’ai pu imaginer le site autour des contenus. Cela s'est révélé relativement technique car les contenus étaient produits au fur et à mesure du projet et étaient sujets à de fréquents changements et adaptations. L’encadrement, par des professionnels du domaine du journalisme, a été une réelle plus-value pour nous guider vers un résultat plus que probant.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="noemie-sandoz-mm40"/>
-			<p>Durant le projet Newsroom, il a été difficile de trouver une manière appropriée de parler d’un sujet délicat, la précarité. Chargée, en binôme, des reportages,  j’ai apprécié rencontrer des personnes confrontées à la précarité et retranscrire leurs impressions. De plus, le projet se déroulant avec l’entier de la classe, j’ai pu améliorer mes capacités organisationnelles.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="louisa-freymond-mm40"/>
-			<p>L'atelier Newsroom a permis de mettre en avant mes compétences rédactionnelles et organisationnelles. De plus, en tant qu'assistante du chef de projet, des tâches telles que la coordination des équipes et la gestion du planning ont permis d'aiguiser mes skills en management.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="jonas-oesch-mm40"/>
-			<p>L’atelier Newsroom a permis de vivre la réalité d’un newsroom. Des deadlines proches, des équipes qui travaillent en parallèle, des décisions rapides. Et finalement, le rassemblement de tous les éléments dans un ensemble cohérent. Comme chef du projet, j’ai pu apprendre à prendre des décisions basées sur le rapport qualité-prix et de gérer une équipe dynamique.</p>
-		</temoignage>
-		<temoignage>
-			<personne id="anne-grandjean-mm40"/>
-			<p>Durant cet atelier, notre classe a eu la chance de travailler avec des professionnels du journalisme. Cette expérience m’a permis de développer mes compétences en recherche, tri et synthèse de l’information. J’ai également appris plusieurs techniques de rédaction permettant de produire un texte percutant et accrocheur grâce à l'appui des personnes qui nous encadraient.</p>
-		</temoignage>
-	</temoignages>
-	<domaine nom="Vidéo" poids="4">
-		<tache>Reportage</tache>
-		<tache>Interview</tache>
-		<tache>Montage</tache>
-		<tache>Encodage</tache>
-		<tache>Distribution</tache>
-		<outil>Caméra</outil>
-		<outil>Microphone</outil>
-		<outil>Adobe Premiere</outil>
-		<outil>Final Cut Pro</outil>
-	</domaine>
-	<domaine nom="Web" poids="3">
-		<tache>Mockups</tache>
-		<tache>Maquettes</tache>
-		<tache>Modelisation</tache>
-		<tache>Développement</tache>
-		<tache>Intégration</tache>
-		<tache>Tests</tache>
-		<outil>Framework PHP</outil>
-		<outil>SGBD</outil>
-		<outil>jQuery</outil>
-		<outil>SASS</outil>
-	</domaine>
-	<domaine nom="Print" poids="2">
-		<tache>Mise en page</tache>
-		<tache>Prépresse</tache>
-		<tache>Impression </tache>
-		<tache>Façonnage</tache>
-		<outil>Adobe Illustrator</outil>
-		<outil>Adobe InDesign</outil>
-		<outil>Impression numérique</outil>
-	</domaine>
-	<domaine nom="Communication" poids="3">
-		<tache>Identification du public cible</tache>
-		<tache>Choix des canaux</tache>
-		<tache>Définition d'une stratégie</tache>
-		<tache>Création des éléments de communication</tache>
-		<tache>Teasing</tache>
-		<outil>CrossMédia</outil>
-	</domaine>
-	<team>
-		<personne id="jerome-clot-mm40"/>
-		<personne id="louis-allemann-mm40"/>
-		<personne id="mickael-justo-mm40"/>
-		<personne id="marine-lemonis-mm40"/>
-		<personne id="miranda-martinet-mm40"/>
-		<personne id="christophe-merkle-mm40"/>
-		<personne id="frederic-montet-mm40"/>
-		<personne id="noemie-sandoz-mm40"/>
-		<personne id="louisa-freymond-mm40"/>
-		<personne id="jonas-oesch-mm40"/>
-		<personne id="flavien-knuchel-mm40"/>
-		<personne id="andreane-mercier-mm40"/>
-		<personne id="yoan-gern-mm40"/>
-		<personne id="anne-grandjean-mm40"/>
-		<personne id="christophe-raste-mm40"/>
-	</team>
-	<superviseur>
-		<prenom>Fernand</prenom>
-		<nom>Melgar</nom>
-		<role>Cinénaste et documentaliste suisse</role>
-		<logo url="images/superviseurs/logo_melgar_precarite.jpg"/>
-		<organisation url="http://www.climage.ch/qsPortal/Home.asp">Association Climage Audiovisuel</organisation>
-		<commentaire>
-			<p>Je suis impressionné que, sur un délai aussi court, ces étudiants aient pu mettre sur pied un tel projet avec pertinence et efficacité. Les thématiques abordées, le contenu, la mise en page, les manières de traiter les différentes problématiques font de precarite.ch une plateforme multimédia déjà très complète et adéquate. À travers des situations très variées, ce site propose un éventail de personnes pouvant être touchées de manière durable ou temporaire par la précarité. De plus, il offre, sous la forme d'un annuaire unique en son genre, des réponses concrètes à ceux qui sont dans le besoin. La démarche de l’atelier expliquée dans "À propos" est également essentielle pour comprendre le projet, lui donner une légitimation et une certaine envergure. Cette plateforme constitue à mon avis une base déjà bien aboutie d’un futur projet sur la précarité destiné à un public large.</p>
-		</commentaire>
-	</superviseur>
+<projet xmlns="http://ns.comem.ch/cours/TM" id="precarite-2014" url="http://precarite.ch/" next="seminaire-entreprise-2014">
+    <annee>2014</annee>
+    <nom>Precarite.ch</nom>
+    <nom_court>Precarite.ch</nom_court>
+    <video url="XXX"/>
+    <image url="images/projets/photo_precarite-2014.jpg"/>
+    <description>
+        <p>Le site web precarite.ch a été un des projets les plus multidisciplinaires de la formation d’ingénieur des médias. Sur une très courte période, la classe a fourni un travail commun, en utilisant la totalité des compétences acquises sur trois ans en management, en communication ainsi qu’en technique.</p>
+        <p>Nous avons produit du contenu multimédia autour de la thématique “la précarité” que nous avons présentée par un site web.</p>
+        <p>Pour ce projet, nous avons rencontré le cinéaste suisse Fernand Melgar qui nous a donné quelques pistes de réflexion et guidé sur la thématique délicate de la précarité, imposée par nos professeurs.</p>
+        <p>Cet exercice a été réalisé dans le cadre du cours Newsroom, un atelier de création de médias d’information, en troisième année, sur une durée limitée d’une dizaine de jours.</p>
+    </description>
+    <temoignages>
+        <temoignage>
+            <personne id="louis-allemann-mm40"/>
+            <p>Durant ce projet, nous avons travaillé sur le thème de la précarité en se focalisant sur le contenu. Encadré par des journalistes, j’ai pu améliorer mes compétences en matière de rédaction et d’interview en réalisant un micro-trottoir. Ce projet a permis à la classe de travailler sur un projet commun et de devoir gérer une partie organisationnelle.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="mickael-justo-mm40"/>
+            <p>Transmédia marquait la fin du cursus de la formation d’ingénieur des médias. À travers de ce projet, nous avons pu mettre en commun tous les domaines appris au cours de notre formation : management, engineering et communication. En tant que coordinateur du projet, la partie management a été prépondérante pour ma part.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="marine-lemonis-mm40"/>
+            <p>Le projet Newsroom m’a permis d’aller directement sur le terrain pour réaliser mon reportage vidéo. Entourée d’une équipe technique, j’ai préparé mes interviews et suis allée à la rencontre des étudiants en situation de précarité. J’ai apprécié ces rencontres car la dimension sociale y est prépondérante. Je suis également passionnée par les productions audiovisuelles, c’est pourquoi ce projet m’a particulièrement plu.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="miranda-martinet-mm40"/>
+            <p>Durant le projet Newsroom, j’ai pu endosser deux rôles différents. J’ai rencontré une famille en situation de précarité. Mener cette interview a été très instructif, mais surtout enrichissant au niveau humain. J’ai aussi participé à la réalisation d’un micro-trottoir où j’ai pu développer mon côté relationnel et mon audace.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="christophe-merkle-mm40"/>
+            <p>L’introduction de Fernand Melgar et les divers témoignages des personnes qui vivent dans une situation de précarité nous ont bien motivés à s’investir à fond dans ce projet</p>
+        </temoignage>
+        <temoignage>
+            <personne id="frederic-montet-mm40"/>
+            <p>Dans ce projet, j’ai été responsable du design du site precarite.ch. Pendant deux semaines, j’ai pu imaginer le site autour des contenus. Cela s'est révélé relativement technique car les contenus étaient produits au fur et à mesure du projet et étaient sujets à de fréquents changements et adaptations. L’encadrement, par des professionnels du domaine du journalisme, a été une réelle plus-value pour nous guider vers un résultat plus que probant.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="noemie-sandoz-mm40"/>
+            <p>Durant le projet Newsroom, il a été difficile de trouver une manière appropriée de parler d’un sujet délicat, la précarité. Chargée, en binôme, des reportages,  j’ai apprécié rencontrer des personnes confrontées à la précarité et retranscrire leurs impressions. De plus, le projet se déroulant avec l’entier de la classe, j’ai pu améliorer mes capacités organisationnelles.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="louisa-freymond-mm40"/>
+            <p>L'atelier Newsroom a permis de mettre en avant mes compétences rédactionnelles et organisationnelles. De plus, en tant qu'assistante du chef de projet, des tâches telles que la coordination des équipes et la gestion du planning ont permis d'aiguiser mes skills en management.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="jonas-oesch-mm40"/>
+            <p>L’atelier Newsroom a permis de vivre la réalité d’un newsroom. Des deadlines proches, des équipes qui travaillent en parallèle, des décisions rapides. Et finalement, le rassemblement de tous les éléments dans un ensemble cohérent. Comme chef du projet, j’ai pu apprendre à prendre des décisions basées sur le rapport qualité-prix et de gérer une équipe dynamique.</p>
+        </temoignage>
+        <temoignage>
+            <personne id="anne-grandjean-mm40"/>
+            <p>Durant cet atelier, notre classe a eu la chance de travailler avec des professionnels du journalisme. Cette expérience m’a permis de développer mes compétences en recherche, tri et synthèse de l’information. J’ai également appris plusieurs techniques de rédaction permettant de produire un texte percutant et accrocheur grâce à l'appui des personnes qui nous encadraient.</p>
+        </temoignage>
+    </temoignages>
+    <domaine nom="Vidéo" poids="4">
+        <tache>Reportage</tache>
+        <tache>Interview</tache>
+        <tache>Montage</tache>
+        <tache>Encodage</tache>
+        <tache>Distribution</tache>
+        <outil>Caméra</outil>
+        <outil>Microphone</outil>
+        <outil>Adobe Premiere</outil>
+        <outil>Final Cut Pro</outil>
+    </domaine>
+    <domaine nom="Web" poids="3">
+        <tache>Mockups</tache>
+        <tache>Maquettes</tache>
+        <tache>Modelisation</tache>
+        <tache>Développement</tache>
+        <tache>Intégration</tache>
+        <tache>Tests</tache>
+        <outil>Framework PHP</outil>
+        <outil>SGBD</outil>
+        <outil>jQuery</outil>
+        <outil>SASS</outil>
+    </domaine>
+    <domaine nom="Print" poids="2">
+        <tache>Mise en page</tache>
+        <tache>Prépresse</tache>
+        <tache>Impression </tache>
+        <tache>Façonnage</tache>
+        <outil>Adobe Illustrator</outil>
+        <outil>Adobe InDesign</outil>
+        <outil>Impression numérique</outil>
+    </domaine>
+    <domaine nom="Communication" poids="3">
+        <tache>Identification du public cible</tache>
+        <tache>Choix des canaux</tache>
+        <tache>Définition d'une stratégie</tache>
+        <tache>Création des éléments de communication</tache>
+        <tache>Teasing</tache>
+        <outil>CrossMédia</outil>
+    </domaine>
+    <team>
+        <personne id="jerome-clot-mm40"/>
+        <personne id="louis-allemann-mm40"/>
+        <personne id="mickael-justo-mm40"/>
+        <personne id="marine-lemonis-mm40"/>
+        <personne id="miranda-martinet-mm40"/>
+        <personne id="christophe-merkle-mm40"/>
+        <personne id="frederic-montet-mm40"/>
+        <personne id="noemie-sandoz-mm40"/>
+        <personne id="louisa-freymond-mm40"/>
+        <personne id="jonas-oesch-mm40"/>
+        <personne id="flavien-knuchel-mm40"/>
+        <personne id="andreane-mercier-mm40"/>
+        <personne id="yoan-gern-mm40"/>
+        <personne id="anne-grandjean-mm40"/>
+        <personne id="christophe-raste-mm40"/>
+    </team>
+    <superviseur>
+        <prenom>Fernand</prenom>
+        <nom>Melgar</nom>
+        <role>Cinénaste et documentaliste suisse</role>
+        <logo url="images/superviseurs/logo_melgar_precarite.jpg"/>
+        <organisation url="http://www.climage.ch/qsPortal/Home.asp">Association Climage Audiovisuel</organisation>
+        <commentaire>
+            <p>Je suis impressionné que, sur un délai aussi court, ces étudiants aient pu mettre sur pied un tel projet avec pertinence et efficacité. Les thématiques abordées, le contenu, la mise en page, les manières de traiter les différentes problématiques font de precarite.ch une plateforme multimédia déjà très complète et adéquate. À travers des situations très variées, ce site propose un éventail de personnes pouvant être touchées de manière durable ou temporaire par la précarité. De plus, il offre, sous la forme d'un annuaire unique en son genre, des réponses concrètes à ceux qui sont dans le besoin. La démarche de l’atelier expliquée dans "À propos" est également essentielle pour comprendre le projet, lui donner une légitimation et une certaine envergure. Cette plateforme constitue à mon avis une base déjà bien aboutie d’un futur projet sur la précarité destiné à un public large.</p>
+        </commentaire>
+    </superviseur>
 </projet>
