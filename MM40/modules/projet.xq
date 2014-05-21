@@ -157,7 +157,7 @@ declare function projet:superviseur($node as node(), $model as map(*))
             </section><section class="right">
                 <h2>
                     {data($superviseur//TM:prenom)}    {data($superviseur//TM:nom)} – {data($superviseur//TM:role)}</h2>
-                {data($superviseur//TM:commentaire)}
+                <p>{data($superviseur//TM:commentaire)}</p>
                 <p class="button"><a href="{data($superviseur//TM:organisation/@url)}">{data($superviseur//TM:organisation)}</a></p>
             </section>
         </section>
