@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projet prev="seminaire-entreprise-2014" url="http://mm40.comem.ch" next="cinema-lingua-2011" id="eb005e-2014" xmlns="http://ns.comem.ch/cours/TM">
+	<annee>2014</annee>
+	<nom>eb005e</nom>
+	<nom_court>eb005e</nom_court>
+	<video url="www.youtube.com/embed/kosnBQwaWtw"/>
+	<image url="images/projets/photo_eb005e-2014.jpg"/>
+	<description>
+		<p>Le cours transmédia est un projet qui regroupe l’ensemble des savoir-faire acquis par un ingénieur des médias au terme de ses trois ans de formation. Projet pluridisciplinaire, il nous demande de faire appel aux compétences que nous avons développées dans les trois pôles : communication, management et engineering.</p>
+		<p>Ayant soif d’innovation, nous avons décidé de nous approprier le thème imposé, le street art, non pas comme source de contenu mais comme nouveau médium.</p>
+		<p>Nous avons alors assuré une coordination entre différents médias - web, print, social, vidéo - pour créer un univers cohérent qui présente notre formation. En parallèle, nous avons pu nous essayer à l’art de la communication événementielle et du buzz médiatique pour créer un mystère autour de la finalité de notre projet.</p>
+		<p>#EB005E, en référence au code colorimétrique hexadécimal qui a été notre couleur de ralliement, est le nom de ce projet transmédia qui a conclu nos études en Ingénierie des Médias.</p>
+	</description>
+	<temoignages>
+		<temoignage>
+			<personne id="marine-lemonis-mm40"/>
+			<p>Durant le projet transmédia, j’ai voulu m’essayer à la gestion de teams. En prenant place dans le groupe de coordination, j’ai pu garder une vue d’ensemble sur tous les processus techniques, de production de contenu, de design et de communication. Je suis une personne polyvalente, douée d’un sens aigu de l’organisation.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="robin-jespierre-mit40"/>
+			<p>Le projet transmédia m’a permis de travailler avec de nouveaux supports et méthodes. J’ai été enchanté par la qualité du déroulement du projet ainsi que par le dévouement des différents membres de l’équipe. Ce projet m’a permis d’apprendre d’avantage sur la façon de gérer un projet tant au niveau de la communication interne et externe que la réalisation.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="noemie-sandoz-mm40"/>
+			<p>Lors de ce projet, je me suis principalement occupée du design. L’élaboration du visuel et de l’ergonomie de la carte m’a particulièrement intéressée. L’étroite collaboration avec l’équipe technique représente également un point important, car la communication interteam permet d’éviter des problèmes lors de la phase de développement.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="louis-allemann-mm40"/>
+			<p>Ce projet est composé de trois phases : méthodologie, contenu et diffusion. J’ai participé à chacune d’elle, durant la première phase, j’ai principalement participé à la planification de la campagne de communication basée sur le street art. Par la suite j’ai pu développer mon côté créatif en travaillant sur l’élaboration du design.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="mickael-justo-mm40"/>
+			<p>Transmédia marquait la fin du cursus de la formation d’ingénieur des médias. À travers de ce projet, nous avons pu mettre en commun tous les domaines appris au cours de notre formation : management, engineering et communication. En tant que coordinateur du projet, la partie management a été prépondérante pour ma part.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="anne-grandjean-mm40"/>
+			<p>Le projet transmédia est découpé en trois phases : méthodologie, contenu et diffusion. Je les ai vécues de façon différente. La première phase m’a permis de me situer concrètement dans un groupe de travail et d’y trouver la place qui me correspond. La seconde phase m’a permis de développer mon côté créatif avec le team responsable de la communication. La troisième phase permettait d’organiser et de mettre en place la campagne de communication. Celle-ci implique un temps de réaction court et une capacité à l’improvisation. J’ai alors appris à être réactive rapidement.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="louisa-freymond-mm40"/>
+			<p>De la méthodologie, en passant par le contenu puis la réalisation du projet, le projet transmédia permet de mettre en œuvre ses connaissances dans les domaines techniques, de communication et de management. Participer à ce projet, qui se déroule sur plusieurs semaines, permet d'approfondir les compétences acquises durant la formation d’ingénieur des médias et se révèle très utile pour le travail de bachelor. Tout au long de la campagne de communication, j’ai pu m’essayer au community management, tâche jamais effectuée auparavant. L’étude du comportement des followers, en particulier sur twitter, a été très enrichissante.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="miranda-martinet-mm40"/>
+			<p>Lors du projet transmédia, j’ai principalement participé à l’élaboration de la campagne de communication. Il a fallu être toujours attentif et prêt à modifier notre campagne au vu des réactions du public. C’était un poste très intéressant, car on peut voir directement la réaction du public et avoir un retour positif de leur part est gratifiant.</p>
+		</temoignage>
+	</temoignages>
+	<domaine nom="Video" poids="4">
+		<tache>Storyboard</tache>
+		<tache>Mise en scène</tache>
+		<tache>Réalisation</tache>
+		<tache>Prise de son</tache>
+		<tache>Montage</tache>
+		<tache>Post-production</tache>
+		<tache>Encodage</tache>
+		<tache>Distribution</tache>
+		<outil>Caméra</outil>
+		<outil>Final Cut Pro</outil>
+		<outil>Adobe Premiere</outil>
+		<outil>Tascam</outil>
+	</domaine>
+	<domaine nom="Communication" poids="5">
+		<tache>Identification du public cible</tache>
+		<tache>Choix des canaux</tache>
+		<tache>Définition d’une stratégie</tache>
+		<tache>Community management</tache>
+		<tache>Planification de campagne</tache>
+		<tache>Création des éléments de communication</tache>
+		<tache>Marketing Mix</tache>
+		<tache>Teasing</tache>
+		<outil>Réseaux sociaux</outil>
+		<outil>StreetArt</outil>
+		<outil>Gantt</outil>
+	</domaine>
+	<domaine nom="Web" poids="4">
+		<tache>Mockups</tache>
+		<tache>Maquettes</tache>
+		<tache>Modelisation</tache>
+		<tache>Développement</tache>
+		<tache>Intégration</tache>
+		<tache>Tests</tache>
+		<outil>XML</outil>
+		<outil>existDB</outil>
+		<outil>jQuery</outil>
+		<outil>HTML 5</outil>
+		<outil>CSS 3</outil>
+		<outil>SVG</outil>
+	</domaine>
+	<domaine nom="Management" poids="3">
+		<tache>Planification</tache>
+		<tache>Coordination</tache>
+		<tache>Gestion</tache>
+		<outil>Gantt</outil>
+		<outil>Planning des ressources</outil>
+		<outil>Budget</outil>
+	</domaine>
+	<domaine nom="Print" poids="3">
+		<tache>Prépresse</tache>
+		<tache>Mise en page</tache>
+		<tache>Impression numérique</tache>
+		<tache>Façonnage</tache>
+		<outil>Adobe Indesign</outil>
+		<outil>Adobe Illustrator</outil>
+		<outil>Adobe Photoshop</outil>
+	</domaine>
+	<team>
+		<personne id="marine-lemonis-mm40"/>
+		<personne id="christophe-merkle-mm40"/>
+		<personne id="frederic-montet-mm40"/>
+		<personne id="noemie-sandoz-mm40"/>
+		<personne id="jonas-oesch-mm40"/>
+		<personne id="flavien-knuchel-mm40"/>
+		<personne id="andreane-mercier-mm40"/>
+	</team>
+	<superviseur>
+		<prenom>Jean-Marc</prenom>
+		<nom>Seydoux</nom>
+		<role>Doyen du département Comem+, HEIG-VD</role>
+		<logo url="images/superviseurs/logo_seydoux_transmedia.svg"/>
+		<organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
+		<commentaire>
+			<p>Les étudiants de la classe MM40 se sont rapidement approprié le thème du street art, en l’utilisant comme un nouveau médium afin de promouvoir leur formation. Les résultats sont à la hauteur des espérances et démontrent les compétences acquises durant les trois ans de leur cursus. La classe a fait preuve d’une réelle capacité à évoluer dans un projet interdisciplinaire. La complémentarité et la diversité des profils des étudiants offrent une grande flexibilité de travail et une dynamique de groupe efficace et agréable.</p>
+		</commentaire>
+	</superviseur>
+</projet>
