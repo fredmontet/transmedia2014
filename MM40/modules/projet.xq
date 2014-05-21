@@ -8,7 +8,7 @@ import module namespace Functions='Functions' at 'functions.xq';
 
 declare default element namespace "http://www.w3.org/1999/xhtml";
 
-declare %templates:default("id", "stalker") function projet:this($node as node(), $model as map(*), $id as xs:string) as 
+declare %templates:default("id", "eb005e-2014") function projet:this($node as node(), $model as map(*), $id as xs:string) as 
 map(*) {
     let $projets := collection("/db/apps/MM40/data/projets")
     let $projet := $projets//TM:projet[contains(@id, $id)]
