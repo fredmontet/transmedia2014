@@ -1059,34 +1059,34 @@ footer nav {
       position: relative;
       border-width: 16px; }
 
-ul li ul li a {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  z-index: 100; }
-  ul li ul li a.transmedia {
-    background-image: url("../images/transmedia.svg"); }
-  ul li ul li a.cinemaLingua {
-    background-image: url("../images/cinemalingua.svg"); }
-  ul li ul li a.stuttgart {
-    background-image: url("../images/stuttgart.svg"); }
-  ul li ul li a.newsroom {
-    background-image: url("../images/newsroom.svg"); }
-  ul li ul li a.paleo {
-    background-image: url("../images/paleo.svg"); }
-  ul li ul li a.radio {
-    background-image: url("../images/radio.svg"); }
-  ul li ul li a.seminaire {
-    background-image: url("../images/seminaire.svg"); }
-  ul li ul li a.stalker {
-    background-image: url("../images/stalker.svg"); }
-  ul li ul li a.tedx {
-    background-image: url("../images/tedx.svg"); }
-
+@media only screen and (max-width: 640px) {
+  ul li ul li a {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    z-index: 100; }
+    ul li ul li a.transmedia {
+      background-image: url("../images/transmedia.svg"); }
+    ul li ul li a.cinemaLingua {
+      background-image: url("../images/cinemalingua.svg"); }
+    ul li ul li a.stuttgart {
+      background-image: url("../images/stuttgart.svg"); }
+    ul li ul li a.newsroom {
+      background-image: url("../images/newsroom.svg"); }
+    ul li ul li a.paleo {
+      background-image: url("../images/paleo.svg"); }
+    ul li ul li a.radio {
+      background-image: url("../images/radio.svg"); }
+    ul li ul li a.seminaire {
+      background-image: url("../images/seminaire.svg"); }
+    ul li ul li a.stalker {
+      background-image: url("../images/stalker.svg"); }
+    ul li ul li a.tedx {
+      background-image: url("../images/tedx.svg"); } }
 /***********************************/
 /*** Footer projects menu mobile ***/
 /***********************************/

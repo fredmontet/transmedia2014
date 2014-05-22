@@ -451,53 +451,54 @@ footer {
     
 }
 
-
-ul li ul li a {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    z-index: 100;
+@media only screen and (max-width: 640px) {
+    ul li ul li a {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        z-index: 100;
+        
+        &.transmedia {
+            background-image: url('../images/transmedia.svg');
+        }
+        
+        &.cinemaLingua {
+            background-image: url('../images/cinemalingua.svg');
+        }
+        
+        &.stuttgart {
+            background-image: url('../images/stuttgart.svg');
+        }
+        
+        &.newsroom {
+            background-image: url('../images/newsroom.svg');
+        }
+        
+        &.paleo {
+            background-image: url('../images/paleo.svg');
+        }
+        
+        &.radio {
+            background-image: url('../images/radio.svg');
+        }
+        
+        &.seminaire {
+            background-image: url('../images/seminaire.svg');
+        }
+        
+        &.stalker {
+            background-image: url('../images/stalker.svg');
+        }
+        
+        &.tedx {
+            background-image: url('../images/tedx.svg');
+        }
     
-    &.transmedia {
-        background-image: url('../images/transmedia.svg');
     }
-    
-    &.cinemaLingua {
-        background-image: url('../images/cinemalingua.svg');
-    }
-    
-    &.stuttgart {
-        background-image: url('../images/stuttgart.svg');
-    }
-    
-    &.newsroom {
-        background-image: url('../images/newsroom.svg');
-    }
-    
-    &.paleo {
-        background-image: url('../images/paleo.svg');
-    }
-    
-    &.radio {
-        background-image: url('../images/radio.svg');
-    }
-    
-    &.seminaire {
-        background-image: url('../images/seminaire.svg');
-    }
-    
-    &.stalker {
-        background-image: url('../images/stalker.svg');
-    }
-    
-    &.tedx {
-        background-image: url('../images/tedx.svg');
-    }
-
 }
 
 
