@@ -156,7 +156,8 @@ p.button,
     }
     
     .characteristic,
-    .principalTestimony {
+    .principalTestimony,
+    .print {
         background-color: $gray;
         
         &:after {
@@ -205,7 +206,7 @@ p.button,
             .content h1 {
                 color: $darkColor;
                 margin-right: 0;    
-                padding: 15px;
+                padding: 15px 0;
             }
         }
     }
@@ -959,7 +960,7 @@ header {
         	margin-bottom: -30px;
         	
         	&:after {
-            	display: none;
+            	display: none !important;
         	}
         	
             
@@ -1274,7 +1275,7 @@ header {
             
             section.details {
                 display: none;
-                
+                overflow: auto;
                 
                 h1 {
                     font-size: 1.1em;

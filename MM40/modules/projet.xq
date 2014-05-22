@@ -44,7 +44,7 @@ declare function projet:prev($node as node(), $model as map(*))
 declare %templates:wrap function projet:video($node as node(), $model as map(*))
 {
     <div class="player">
-        <iframe id="ytplayer" type="text/html" width="100%" height="100%" src="{$model("projet")//TM:video/@url}" frameborder="0"/>
+        <iframe id="ytplayer" type="text/html" width="100%" height="100%" src="{concat($model("projet")//TM:video/@url, "?autoplay=0&#38;autohide=1&#38;color=red&#38;controls=1&#38;iv_load_policy=3&#38;modestbranding=1&#38;theme=light&#38;showinfo=0")}" frameborder="0" allowfullscreen="1"/>
     </div>
 };
 
@@ -151,7 +151,7 @@ declare function projet:superviseur($node as node(), $model as map(*))
     return
     <article class="principalTestimony">
         <section class="content">
-            <h1>Témoignage du mandant</h1>
+            <h1>Témoignage du superviseur</h1>
             <section class="left">
                 <img src="{data($superviseur//TM:logo/@url)}" />
             </section><section class="right">
