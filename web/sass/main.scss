@@ -392,16 +392,6 @@ p.button,
             
         }
     }
-    
-    @media only screen and (max-width: 500px) {
-        ul {
-            
-            li {
-                
-                
-            }
-        }
-    }
 
 }
 
@@ -451,6 +441,10 @@ footer {
     
 }
 
+
+/*******************************/
+/*** Project link for mobile ***/
+/*******************************/
 @media only screen and (max-width: 640px) {
     ul li ul li a {
         width: 100%;
@@ -590,6 +584,14 @@ header {
                 display: inline-block;
                 cursor: pointer;
                 
+                &#project {
+                    padding-right: 15px;
+                    background-image: url('../images/arrow_down.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: right center;
+                }
+                
                 a {
                     color: $white;
                     text-decoration: none;
@@ -668,6 +670,11 @@ header {
                 	text-align: center;
                 	font-family: $font-regular;
                 	font-size: 1.3em;
+                	
+                	&#project {
+                    	background: none;
+                    	padding-right: 0;
+                	}
                 	
                 	&#project ul {
                 	    display: block;
@@ -1411,6 +1418,14 @@ header {
             
             nav {
                 display: inline-block;
+                
+                #project_bottom > a {
+                    padding-right: 25px;
+                    background-image: url('../images/arrow_down_black.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: right center;
+                }
                 
                 ul li {
                     display: inline-block;
