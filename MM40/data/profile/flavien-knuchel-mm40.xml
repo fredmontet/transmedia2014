@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="flavien-knuchel-mm40" mail_print="knuchelf@gmail.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Knuchel</nom>
+	<prenom>Flavien</prenom>
+	<usp>“La créativité est contagieuse, faites la tourner” - A.Einstein</usp>
+	<photos>
+		<photo url="images/profiles/base_flavien-knuchel-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_flavien-knuchel-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_flavien-knuchel-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Passionné par les nouvelles technologies, le design, l’interactivité, les jeux vidéos et la communication, je suis un “touche-à-tout” éclairé qui aime la diversité et multiplier les expériences. Que ce soit en passant des heures à programmer, en élaborant des concepts ou en organisant des idées, je m’investis pour valoriser mes réalisations et pour atteindre mes objectifs.</p>
+		<p>J’aime mener un projet de son début jusqu’à sa clôture, et apporter mon aide dans toutes ses phases. J’en tire des expériences riches, une vision globale, l'assurance d'une cohérence, et le sentiment gratifiant d’un travail accompli.</p>
+	</description>
+	<projets>
+		<projet id="radio-comem-2012"/>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="paleo-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="http://www.linkedin.com/pub/flavien-knuchel/61/9b9/75" genre="linkedin">LinkedIn</lien>
+		<lien url="mailto:knuchelf@gmail.com" genre="mail">Mail</lien>
+	</liens>
+</profile>

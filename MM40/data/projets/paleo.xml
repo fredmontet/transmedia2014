@@ -3,12 +3,13 @@
 	<annee>2014</annee>
 	<nom>Projets Paléo</nom>
 	<nom_court>Paléo</nom_court>
-	<video url="www.youtube.com/embed/S5IWECgo8aA"/>
+	<video url="http://www.youtube.com/embed/4YhY3c7UanI"/>
 	<image url="images/projets/photo_paleo-2013.jpg"/>
 	<description>
 		<p>Depuis 4 ans, les ingénieurs des médias ont rejoint les étudiants des autres filières de la HES-SO afin de réaliser une animation durant toute la semaine du Paléo Festival, dans le village HES-SO.</p>
-		<p>Pour ces projets, nous avons formé un groupe d’une dizaine d’étudiants, qui, sous la direction d’un chef de projet, avait comme tâche la conceptualisation d’un thème donné. Une deuxième partie, consistait à mettre en place une animation ludique sur le site du festival, permettant de présenter les compétences des ingénieurs des médias.</p>
-		<p>Pour les étudiants, c’est une occasion unique au cours de leur formation, de présenter un projet concret à un très large public. L’expérience est très intéressante car elle fait appel à la gestion de projet à large échelle et présente un côté créatif très apprécié.</p><p>Le projet Paléo est un atelier annuel facultatif qui se déroule de janvier à juillet, pour se terminer en beauté lors de la semaine du festival.</p>
+		<p>Pour ces projets, nous avons formé un groupe d’une dizaine d’étudiants, qui, sous la direction d’un chef de projet, avaient comme tâche la conceptualisation d’un thème donné. Une deuxième partie consistait à mettre en place une animation ludique sur le site du festival, permettant de présenter les compétences des ingénieurs des médias.</p>
+		<p>Pour les étudiants, c’est une occasion unique au cours de leur formation de présenter un projet concret à un très large public. L’expérience est très intéressante car elle fait appel à la gestion de projet à large échelle et présente un côté créatif très apprécié.</p>
+		<p>Le projet Paléo est un atelier annuel facultatif qui se déroule de janvier à juillet, pour se terminer en beauté lors de la semaine du festival.</p>
 	</description>
 	<temoignages>
 		<temoignage>
@@ -21,11 +22,11 @@
 		</temoignage>
 		<temoignage>
 			<personne id="miranda-martinet-mm40"/>
-			<p>Paléo a été un des projets que j’ai le plus apprécié. C’était vraiment gratifiant de pouvoir participer à un projet concret et d’avoir eu la possibilité d’être directement en contact avec notre public pendant le festival. Travailler dans le domaine de l’événementiel m’a été très profitable et m’a donné envie de continuer dans cette voie.</p>
+			<p>Paléo a été un des projets que j’ai le plus apprécié. C’était vraiment gratifiant de pouvoir participer à un projet concret et d’avoir eu la possibilité d’être directement en contact avec le public pendant le festival. Travailler dans le domaine de l’événementiel m’a été très profitable et m’a donné envie de continuer dans cette voie.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="flavien-knuchel-mm40"/>
-			<p>Ayant participé à deux éditions du Paléo Festival dans le cadre du projet comem+, je ressors de ma formation avec un bagage supplémentaire concernant l’évènementiel et l’animation. Le côté décalé et libre du projet m’a beaucoup attiré, et en y participant, j’ai pris conscience que le travail requis pour monter un projet, qui de l’extérieur peut sembler modeste, est souvent énorme. Si j’en avais l’occasion, je recommencerais sans hésiter!</p>
+			<p>Ayant participé à deux éditions du Paléo Festival dans le cadre du projet comem+, je ressors de ma formation avec un bagage supplémentaire concernant l’évènementiel et l’animation. Le côté décalé et libre du projet m’a beaucoup attiré, et, en y participant, j’ai pris conscience que le travail requis pour monter un projet, qui de l’extérieur peut sembler modeste, est souvent énorme. Si j’en avais l’occasion, je recommencerais sans hésiter!</p>
 		</temoignage>
 	</temoignages>
 	<domaine nom="Communication" poids="5">
@@ -33,10 +34,10 @@
 		<tache>Choix des canaux</tache>
 		<tache>Définition d'une stratégie</tache>
 		<tache>Community Management</tache>
-		<tache>Mix Marketing</tache>
+		<tache>Marketing Mix</tache>
 		<tache>Teasing</tache>
-		<outil>Réseaux Sociaux</outil>
-		<outil>CrossMédia</outil>
+		<outil>Réseaux sociaux</outil>
+		<outil>Cross Media</outil>
 		<outil>Gantt</outil>
 	</domaine>
 	<domaine nom="Web" poids="3">
@@ -54,6 +55,7 @@
 		<tache>Ajustement</tache>
 		<tache>Coordination</tache>
 		<tache>Gestion</tache>
+		<outil>Cross Media</outil>
 		<outil>Gantt</outil>
 		<outil>Budget</outil>
 		<outil>Planning des ressources</outil>
@@ -72,7 +74,7 @@
 		<logo url="images/superviseurs/logo_tellenbach_paleo.svg"/>
 		<organisation url="http://www.hes-so.ch">HES - SO</organisation>
 		<commentaire>
-			<p>La participation de l’Ingénierie des Médias au projet Paléo fait découvrir de manière ludique l’univers des nouvelles technologies dans notre quotidien. Les ingénieures et ingénieurs de cette filière participent depuis quatre ans au projet HES-SO Paléo. Leur engagement contribue à rendre attractive cette filière technologique, souvent mal connue du public. Des animations originales, ludiques et interactives sont proposées aux visiteurs lors de chaque édition. Les étudiants, souvent très "geeks", apportent la fraîcheur de leur approche sur les nouvelles tendances très en vogue auprès du jeune public.</p>
+			<p>La participation de l’Ingénierie des Médias au projet Paléo fait découvrir de manière ludique l’univers des nouvelles technologies dans notre quotidien. Les ingénieur-e-s de cette filière participent depuis quatre ans au projet HES-SO Paléo. Leur engagement contribue à rendre attractive cette filière technologique, souvent mal connue du public. Des animations originales, ludiques et interactives sont proposées aux visiteurs lors de chaque édition. Les étudiants, souvent très "geeks", apportent la fraîcheur de leur approche sur les nouvelles tendances très en vogue auprès du jeune public.</p>
 		</commentaire>
 	</superviseur>
 </projet>

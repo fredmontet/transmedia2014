@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile xmlns="http://ns.comem.ch/cours/TM" id="marine-lemonis-mm40" mail_print="marine.lemonis@gmail.com" sexe="f">
+<profile id="marine-lemonis-mm40" mail_print="marine.lemonis@gmail.com" sexe="f" xmlns="http://ns.comem.ch/cours/TM">
 	<nom>Lemonis</nom>
 	<prenom>Marine</prenom>
 	<usp>Une vision globale des processus, entre curiosité et organisation</usp>
 	<photos>
 		<photo url="images/profiles/base_marine-lemonis-mm40.jpg" genre="base"/>
 		<photo url="images/profiles/avatar_marine-lemonis-mm40.svg" genre="avatar"/>
-		<photo url="images/profiles/portfolio_marine-lemonis-mm40.jpg" genre="portfolio"/>
 	</photos>
 	<description>
 		<p>De nature organisée et ouverte, je suis intéressée à m’investir dans des projets qui ont de grandes ambitions. Au sein d’une équipe, tel que cela a été le cas durant le cours de <a href="projet.html?id=eb005e-2014">Transmedia</a>, je prends volontiers la place de coordinatrice, ce qui me permet de garder une vue globale sur l’ensemble des processus.</p>
 		<p>Polyvalente et méthodique, j’aime relever des challenges en prenant la responsabilité de tâches cruciales pour la concrétisation d’un projet. Curieuse et dotée d’une forte capacité d’apprentissage, je cherche sans cesse à développer de nouvelles compétences et à mettre en pratique mes acquis à des fins d’amélioration continue.</p>
-		<p>Je porte un intérêt tout particulier au domaine des médias audiovisuels, car ils sont pour moi, le meilleur moyen de livrer mes messages (voir mon court-métrage réalisé pour le projet <a href="projet.html?id=short-stalk-2013">Short-stalk - au seuil des désirs</a>). Motivée et enthousiaste, j’ai fait le choix d’intégrer les équipes des ateliers de <a href="projet.html?id=radio-comem-2012">Radio Comem</a> ainsi que du <a href="projet.html?id=paleo-2013">Projet Paléo</a>, car je souhaitais présenter des projets concrets et aller à la rencontre du public.</p>
-		<p>Autonome, je suis également à l’aise dans des groupes de travail et possède de très bonnes connaissances en marketing et en communication. Chaque projet représente un défi, c’est pourquoi je m’y investis toujours à 100%.</p>
+		<p>Je porte un intérêt tout particulier au domaine des médias audio-visuels, car ils sont pour moi le meilleur moyen de livrer des messages (voir mon court-métrage réalisé pour le projet <a href="projet.html?id=short-stalk-2013">Short-stalk - au seuil des désirs</a>). Motivée et enthousiaste, j’ai fait le choix d’intégrer les équipes des ateliers de <a href="projet.html?id=radio-comem-2012">Radio Comem</a> ainsi que du <a href="projet.html?id=paleo-2013">projet Paléo</a>, car je souhaitais présenter des projets concrets et aller à la rencontre du public.</p>
+		<p>Autonome, je suis également à l’aise dans des groupes de travail et possède de très bonnes connaissances en marketing et en communication. Chaque projet représente un défi, c’est pourquoi je m’y investis toujours à 150%.</p>
 	</description>
 	<projets>
-		<projet id="workshop-hdm-2013"/>
-		<projet id="precarite-2014"/>
-		<projet id="paleo-2013"/>
 		<projet id="radio-comem-2012"/>
+		<projet id="workshop-hdm-2013"/>
 		<projet id="short-stalk-2013"/>
 		<projet id="tedxlausanne-2013"/>
+		<projet id="paleo-2013"/>
+		<projet id="precarite-2014"/>
 		<projet id="eb005e-2014"/>
 	</projets>
 	<liens>

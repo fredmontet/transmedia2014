@@ -247,7 +247,7 @@ p.button,
     @include content($darkTransmedia, $lightTransmedia);
     
     // Transmedia
-    &.transmedia-2014 {
+    &.eb005e-2014 {
         @include content($darkTransmedia, $lightTransmedia);
         
         #simpleLogo {
@@ -256,22 +256,22 @@ p.button,
     }
     
     // Shortstalk
-    &.stalker-2013 {
+    &.short-stalk-2013 {
         @include content($darkShortstalk, $lightShortstalk);
     }
     
     // Tedx
-    &.tedx-2013 {
+    &.tedxlausanne-2013 {
         @include content($darkTedx, $lightTedx);
     }
     
     // Cinemalingua
-    &.cinemalingua-2011 {
+    &.cinema-lingua-2011 {
         @include content($darkCinemalingua, $lightCinemalingua);
     }
     
     // Radiocomem
-    &.radiocomem-2012 {
+    &.radio-comem-2012 {
         @include content($darkRadiocomem, $lightRadiocomem);
     }
     
@@ -281,17 +281,17 @@ p.button,
     }
     
     // Paleo
-    &.paleo {
+    &.paleo-2013 {
         @include content($darkPaleo, $lightPaleo);
     }
     
     // Newsroom
-    &.newsroom-2014 {
+    &.precarite-2014 {
         @include content($darkNewsroom, $lightNewsroom);
     }
     
     // Stuttgart
-    &.stuttgart-2013 {
+    &.workshop-hdm-2013 {
         @include content($darkStuttgart, $lightStuttgart);
     }
 }
@@ -392,16 +392,6 @@ p.button,
             
         }
     }
-    
-    @media only screen and (max-width: 500px) {
-        ul {
-            
-            li {
-                
-                
-            }
-        }
-    }
 
 }
 
@@ -451,6 +441,10 @@ footer {
     
 }
 
+
+/*******************************/
+/*** Project link for mobile ***/
+/*******************************/
 @media only screen and (max-width: 640px) {
     ul li ul li a {
         width: 100%;
@@ -462,39 +456,39 @@ footer {
         background-position: center center;
         z-index: 100;
         
-        &.transmedia {
+        &.eb005e-2014 {
             background-image: url('../images/transmedia.svg');
         }
         
-        &.cinemaLingua {
+        &.cinema-lingua-2011 {
             background-image: url('../images/cinemalingua.svg');
         }
         
-        &.stuttgart {
+        &.workshop-hdm-2013 {
             background-image: url('../images/stuttgart.svg');
         }
         
-        &.newsroom {
+        &.precarite-2014 {
             background-image: url('../images/newsroom.svg');
         }
         
-        &.paleo {
+        &.paleo-2013 {
             background-image: url('../images/paleo.svg');
         }
         
-        &.radio {
+        &.radio-comem-2012 {
             background-image: url('../images/radio.svg');
         }
         
-        &.seminaire {
+        &.seminaire-entreprise-2014 {
             background-image: url('../images/seminaire.svg');
         }
         
-        &.stalker {
+        &.short-stalk-2013 {
             background-image: url('../images/stalker.svg');
         }
         
-        &.tedx {
+        &.tedxlausanne-2013 {
             background-image: url('../images/tedx.svg');
         }
     
@@ -590,6 +584,14 @@ header {
                 display: inline-block;
                 cursor: pointer;
                 
+                &#project {
+                    padding-right: 15px;
+                    background-image: url('../images/arrow_down.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: right center;
+                }
+                
                 a {
                     color: $white;
                     text-decoration: none;
@@ -668,6 +670,11 @@ header {
                 	text-align: center;
                 	font-family: $font-regular;
                 	font-size: 1.3em;
+                	
+                	&#project {
+                    	background: none;
+                    	padding-right: 0;
+                	}
                 	
                 	&#project ul {
                 	    display: block;
@@ -1139,7 +1146,7 @@ header {
         }
         
         .right {
-            width: 60%;
+            width: 59%;
             display: inline-block;
             margin: 0 5%;
             bottom: 0;
@@ -1411,6 +1418,14 @@ header {
             
             nav {
                 display: inline-block;
+                
+                #project_bottom > a {
+                    padding-right: 25px;
+                    background-image: url('../images/arrow_down_black.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: right center;
+                }
                 
                 ul li {
                     display: inline-block;

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="noemie-sandoz-mm40" mail_print="noemie.sandoz@gmail.com" sexe="f" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Sandoz</nom>
+	<prenom>Noémie</prenom>
+	<usp>Créative, curieuse, volontaire et polyvalente</usp>
+	<photos>
+		<photo url="images/profiles/base_noemie-sandoz-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_noemie-sandoz-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_noemie-sandoz-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Tout ce qui touche à l’aspect visuel et le design m’intéresse beaucoup. Je suis curieuse et toujours prête à découvrir des nouveautés. Je travaille aussi bien en équipe que seule. L’autonomie et la polyvalence sont indispensables dans ce métier.</p>
+		<p>Pour le print et le digital, je suis passionnée par l’entier du processus de la chaîne graphique, de la conception à la diffusion, en passant par la réalisation.</p>
+		<p>Mon objectif principal est la satisfaction du client. Pour cela, il est essentiel d’utiliser de manière optimale les différents supports de diffusion de l’information et de rendre l’expérience utilisateur la meilleure possible.</p>
+	</description>
+	<projets>
+		<projet id="radio-comem-2012"/>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="http://noemiesandoz.ch" genre="site_perso">Site perso</lien>
+		<lien url="http://ch.linkedin.com/in/nsandoz" genre="linkedin">LinkedIn</lien>
+	</liens>
+</profile>

@@ -43,6 +43,13 @@ else if (contains($exist:path, "/css/")) then
         </forward>
     </dispatch>
     
+else if (contains($exist:path, "/fonts/")) then
+    <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+        <forward url="{$exist:controller}/resources/fonts/{substring-after($exist:path, '/fonts/')}">
+            <set-header name="Cache-Control" value="max-age=3600, must-revalidate"/>
+        </forward>
+    </dispatch>
+    
 else if (contains($exist:path, "/js/")) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <forward url="{$exist:controller}/resources/js/{substring-after($exist:path, '/js/')}">
