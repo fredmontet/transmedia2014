@@ -99,7 +99,7 @@
 			span{
 				//text-transform: capitalize;
 				position:absolute;
-				font-family:arial;
+				//font-family:arial;
 				left:26px;
 				top:23px;
 				color:$pink;
@@ -152,6 +152,10 @@
 
 	#map{
 		background-color:#ffecc6;
+
+		.avatar{
+			cursor:pointer;
+		}
 
 	}
 }

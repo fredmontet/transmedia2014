@@ -212,7 +212,6 @@ table {
 }
 #homeContainer #infoBox #infoButton span {
   position: absolute;
-  font-family: arial;
   left: 26px;
   top: 23px;
   color: #eb005e;
@@ -255,6 +254,9 @@ table {
 }
 #homeContainer #map {
   background-color: #ffecc6;
+}
+#homeContainer #map .avatar {
+  cursor: pointer;
 }
 
 body {

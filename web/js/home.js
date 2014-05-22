@@ -13,14 +13,45 @@ $(document).ready(function(){
 	//Initialisation des action pour les différents projets
 	$(".project").mouseenter(function(){
 		var project = "\#"+$(this).attr("id");
-		Snap.select(project).animate({fill: 'rgb(149, 216, 242)'}, 100, mina.ease);
+		console.log(project);
+
+		//Coloration de la ligne ou la souris est entrée
+		switch(project){
+			case "#transmedia":
+				Snap.select(project).animate({fill: '#eb005e'}, 100, mina.ease);
+			break;
+			case "#cinemalingua":
+				Snap.select(project).animate({fill: '#1B6834'}, 100, mina.ease);
+			break;
+			case "#stuttgart":
+				Snap.select(project).animate({fill: '#AB280F'}, 100, mina.ease);
+			break;
+			case "#newsroom":
+				Snap.select(project).animate({fill: '#652D2A'}, 100, mina.ease);
+			break;
+			case "#paleo":
+				Snap.select(project).animate({fill: '#3A2159'}, 100, mina.ease);
+			break;
+			case "#radiocomem":
+				Snap.select(project).animate({fill: '#007DA4'}, 100, mina.ease);
+			break;
+			case "#seminaire":
+				Snap.select(project).animate({fill: '#336699'}, 100, mina.ease);
+			break;
+			case "#stalker":
+				Snap.select(project).animate({fill: '#766454'}, 100, mina.ease);
+			break;
+			case "#tedx":
+				Snap.select(project).animate({fill: '#FF2B06'}, 100, mina.ease);
+			break;
+
+		}
 		
 	});	
 
 	$(".project").mouseleave(function(){
 		var project = "\#"+$(this).attr("id");
 		Snap.select(project).animate({fill: '#010102'}, 100, mina.ease);
-
 	});
 
 
@@ -31,27 +62,39 @@ $(document).ready(function(){
 
 		//Si le curseur rentre dans une autre ligne, on reset la couleur de toues les lignes...
 		//if($(this).hasClass("active")==false){
-		    Snap.select("#ligne1").animate({fill: '#CCCCCC'}, 100, mina.ease);
-			Snap.select("#ligne2").animate({fill: '#B3B3B3'}, 100, mina.ease);
-			Snap.select("#ligne3").animate({fill: '#666666'}, 100, mina.ease);
+	    Snap.select("#ligne1").animate({fill: '#CCCCCC'}, 100, mina.ease);
+		Snap.select("#ligne2").animate({fill: '#B3B3B3'}, 100, mina.ease);
+		Snap.select("#ligne3").animate({fill: '#666666'}, 100, mina.ease);
 
-			//On cache toutes les infos
-			$(".infoArticle").hide();
+		//On cache toutes les infos
+		$(".infoArticle").hide();
 
-			//On enlève toutes les classes actives
-			$("#ligne1 #ligne2 #ligne3").removeClass("active");
+		//On enlève toutes les classes actives
+		$("#ligne1 #ligne2 #ligne3").removeClass("active");
 
 		//}
 
-			//On set la nouvelle ligne active avec la classe active
-			$(this).addClass("active");
+		//On set la nouvelle ligne active avec la classe active
+		$(this).addClass("active");
 
-			//Coloration de la ligne ou la souris est entrée
-			Snap.select(ligne).animate({fill: 'rgb(149, 216, 242)'}, 100, mina.ease);
+		//Coloration de la ligne ou la souris est entrée
+		switch(ligne){
+			case "#ligne1":
+				Snap.select(ligne).animate({fill: '#16679b'}, 100, mina.ease);
+			break;
+			case "#ligne2":
+				Snap.select(ligne).animate({fill: '#3C97D1'}, 100, mina.ease);
+			break;
+			case "#ligne3":
+				Snap.select(ligne).animate({fill: '#8BC5E9'}, 100, mina.ease);
+			break;
+		}
 
-			//Affichage de l'infobox correspondante
-			var infoId = ligne+"Info";
-			displayInfo(infoId);
+		
+
+		//Affichage de l'infobox correspondante
+		var infoId = ligne+"Info";
+		displayInfo(infoId);
 		
 	});
 
@@ -76,7 +119,17 @@ $(document).ready(function(){
 	$(".avatar").mouseenter(function(){
 		var cercle = "\#"+$(this).attr("id")+" .cercle";
 		console.log(cercle);
+
+		
+
 		Snap.select(cercle).animate({fill: '#f4e210'}, 100, mina.ease);
+
+		//On cache toutes les infos
+		$(".infoArticle").hide();
+
+		//On enlève toutes les classes actives
+		$(".avatar").removeClass("active");
+
 	});
 
 	$(".avatar").mouseleave(function(){
@@ -84,8 +137,6 @@ $(document).ready(function(){
 		console.log(cercle);
 		Snap.select(cercle).animate({fill: '#ffffff'}, 100, mina.ease);
 	});
-
-
 
 
 	//Interactions infobox
