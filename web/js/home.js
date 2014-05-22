@@ -44,9 +44,7 @@ $(document).ready(function(){
 			case "#tedx":
 				Snap.select(project).animate({fill: '#FF2B06'}, 100, mina.ease);
 			break;
-
 		}
-		
 	});	
 
 	$(".project").mouseleave(function(){
@@ -164,7 +162,7 @@ $(window).load(function(){
 	console.log("width = "+screenWidth+"  height = "+screenHeight);
 
 	//Initialisation de la carte
-	var panZoomTiger = svgPanZoom('#map')
+	var panZoomTiger = svgPanZoom('#map');
 
 	//Variables de positionnement de la carte
 	var svgPosX = Math.floor(($(window).width()/100)*46.6);
