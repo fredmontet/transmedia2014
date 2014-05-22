@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile id="frederic-montet-mm40" mail_print="hello@fredmontet.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
-	<nom>Frédéric</nom>
-	<prenom>Montet</prenom>
+	<nom>Montet</nom>
+	<prenom>Frédéric</prenom>
 	<usp>Réflexion, vision et action pour redécouvrir l’essentiel</usp>
 	<photos>
 		<photo url="images/profiles/base_frederic-montet-mm40.jpg" genre="base"/>
