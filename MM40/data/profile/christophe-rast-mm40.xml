@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="christophe-rast-mm40"  mail_print="rast.christophe@gmail.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Rast</nom>
+	<prenom>Christophe</prenom>
+	<usp>Technophile mobile et connecté</usp>
+	<photos>
+		<photo url="images/profiles/base_christophe-rast-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_christophe-rast-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_christophe-rast-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Intéressé par le web mobile, je me situe dans le pôle ingénierie et communication de comem+. J’apprécie les défis techniques ainsi que les stratégies de communication transmédia.</p>
+		<p>Mon premier projet à comem+ a été <a href="projet.html?id=cinema-lingua-2011">Cinéma Lingua</a>, qui m’a fait découvrir et apprécier le domaine de la production audio-visuelle. Depuis, chaque projet me permet de me diversifier et d’exercer avec plaisir les techniques multimédias vues pendant les cours.</p>
+	</description>
+	<projets>
+		<projet id="cinema-lingua-2011"/>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="mailto:rast.christophe@gmail.com" genre="mail">Mail</lien>
+		<lien url="ch.linkedin.com/in/christopherast" genre="linkedin">LinkedIn</lien>
+	</liens>
+</profile>

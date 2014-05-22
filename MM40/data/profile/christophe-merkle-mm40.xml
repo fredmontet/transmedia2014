@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="christophe-merkle-mm40" mail_print="christophemerkle@gmail.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Merkle</nom>
+	<prenom>Christophe</prenom>
+	<usp>Never stop discovering</usp>
+	<photos>
+		<photo url="images/profiles/base_christophe-merkle-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_christophe-merkle-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_christophe-merkle-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Ma passion est dans la recherche dans des nouvelles techniques et de les intégrer dans des projets. J’essaie de m’ameliorer constamment et de garder une grande ouverture d’esprit pour mieux être inspiré.</p>
+	</description>
+	<projets>
+		<projet id="cinema-lingua-2011"/>
+		<projet id="radio-comem-2012"/>		
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>		
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="seminaire-entreprise-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="http://christophemerkle.com" genre="site_perso">Site perso</lien>
+	</liens>
+</profile>

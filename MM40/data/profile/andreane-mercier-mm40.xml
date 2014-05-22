@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="andreane-mercier-mm40" mail_print="mercier.andreane@gmail.com" sexe="f" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Mercier</nom>
+	<prenom>Andréane</prenom>
+	<usp>Organisation, sens de l’équipe et vision globale au service du projet</usp>
+	<photos>
+		<photo url="images/profiles/base_andreane-mercier-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_andreane-mercier-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_andreane-mercier-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>De nature sociale, j’aime beaucoup travailler en équipe. Cela permet de créer une bonne dynamique, essentielle pour récolter les différents points de vues concernant le projet. Il est ensuite essentiel de sélectionner les idées réalisables et de trouver des alternatives pour les autres. Personnellement, j’aime tenir ce genre de rôle, je suis capable de prendre du recul tout en restant consciente de l’ensemble des éléments du projet. Logique et méthodique dans mes raisonnements, je me sens particulièrement à l’aise dans la planification, l’organisation et la gestion.</p>
+		<p>Les pôles les plus marquants de ma formation d'ingénieure des médias sont pour moi la communication et le management. J’ai donc développé mes compétences dans ces domaines au travers des projets que nous avons réalisés durant nos 3 années de formation. Mon âme de coordinatrice m’a amenée à participer à la planification et à la gestion des projets. Cette vision d’ensemble m’a permis de guider les différents groupes de manière souple et efficace.</p>
+	</description>
+	<projets>	
+		<projet id="radio-comem-2012"/>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="paleo-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="mailto:mercier.andreane@gmail.com" genre="mail">Mail</lien>
+	</liens>
+</profile>
