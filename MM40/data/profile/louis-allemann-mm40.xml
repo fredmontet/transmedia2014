@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="louis-allemann-mm40" mail_print="louis.allemann@romandie.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Allemann</nom>
+	<prenom>Louis</prenom>
+	<usp>Création et design, analyse des besoins et expérience utilisateur, communication et travail en groupe</usp>
+	<photos>
+		<photo url="images/profiles/base_louis-allemann-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_louis-allemann-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_louis-allemann-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Médiamaticien de formation j’ai toujours apprécié travailler dans des domaines variés tels que la création graphique, le web ou encore l’audio-visuel.</p>
+		<p>La formation comem+ a développé ma polyvalence et m’a permis de prendre conscience que seule une conception réfléchie permet de réaliser un produit réellement adapté à l’utilisateur. L’aspect design et création graphique dont j’aime soigner les détails m’intéresse particulièrement.</p>
+		<p>J’apprécie le travail en groupe, c’est pour moi un bon moyen d’échanger et de développer ma créativité. La communication au sein d’un groupe est à mon sens primordiale, c’est pourquoi j’y accorde une attention particulière afin que chacun ait une vision globale du projet tout au long du processus.</p>
+		<p>Curieux de nature, j’aime expérimenter de nouvelles méthodologies de travail et approfondir mes connaissances technologiques, je peux ainsi m’investir rapidement dans des projets nouveaux.</p>
+	</description>
+	<projets>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+	</liens>
+</profile>

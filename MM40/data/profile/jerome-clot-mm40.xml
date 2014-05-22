@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="jerome-clot-mm40" mail_print="jrmeclt@gmail.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Clot</nom>
+	<prenom>Jérôme</prenom>
+	<usp>Créativité, vision globale et polyvalence au service de l'équipe</usp>
+	<photos>
+		<photo url="images/profiles/base_jerome-clot-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_jerome-clot-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_jerome-clot-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>À l'aise dans tous les domaines, avec une préférence pour les produits audiovisuels. J'aime prendre part aux processus de création, trouver des idées innovantes, relever de nouveaux défis et apprendre de mes expériences.</p>
+		<p>Dans le développement de projet, mon sens critique et ma vision globale apportent une plus value à l'équipe. Ma polyvalence me permet d'intégrer rapidement de nombreux rôles dans des structures et environnements variés.</p>
+	</description>
+	<projets>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="seminaire-entreprise-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="http://www.linkedin.com/pub/jérôme-clot/51/613/240" genre="linkedin">LinkedIn</lien>
+	</liens>
+</profile>

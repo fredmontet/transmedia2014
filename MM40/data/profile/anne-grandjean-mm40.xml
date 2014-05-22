@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile xmlns="http://ns.comem.ch/cours/TM" id="anne-grandjean-mm40"  mail_print="anne.grandjean@bluewin.ch" sexe="f">
+<profile id="anne-grandjean-mm40"  mail_print="anne.grandjean@bluewin.ch" sexe="f" xmlns="http://ns.comem.ch/cours/TM">
 	<nom>Grandjean</nom>
 	<prenom>Anne</prenom>
-	<usp>Organisée et volontaire, au service de la cohérence des équipes projet</usp>
+	<usp>Organisée, pragmatique et volontaire, au service de la cohérence des équipes projet</usp>
 	<photos>
 		<photo url="images/profiles/base_anne-grandjean-mm40.jpg" genre="base"/>
 		<photo url="images/profiles/avatar_anne-grandjean-mm40.svg" genre="avatar"/>
 		<photo url="images/profiles/portfolio_anne-grandjean-mm40.jpg" genre="portfolio"/>
 	</photos>
 	<description>
-		<p>La diversité de la formation comem+ m’a permis d’acquérir de la polyvalence en suivant des cours de communication, de managment et d’ingénierie. J’ai pu exploiter et développer mes aptitudes personnelles, mais aussi développer de nouvelles compétences telles que la mise en scène d’une présentation, la gestion de projet ou la programmation. J’apprécie particulièrement le travail en équipe, une composante importante des projets que nous avons réalisés.</p>
-		<p>Lors du projet <a href="projet.html?id=precarite-2014">NewsRoom</a>, j’ai pris la responsabilité des recherches, de la synthèse et de la rédaction de la partie statistiques. Une fois la tâche terminée, j’étais à disposition des autres groupes qui avaient besoin de renfort pour, par exemple, insérer le contenu à notre site web.</p>
-		<p>Le projet <a href="projet.html?id=eb005e-2014">Transmédia</a> m’a permis d’expérimenter la réalisation d’un projet en plusieurs phases avec une équipe qui change, en partie, à chaque phase. Lors de la dernière phase de ce projet, nous avons géré la campagne de communication. Je m’occupais également de faire le lien avec le responsable de la coordination, mais j’ai aussi dcollaboré avec le groupe qui s’occupait des réseaux sociaux et des vidéos pour permettre de garder la cohérence du projet.</p>
+		<p>La diversité de la formation comem+ m’a permis d’acquérir de la polyvalence en suivant des cours de communication, de management et d’ingénierie. J’ai pu exploiter et développer mes aptitudes personnelles, mais aussi développer de nouvelles compétences telles que la mise en scène d’une présentation, la gestion de projet ou la programmation. J’apprécie particulièrement le travail en équipe, une composante importante des projets que nous avons réalisés.</p>
+		<p>Lors du projet <a href="projet.html?id=precarite-2014">NewsRoom</a>, j’ai pris la responsabilité des recherches, de la synthèse et de la rédaction de la partie statistique. Une fois la tâche terminée, j’étais à disposition des autres groupes qui avaient besoin de renfort pour, par exemple, insérer le contenu à notre site web.</p>
+		<p>Le projet <a href="projet.html?id=eb005e-2014">Transmédia</a> m’a permis d’expérimenter la réalisation d’un projet en plusieures phases avec une équipe qui change, en partie, à chaque phase. Lors de la dernière phase de ce projet, nous avons géré la campagne de communication. Je m’occupais également de faire le lien avec le responsable de la coordination, mais j’ai aussi collaboré avec le groupe qui s’occupait des réseaux sociaux et des vidéos pour permettre de garder la cohérence du projet.</p>
 	</description>
 	<projets>
 		<projet id="precarite-2014"/>
 		<projet id="eb005e-2014"/>
 	</projets>
 	<liens>
-		<lien url="mailto:anne.grandjean@bluewin.ch" genre="mail">Mail</lien>
+		
 	</liens>
 </profile>

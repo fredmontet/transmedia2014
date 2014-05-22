@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="yoann-gern-mm40" mail_print="yoann@yoanngern.ch" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Gern</nom>
+	<prenom>Yoann</prenom>
+	<usp>Quand la passion rencontre le soin du détail et les besoins du client</usp>
+	<photos>
+		<photo url="images/profiles/base_yoann-gern-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_yoann-gern-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_yoann-gern-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Passionné par les nouvelles technologies, j’aime découvrir, tester et évaluer les nouveautés. Ma recherche de l’excellence me pousse à aller toujours plus loin et à ne pas m’arrêter tant que je ne suis pas totalement satisfait.</p>
+		<p>Pour moi, la technologie ne doit jamais être un frein dans un projet. C’est pourquoi j’attache une grande importance à la simplicité des solutions pour l’utilisateur.</p>
+		<p>Leader dans l’âme, je prends naturellement une place de coordinateur dans un projet afin d’en garder la vision globale. J’apporte une attention toute particulière aux besoins du client afin que le produit lui corresponde au mieux. Un produit numérique ne peut pas répondre aux exigences du client sans une expérience utilisateur réfléchie et adéquate. C’est pour cette raison que j’aime designer les interfaces.</p>
+		<p>Le monde de l’image fait partie de mon quotidien. J’aime à la fois consommer et créer des produits audio-visuels. Je réalise, pendant mon temps libre, des courts-métrages promotionnels afin de faire passer un message percutant.</p>
+	</description>
+	<projets>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="https://twitter.com/YoannGern" genre="twitter">Twitter</lien>
+		<lien url="http://www.linkedin.com/in/yoanngern" genre="linkedin">LinkedIn</lien>
+		<lien url="yoanngern.ch" genre="site_perso">Site perso</lien>
+	</liens>
+</profile>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="robin-jespierre-mit40" mail_print="robin.jespierre@heig-vd.ch" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Jespierre</nom>
+	<prenom>Robin</prenom>
+	<usp>Créativité, développement de projet audio-visuel et autonomie</usp>
+	<photos>
+		<photo url="images/profiles/base_robin-jespierre-mit40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_robin-jespierre-mit40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_robin-jespierre-mit40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>J’ai pu, au cours des mes années études, acquérir des compétences dans des domaines très différents, comme les techniques de développement web et la stratégie d’entreprise. Je peux maintenant avoir une vue d’ensemble sur un projet, de la conception à la mise en fonction, en passant par la réalisation technique.</p>
+		<p>Mon goût pour la création prend une place importante dans ma vie, allant de la conception de visuels personnalisés à la réalisation de vidéos pour la présentation d’un produit, en passant par la modélisation 3D.</p>
+		<p>Je porte un grand intérêt à la conception "from scratch", ainsi qu’à la recherche d’idées innovantes pour un sujet. Ma capacité d’organisation me donne une grande flexibilité quant aux rôles que je peux prendre dans un projet.</p>
+		<p>J’aime la nouveauté et les défis, travailler sur des projets sortants de l’ordinaire, et ainsi pouvoir être autonome dans la gestion de mes tâches.</p>
+	</description>
+	<projets>
+		<projet id="cinema-lingua-2011"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="mailto:robin.jespierre@heig-vd.ch" genre="mail">Mail</lien>
+	</liens>
+</profile>

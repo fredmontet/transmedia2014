@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="mickael-justo-mm40" mail_print="mickael.justo@gmail.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Justo</nom>
+	<prenom>Mickael</prenom>
+	<usp>Vision, organisation, réalisation : l’art de communiquer par l’image</usp>
+	<photos>
+		<photo url="images/profiles/base_mickael-justo-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_mickael-justo-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_mickael-justo-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>J’aime participer à tous les phases d’un projet avec une préférence pour les produits visuels. Grâce à mon expérience dans le domaine de la photo (mise en scène, prise de vue, traitement, publication), je prends beaucoup de plaisir à développer des concepts autour de l’image. J’ai eu l’occasion de développer ces aspects à travers les projets <a href="projet.html?id=short-stalk-2013">Short-stalk</a>, <a href="projet.html?id=precarite-2014">precarite.ch</a> et lors de notre visite à la <a href="projet.html?id=workshop-hdm-2014">HdM de Stuttgart</a>. De plus, en parallèle de ma formation académique, j’exerce une activité professionnelle dans le domaine de la photo, pour le journal local.</p>
+		<p>J’apprécie également le management. Je me sens à l’aise dans une équipe et j’apprécie d’être dans une position qui me permet de partager mes idées, mais surtout d’avoir une vision globale du projet. Mon ouverture d’esprit me permet de travailler avec chacun. Ce fût le cas lors du projet <a href="projet.html?id=eb005e-2014">Transmédia</a>. Chaque projet est un nouveau challenge et je m’implique toujours au maximum.</p>
+	</description>
+	<projets>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="paleo-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="seminaire-entreprise-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="mailto:mickael.justo@gmail.com" genre="mail">Mail</lien>
+		<lien url="http://www.linkedin.com/pub/mickael-justo/82/b3/973" genre="linkedin">LinkedIn</lien>
+	</liens>
+</profile>

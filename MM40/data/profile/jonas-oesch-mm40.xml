@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="jonas-oesch-mm40" mail_print="jonas.oesch@heig-vd.ch" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Oesch</nom>
+	<prenom>Jonas</prenom>
+	<usp>Understand, make and make understand</usp>
+	<photos>
+		<photo url="images/profiles/base_jonas-oesch-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_jonas-oesch-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_jonas-oesch-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Généralement à l’aise avec la technologie, j’ai pu évoluer et développer mes compétences dans les domaines de la gestion et de la communication.</p>
+		<p>Des projets comme <a href="projet.html?id=precarite-2014">Newsroom</a> ou <a href="projet.html?id=radio-comem-2012">Radio Comem</a> m’ont permis de participer activement aux groupes et de vivre le rôle de chef de projet.</p>
+		<p>J’ai également expérimenté l’importance de pouvoir identifier précisément des publics cibles et de structurer efficacement mes idées pour communiquer des messages adaptés.</p>
+		<p>D’une nature calme et concentrée, même dans des environnements stressants, j’arrive à résoudre les problèmes sans perdre de vue l’essentiel. Mon côté sociable m’aide à partager mes points de vue et à comprendre ceux de mes collègues pour élaborer des solutions collectives.</p>
+		<p>Structuré et structurant, je sais poser un cadre et des règles de fonctionnement avec la souplesse nécessaire en fonction du contexte.</p>
+	</description>
+	<projets>
+		<projet id="cinema-lingua-2011"/>
+		<projet id="radio-comem-2012"/>		
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="seminaire-entreprise-2014"/>
+		<projet id="eb005e-2014"/>		
+	</projets>
+	<liens>
+		<lien url="https://twitter.com/jonasoesch" genre="twitter">Twitter</lien>
+		<lien url="http://jonasoesch.ch/" genre="site_perso">Site perso</lien>
+		<lien url="ch.linkedin.com/in/jonasnoesch/fr" genre="linkedin">LinkedIn</lien>
+	</liens>
+</profile>

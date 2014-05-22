@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="frederic-montet-mm40" mail_print="hello@fredmontet.com" sexe="m" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Montet</nom>
+	<prenom>Frédéric</prenom>
+	<usp>Réflexion, vision et action pour redécouvrir l’essentiel</usp>
+	<photos>
+		<photo url="images/profiles/base_frederic-montet-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_frederic-montet-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_frederic-montet-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Communication, ingénierie, gestion pour maîtriser les situations et en comprendre la globalité ! C’est précisément là que ce situe la force d’un ingénieur comem+.</p>
+		<p>L'expérience pratique des projets de formation a développé ma sensibilité par rapport aux médias actuels.J’ai ainsi pu prendre du recul et comprendre le fonctionnement des milieux complexes dans lesquels j’interagis. Faire converger contenu, message et contenant m’a ainsi permis d’imaginer des solutions pertinentes pour atteindre les objectifs visés.</p>
+		<p>Ce processus mesuré par des facteurs de performance difficilement tangibles est très important pour moi. En effet, le bruit médiatique dans lequel nous vivons nous fait trop souvent oublier les valeurs essentielles.</p>
+	</description>
+	<projets>
+		<projet id="radio-comem-2012"/>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="http://www.fredmontet.com" genre="site_perso">Site perso</lien>
+	</liens>
+</profile>

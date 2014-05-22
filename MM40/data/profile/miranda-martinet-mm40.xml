@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile id="miranda-martinet-mm40" mail_print="miranda.martinet@gmail.com" sexe="f" xmlns="http://ns.comem.ch/cours/TM">
+	<nom>Martinet</nom>
+	<prenom>Miranda</prenom>
+	<usp>Polyvalente, organisée et toujours à l’écoute des besoins</usp>
+	<photos>
+		<photo url="images/profiles/base_miranda-martinet-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/avatar_miranda-martinet-mm40.svg" genre="avatar"/>
+		<photo url="images/profiles/portfolio_miranda-martinet-mm40.jpg" genre="portfolio"/>
+	</photos>
+	<description>
+		<p>Participer à des projets de groupes comme ce fut le cas avec les projets <a href="projet.html?id=precarite-2014">Newsroom</a> et <a href="projet.html?id=eb005e-2014">Transmédia</a>, m’a beaucoup plu. Je trouve cette manière de travailler particulièrement motivante et productive. Il faut être polyvalent, organisé et préparé aux imprévus. Avec mon sens de l’organisation et de la logique, j’ai pu contribuer à la bonne organisation et planification au sein des diverses équipes auxquelles j’ai pris part.</p>
+		<p>J’apprécie particulièrement participer à des projets événementiels. Mon expérience au projet <a href="projet.html?id=paleo-2013">Paléo</a> de l’année passée m’a permis de développer davantage mes compétences créatives et sociales. J’ai participé aux brainstormings où j’ai su prendre en compte les propos de chacun, en gardant toujours en tête l’aspect réalisable des idées.</p>
+		<p>Mon sens du contact, a pu être développé lors de l’animation pendant le festival. J’ai pris plaisir à animer notre stand et à être en contact avec le public.</p>
+		<p>Le projet <a href="projet.html?id=precarite-2014">Newsroom</a> m’a également permis de développer mes compétences en communication. J’ai participé activement au micro-trottoir, en allant à la rencontre des personnes dans les rues d’Yverdon, et mené des interviews plus approfondis.</p>
+	</description>
+	<projets>
+		<projet id="workshop-hdm-2013"/>
+		<projet id="short-stalk-2013"/>
+		<projet id="tedxlausanne-2013"/>
+		<projet id="paleo-2013"/>
+		<projet id="precarite-2014"/>
+		<projet id="eb005e-2014"/>
+	</projets>
+	<liens>
+		<lien url="mailto:miranda.martinet@gmail.com" genre="mail">Mail</lien>
+		<lien url="ch.linkedin.com/in/mirandamartinet" genre="linkedin">LinkedIn</lien>
+	</liens>
+</profile>
