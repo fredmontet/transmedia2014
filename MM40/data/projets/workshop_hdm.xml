@@ -1,125 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<projet xmlns="http://ns.comem.ch/cours/TM" url="http://mm40.comem.ch" next="short-stalk-2013" id="workshop-hdm-2013">
-    <annee>2014</annee>
-    <nom>UNFINISHED!!!!!! - eb005e</nom>
-    <nom_court>eb005e</nom_court>
-    <video url="xxx"/>
-    <image url="images/projets/photo_eb005e-2014.jpg"/>
-    <description>
-        <p>Le cours transmédia est un projet qui regroupe l’ensemble des savoir-faire acquis par un ingénieur des médias au terme de ses trois ans de formation. Projet pluridisciplinaire, il nous demande de faire appel aux compétences que nous avons développées dans les trois pôles : communication, management et engineering.</p>
-        <p>Ayant soif d’innovation, nous avons décidé de nous approprier le thème imposé, le street art, non pas comme source de contenu mais comme nouveau médium.</p>
-        <p>Nous avons alors assuré une coordination entre différents médias - web, print, social, vidéo - pour créer un univers cohérent qui présente notre formation. En parallèle, nous avons pu nous essayer à l’art de la communication événementielle et du buzz médiatique pour créer un mystère autour de la finalité de notre projet.</p>
-        <p>#EB005E, en référence au code colorimétrique hexadécimal qui a été notre couleur de ralliement, est le nom de ce projet transmédia qui a conclu nos études en Ingénierie des Médias.</p>
-    </description>
-    <temoignages>
-        <temoignage>
-            <personne id="marine-lemonis-mm40"/>
-            <p>Durant le projet transmédia, j’ai voulu m’essayer à la gestion de teams. En prenant place dans le groupe de coordination, j’ai pu garder une vue d’ensemble sur tous les processus techniques, de production de contenu, de design et de communication. Je suis une personne polyvalente, douée d’un sens aigu de l’organisation.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="robin-jespierre-mit40"/>
-            <p>Le projet transmédia m’a permis de travailler avec de nouveaux supports et méthodes. J’ai été enchanté par la qualité du déroulement du projet ainsi que par le dévouement des différents membres de l’équipe. Ce projet m’a permis d’apprendre d’avantage sur la façon de gérer un projet tant au niveau de la communication interne et externe que la réalisation.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="noemie-sandoz-mm40"/>
-            <p>Lors de ce projet, je me suis principalement occupée du design. L’élaboration du visuel et de l’ergonomie de la carte m’a particulièrement intéressée. L’étroite collaboration avec l’équipe technique représente également un point important, car la communication interteam permet d’éviter des problèmes lors de la phase de développement.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="louis-allemann-mm40"/>
-            <p>Ce projet est composé de trois phases : méthodologie, contenu et diffusion. J’ai participé à chacune d’elle, durant la première phase, j’ai principalement participé à la planification de la campagne de communication basée sur le street art. Par la suite j’ai pu développer mon côté créatif en travaillant sur l’élaboration du design.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="mickael-justo-mm40"/>
-            <p>Transmédia marquait la fin du cursus de la formation d’ingénieur des médias. À travers de ce projet, nous avons pu mettre en commun tous les domaines appris au cours de notre formation : management, engineering et communication. En tant que coordinateur du projet, la partie management a été prépondérante pour ma part.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="anne-grandjean-mm40"/>
-            <p>Le projet transmédia est découpé en trois phases : méthodologie, contenu et diffusion. Je les ai vécues de façon différente. La première phase m’a permis de me situer concrètement dans un groupe de travail et d’y trouver la place qui me correspond. La seconde phase m’a permis de développer mon côté créatif avec le team responsable de la communication. La troisième phase permettait d’organiser et de mettre en place la campagne de communication. Celle-ci implique un temps de réaction court et une capacité à l’improvisation. J’ai alors appris à être réactive rapidement.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="louisa-freymond-mm40"/>
-            <p>De la méthodologie, en passant par le contenu puis la réalisation du projet, le projet transmédia permet de mettre en œuvre ses connaissances dans les domaines techniques, de communication et de management. Participer à ce projet, qui se déroule sur plusieurs semaines, permet d'approfondir les compétences acquises durant la formation d’ingénieur des médias et se révèle très utile pour le travail de bachelor. Tout au long de la campagne de communication, j’ai pu m’essayer au community management, tâche jamais effectuée auparavant. L’étude du comportement des followers, en particulier sur twitter, a été très enrichissante.</p>
-        </temoignage>
-        <temoignage>
-            <personne id="miranda-martinet-mm40"/>
-            <p>Lors du projet transmédia, j’ai principalement participé à l’élaboration de la campagne de communication. Il a fallu être toujours attentif et prêt à modifier notre campagne au vu des réactions du public. C’était un poste très intéressant, car on peut voir directement la réaction du public et avoir un retour positif de leur part est gratifiant.</p>
-        </temoignage>
-    </temoignages>
-    <domaine nom="Video" poids="4">
-        <tache>Storyboard</tache>
-        <tache>Mise en scène</tache>
-        <tache>Réalisation</tache>
-        <tache>Prise de son</tache>
-        <tache>Montage</tache>
-        <tache>Post-production</tache>
-        <tache>Encodage</tache>
-        <tache>Distribution</tache>
-        <outil>Caméra</outil>
-        <outil>Final Cut Pro</outil>
-        <outil>Adobe Premiere</outil>
-        <outil>Tascam</outil>
-    </domaine>
-    <domaine nom="Communication" poids="5">
-        <tache>Identification du public cible</tache>
-        <tache>Choix des canaux</tache>
-        <tache>Définition d’une stratégie</tache>
-        <tache>Community management</tache>
-        <tache>Planification de campagne</tache>
-        <tache>Création des éléments de communication</tache>
-        <tache>Marketing Mix</tache>
-        <tache>Teasing</tache>
-        <outil>Réseaux sociaux</outil>
-        <outil>StreetArt</outil>
-        <outil>Gantt</outil>
-    </domaine>
-    <domaine nom="Web" poids="4">
-        <tache>Mockups</tache>
-        <tache>Maquettes</tache>
-        <tache>Modelisation</tache>
-        <tache>Développement</tache>
-        <tache>Intégration</tache>
-        <tache>Tests</tache>
-        <outil>XML</outil>
-        <outil>existDB</outil>
-        <outil>jQuery</outil>
-        <outil>HTML 5</outil>
-        <outil>CSS 3</outil>
-        <outil>SVG</outil>
-    </domaine>
-    <domaine nom="Management" poids="3">
-        <tache>Planification</tache>
-        <tache>Coordination</tache>
-        <tache>Gestion</tache>
-        <outil>Gantt</outil>
-        <outil>Planning des ressources</outil>
-        <outil>Budget</outil>
-    </domaine>
-    <domaine nom="Print" poids="3">
-        <tache>Prépresse</tache>
-        <tache>Mise en page</tache>
-        <tache>Impression numérique</tache>
-        <tache>Façonnage</tache>
-        <outil>Adobe Indesign</outil>
-        <outil>Adobe Illustrator</outil>
-        <outil>Adobe Photoshop</outil>
-    </domaine>
-    <team>
-        <personne id="marine-lemonis-mm40"/>
-        <personne id="christophe-merkle-mm40"/>
-        <personne id="frederic-montet-mm40"/>
-        <personne id="noemie-sandoz-mm40"/>
-        <personne id="jonas-oesch-mm40"/>
-        <personne id="flavien-knuchel-mm40"/>
-        <personne id="andreane-mercier-mm40"/>
-    </team>
-    <superviseur>
-        <prenom>Jean-Marc</prenom>
-        <nom>Seydoux</nom>
-        <role>Doyen du département Comem+, HEIG-VD</role>
-        <logo url="images/superviseurs/logo_seydoux_transmedia.svg"/>
-        <organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
-        <commentaire>
-            <p>Les étudiants de la classe MM40 se sont rapidement approprié le thème du street art, en l’utilisant comme un nouveau médium afin de promouvoir leur formation. Les résultats sont à la hauteur des espérances et démontrent les compétences acquises durant les trois ans de leur cursus. La classe a fait preuve d’une réelle capacité à évoluer dans un projet interdisciplinaire. La complémentarité et la diversité des profils des étudiants offrent une grande flexibilité de travail et une dynamique de groupe efficace et agréable.</p>
-        </commentaire>
-    </superviseur>
+<projet prev="radio-comem-2012" url="http://jonasoesch.ch/hdm/brochure-hdm.pdf" next="short-stalk-2013" id="workshop-hdm-2013" xmlns="http://ns.comem.ch/cours/TM">
+	<annee>2013</annee>
+	<nom>Workshop HdM Stuttgart</nom>
+	<nom_court>Workshop HdM</nom_court>
+	<video url="www.youtube.com/embed/95vFPs1WmbM"/>
+	<image url="images/projets/photo_workshop-hdm-2013.jpg"/>
+	<description>
+		<p>Le workshop à la Hochschule der Medien (HdM) de Stuttgart a été une occasion unique pour nous d’élargir nos connaissances dans le domaine des médias imprimés. Nous nous sommes familiarisés avec les technologies print, à disposition à la HdM.</p><p>Au travers de productions telles que des cartes de visites ou de T-shirts, nous avons pu utiliser nous-mêmes des machines et apprendre des techniques d’impression. Ne disposant pas de matériel aussi spécialisé à la HEIG-VD, ce voyage nous a permis de découvrir concrètement l’ensemble des technologies print actuelles.</p><p>Le workshop médias imprimés est un incontournable de la formation d’ingénieur des médias et s’intègre à un module de spécialisation en technologies d’impression. Chaque année, il est réalisé grâce au partenariat qu’entretient la HEIG-VD avec la Hochschule der Medien de Stuttgart.</p>
+	</description>
+	<temoignages>
+		<temoignage>
+			<personne id="andreane-mercier-mm40"/>
+			<p>Le workshop à la Haute École des Médias (HdM) de Stuttgart fut une expérience très enrichissante. Cela m’a permis de découvrir concrètement diverses techniques d’impression et de me familiariser aux différentes presses et machines. J’ai pu les prendre en main par la création d’imprimés en sérigraphie ou d’impression à grand tirage en héliogravure.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="flavien-knuchel-mm40"/>
+			<p>Deux semaines de découverte, de pratique d’allemand et d’échanges d’expériences dont je me souviendrai longtemps. Les installations étaient incroyables, les cours intenses et les compétences à mettre en œuvre très variées. Autant dire que depuis, j’ai tendance à regarder de plus près les produits imprimés qui me passent entre les mains, et à savoir en apprécier la qualité !</p>
+		</temoignage>
+		<temoignage>
+			<personne id="frederic-montet-mm40"/>
+			<p>À la HdM de Stuttgart, j’ai découvert de multiples technologies d’impression utilisées pour des produits que nous utilisons au quotidien. J’ai pu comprendre de manière détaillée les processus et contraintes de production auxquels sont confrontés les imprimeurs, ainsi que les coûts d’une infrastructure d’impression. En plus, ce voyage a été bénéfique pour pratiquer l’allemand de manière intense !</p>
+			</temoignage>
+			<temoignage>
+			<personne id="jerome-clot-mm40"/>
+			<p>Le workshop à la HdM de Stuttgart m’a permis d’aborder de manière pratique le workflow d’impression. Nous avons été sensibilisé aux étapes du prépresse jusqu’aux finitions, en passant par différentes techniques d’impression. Cette expérience a également enrichi mes connaissances en communication, dans la mesure où il faut comprendre et se faire comprendre dans un domaine technique, et, de surplus, dans une langue étrangère.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="louis-allemann-mm40"/>
+			<p>Le workshop à la HdM de Stuttgart m’a permis d’aborder de manière pratique le workflow d’impression. Nous avons été sensibilisé aux étapes du prépresse jusqu’aux finitions, en passant par différentes techniques d’impression. Cette expérience a également enrichi mes connaissances en communication, dans la mesure où il faut comprendre et se faire comprendre dans un domaine technique, et, de surplus, dans une langue étrangère.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="louisa-freymond-mm40"/>
+			<p>Le workshop à la HdM de Stuttgart a permis d'aborder la partie "médias imprimés" de la formation comem+. Ces deux semaines d'apprentissage intensif m'ont fait découvrir les techniques d'impression telles que l'offset, la flexographie, la sérigraphie, l'impression numérique et bien d'autres. Une sensibilisation importante et utile lors du processus de production graphique des imprimés.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="mickael-justo-mm40"/>
+			<p>Le workshop à Stuttgart était très constructif et nécessaire pour approfondir ses connaissances en technologies d’impression. Il était également très intéressant d’être dans une grande école, extrêmement bien équipée pour le print. J’en ai profité pour parfaire mon allemand. J’ai particulièrement apprécié pouvoir tester les machines et fournir les photos pour la brochure que nous avons imprimée, résumant notre séjour.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="miranda-martinet-mm40"/>
+			<p>Découvrir les différents procédés d’impression, avoir la possibilité de pratiquer la sérigraphie en personnalisant nos propres t-shirts et suivre le processus complet de l’héliographie étaient des expériences très enrichissantes. J’ai été très impressionnée par la qualité des équipements et machines print, mais aussi par les installations audiovisuelles de cette école.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="noemie-sandoz-mm40"/>
+			<p>Pendant le workshop à la Hochschule der Medien (HdM) de Stuttgart, nous avons pu apprendre un grand nombre de techniques d’impression et pratiquer sur les machines à disposition. Bagage précieux, dans la mesure où notre formation touche également les médias imprimés.</p>
+		</temoignage>
+		<temoignage>
+			<personne id="jonas-oesch-mm40"/>
+			<p>L’infrastructure complète de la HdM de Stuttgart nous a permis de voir une multitude de facettes du monde de l’impression. Quelques technologies présentées sont rarement présentes en Suisse (comme l’héliogravure). La compréhension concrète des possibilités et des défis du print a été naturellement saisi par les étudiants durant ce workshop.</p>
+		</temoignage>
+	</temoignages>
+	<domaine nom="Print" poids="5">
+		<tache>Prépresse</tache>
+		<tache>Impostion</tache>
+		<tache>Façonnage</tache>
+		<tache>Color management</tache>
+		<tache>Mise en page</tache>
+		<tache>Typographie</tache>
+		<outil>Sérigraphie</outil>
+		<outil>Héliogravure</outil>
+		<outil>Flexographie</outil>
+		<outil>Offset</outil>
+		<outil>Impression numérique</outil>
+		<outil>Adobe InDesign</outil>
+		<outil>Adobe Illustrator</outil>
+		<outil>Adobe Photoshop</outil>
+	</domaine>
+	<team>
+		<personne id="louis-allemann-mm40"/>
+		<personne id="jerome-clot-mm40"/>
+		<personne id="mickael-justo-mm40"/>
+		<personne id="marine-lemonis-mm40"/>
+		<personne id="miranda-martinet-mm40"/>
+		<personne id="christophe-merkle-mm40"/>
+		<personne id="frederic-montet-mm40"/>
+		<personne id="noemie-sandoz-mm40"/>
+		<personne id="louisa-freymond-mm40"/>
+		<personne id="jonas-oesch-mm40"/>
+		<personne id="flavien-knuchel-mm40"/>
+		<personne id="andreane-mercier-mm40"/>
+		<personne id="yoann-gern-mm40"/>
+		<personne id="christophe-rast-mm40"/>
+	</team>
+	<superviseur>
+		<prenom>Sébastien</prenom>
+		<nom>Pahud</nom>
+		<role>Chargé de cours à Comem+, HEIG-VD</role>
+		<logo url="images/superviseurs/logo_pahud_hdm.svg"/>
+		<organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
+		<commentaire>
+			<p>En collaboration avec la Hochschule Der Medien, la HEIG-VD offre aux étudiants de deuxième année du département COMEM+ l’opportunité de découvrir les différentes techniques d’impression par un workshop de deux semaines à Stuttgart. Cette approche plus sensorielle et tactile permet aux élèves d’avoir un avant goût des possibilités présentes sur le marché tout en privilégiant la communication et la pratique d’une langue étrangère. Appliquant la théorie vue en cours, ils créent un imprimé selon un fil rouge, suivant chaque étape de l’élaboration du produit, et repartent avec à la fin du séjour.​</p>
+		</commentaire>
+	</superviseur>
 </projet>
