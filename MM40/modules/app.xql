@@ -1,13 +1,20 @@
 xquery version "3.0";
 
-
 module namespace app="http://mm40.comem.ch/templates";
+
+declare namespace TM = "http://ns.comem.ch/cours/TM";
+
+declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
+declare option output:method "text";
+declare option output:indent "no";
+
+
 
 
 import module namespace templates = "http://exist-db.org/xquery/templates";
 
 
-declare namespace TM = "http://ns.comem.ch/cours/TM";
+
 
 
 import module namespace Functions = 'Functions' at 'functions.xq';
@@ -29,6 +36,5 @@ declare %templates:default %templates:wrap function app:nav($node as node(), $mo
     let $projets := collection("/db/apps/MM40/data/projets")/TM:projet
         for $p in $projets
         return
-    <li><a href="projet.html?id={$p/@id}">{$p/TM:nom_court/text()}</a></li>
-
-};
+        <li><a href="projet.html?id={$p/@id}" class="{$p/@id}">{$p/TM:nom_court/text()}</a></li>
+    };
