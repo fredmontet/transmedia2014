@@ -3,39 +3,39 @@
 	<annee>2013</annee>
 	<nom>Projet d’intégration - TEDxLausanne</nom>
 	<nom_court>TEDxLausanne</nom_court>
-	<video url="www.youtube.com/embed/kVyL0qgHaag"/>
+	<video url="http://www.youtube.com/embed/kVyL0qgHaag"/>
 	<image url="images/projets/photo_tedxlausanne-2013.jpg"/>
 	<description>
-		<p>Le projet d’intégration est un atelier 100% orienté technologies web côté client et côté serveur. Avec ce travail, nous avons pu mettre en avant notre côté technique. Nous avons atteint l’objectif de livrer une application en utilisant de manière concrète des notions de développement web que nous avions étudiées tout au long des deux premières années de notre formation.</p>
+		<p>Le projet d’intégration est un atelier 100% orienté technologies web côtés client et serveur. Avec ce travail, nous avons pu mettre en avant notre côté technique. Nous avons atteint l’objectif de livrer une application en utilisant de manière concrète des notions de développement web que nous avions étudiées tout au long des deux premières années de notre formation.</p>
 		<p>Cet atelier nous a également permis de mieux comprendre des principes de management et de travail d’équipe et nous a amené à nous interroger sur la notion d’interface utilisateurs et de l’organisation du développement d’un site web.</p>
 		<p>Réalisé pour l’association TEDxLausanne, le projet avait pour but de mettre en place une plateforme de publication, de gestion et d’édition des événements TEDx sur Lausanne. Cela a été un travail de synthèse des connaissances en technologies web qui concluait notre deuxième année de notre formation.</p>
 	</description>
 	<temoignages>
 		<temoignage>
 			<personne id="jerome-clot-mm40"/>
-			<p>Le projet d’intégration de fin de deuxième année a pour but de mettre en pratique toutes les connaissances techniques acquises durant la formation comem+. J’ai pu développer, au service de TEDx, mes compétences en technologies web telles que smarty, PHP, JavaScript, html et css. La gestion de projet a également été un point fort de ce projet.</p>
+			<p>Pendant le projet d’intégration de fin de deuxième année, j’ai pu développer, au service de TEDx, mes compétences en technologies web telles que smarty, PHP, JavaScript, html et css. La gestion de projet a également été un point fort de ce projet.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="robin-jespierre-mit40"/>
-			<p>TEDx, projet concret et complexe, m’a permis de mettre en pratique des connaissances acquises dans les domaines de la communication et du développement web. En tant que membre de l’équipe de développement back end, j’ai répondu au mieux aux besoins techniques du projet tout en restant cohérent avec la vision global de celui-ci grâce à l’apport de solutions adaptées. J’ai apprécié pouvoir travailler avec des teams dynamiques et compétents sur le développement d’un site web pour TEDxLausanne, étant moi-même grand admirateur des conférences TED.</p>
+			<p>TEDxLausanne, projet concret et complexe, m’a permis de mettre en pratique des connaissances acquises dans les domaines de la communication et du développement web. En tant que membre de l’équipe de développement back end, j’ai répondu au mieux aux besoins techniques du projet tout en restant cohérent avec la vision global de celui-ci grâce à l’apport de solutions adaptées. J’ai apprécié pouvoir travailler avec des teams dynamiques et compétents sur le développement d’un site web pour TEDxLausanne, étant moi-même grand admirateur des conférences TED.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="christophe-rast-mm40"/>
-			<p>Le projet TEDx m’a permis de mettre en pratique les théories et techniques de programmation web, plus spécialement côté serveur en PHP. La collaboration entre les groupes IT et Médias, tout au long du projet, a été un très bon moteur d’amélioration de mes compétences et un haut facteur de motivation.</p>
+			<p>Le projet TEDxLausanne m’a permis de mettre en pratique les théories et techniques de programmation web, plus spécialement côté serveur en PHP. La collaboration entre les groupes IT et Médias, tout au long du projet, a été un très bon moteur d’amélioration de mes compétences et un haut facteur de motivation.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="mickael-justo-mm40"/>
-			<p>Dans le cadre du projet d’intégration, travailler pour TEDx était très enrichissant. Il a fallu tenir compte de plusieurs problématiques techniques. J’ai été très actif sur la partie vidéo, pour le développement d’une mise à jour dynamique d’un vidéo wall.</p>
+			<p>Dans le cadre du projet d’intégration, travailler pour TEDxLausanne était très enrichissant. Il a fallu tenir compte de plusieurs problématiques techniques. J’ai été très actif sur la partie vidéo, pour le développement d’une mise à jour dynamique d’un vidéo wall.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="yoann-gern-mm40"/>
-			<p>Le projet réalisé pour TEDx a été une réelle opportunité de mettre au service d’un seul projet les compétences de l’ensemble du groupe. Nous avons dû faire preuve d’initiative pour répondre aux besoins concret de notre mandant. Ce projet nous a démontré l’utilité pratique des cours que nous avions suivis durant les deux premières années de notre formation.</p>
+			<p>Le projet réalisé pour TEDxLausanne a été une réelle opportunité de mettre au service d’un seul projet les compétences de l’ensemble du groupe. Nous avons dû faire preuve d’initiative pour répondre aux besoins concret de notre mandant. Ce projet nous a démontré l’utilité pratique des cours que nous avions suivis durant les deux premières années de notre formation.</p>
 		</temoignage>
 	</temoignages>
 	<domaine nom="Web" poids="5">
 		<tache>Mockups</tache>
 		<tache>Maquettes</tache>
-		<tache>Modelisation</tache>
+		<tache>Modélisation</tache>
 		<tache>Développement</tache>
 		<tache>Intégration</tache>
 		<tache>Tests</tache>
@@ -75,7 +75,7 @@
 	<superviseur>
 		<prenom>Simon</prenom>
 		<nom>Schneebeli</nom>
-		<role>Fondateur de TEDx Lausanne</role>
+		<role>Fondateur de TEDxLausanne</role>
 		<logo url="images/superviseurs/logo_schneebli_tedx.svg"/>
 		<organisation url="http://www.tedxlausanne.org/fr">TEDx Lausanne</organisation>
 		<commentaire>
