@@ -3,15 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>#EB005E</title>
-    		<link rel="stylesheet" href="css/style.css" type="text/css" />
-        <script type="text/javascript" src="js/home.min.js"></script>
+        <script>
+        
+    		if( /Android|webOS|iPhone|iPod|series60|symbian|windows ce|BlackBerry/i.test(navigator.userAgent) ) {
+    			// Mobile
+    			window.location.href = 'mobile.html';
+    	 	} else if( /iPad/i.test(navigator.userAgent) ) {
+    			// Tablet
+    			window.location.href = 'mobile.html';
+    	 	} else {
+        	 	// Desktop
+        	 	window.location.href = 'map.html';
+    	 	}
+    	 	
+        </script>
     </head>
 
-    <body class="home">
-        <section id="homeContainer">
-            <h1>Salut Yoann!</h1>
-        </section>
-
+    <body>
+        <h1>wait</h1>
     </body>
 </html>
 
