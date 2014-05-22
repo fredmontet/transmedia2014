@@ -7,8 +7,7 @@ declare namespace xslfo="http://exist-db.org/xquery/xslfo";
 
 let $id := request:get-parameter("id", "")
 let $p := collection("/db/apps/MM40/data/profile")/TM:profile[contains(@id, $id)]
-let $fo := 
-<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 
      <fo:layout-master-set>
 		<fo:simple-page-master master-name="coverPage" page-width="21cm" page-height="29.7cm">
@@ -39,25 +38,22 @@ let $fo :=
 			</fo:block>
 		</fo:flow>
 	</fo:page-sequence>
-	
+
 
 	<fo:page-sequence master-reference="resumePage">
 		<fo:flow flow-name="xsl-region-body">
 			<fo:block>
-				<fo:block text-align="left">
-				{ if ($p//TM:photo[@genre eq "portfolio"]) 
-				then
-					<fo:external-graphic  src="{$p//TM:photo[@genre eq "portfolio"]}" content-height="scale-to-fit" height="13.4cm"  content-width="13.4cm" scaling="uniform"/>
-					}
-				</fo:block>
+					<fo:block text-align="left">
+						{if ($p//TM:photo[@genre eq "portfolio"]) 
+						then <fo:external-graphic  src="{$p//TM:photo[@genre eq "portfolio"]}" content-height="scale-to-fit" height="13.4cm"  content-width="13.4cm" scaling="uniform"/>
+						else ()
+												}
+					</fo:block>
 				<fo:block text-align="left" font-size="35pt" margin-top="0.5cm" color="rgb(0,0,0)">{concat($p/TM:prenom/text(), " ", $p/TM:nom/text())}</fo:block>
 				<fo:block text-align="left" font-size="14pt" color="rgb(0,0,0)">ла{$p/TM:usp/text()}а╗</fo:block>
 				<fo:block text-align="justify" font-size="12pt" margin-top="0.5cm" color="rgb(0,0,0)">
 				{for $para in $p//TM:p
-				return
-				$para/text()
-				
-				}
+				return $para/text()}
 				</fo:block>
 				<fo:block text-align="left" font-size="12pt" margin-top="2cm" color="rgb(0,0,0)">
 					<fo:basic-link external-destination="url('mailto:{$p/@mail_print}')">{$p/@mail_print}</fo:basic-link>
@@ -67,7 +63,9 @@ let $fo :=
 							<fo:block></fo:block>
 						  </fo:list-item-label>
 						  <fo:list-item-body>
-							<fo:block><fo:basic-link external-destination="url('http://www.moimeme.com/')">http://www.moimeme.com</fo:basic-link></fo:block>
+						  {for $lien in $p/TM:liens/lien
+							return <fo:block><fo:basic-link external-destination="url('{$lien/text()}')">{$lien/text()}</fo:basic-link></fo:block>
+							}
 						  </fo:list-item-body>
 						</fo:list-item>
 					</fo:list-block>
@@ -75,170 +73,72 @@ let $fo :=
 			</fo:block>
 		</fo:flow>
 	</fo:page-sequence>
-	{for $projet in 
+	{for $proj in $p/TM:projets/projet
+	let $projet:=collection("/db/apps/MM40/data/profile")/TM:profile[contains(@id, $proj/@id)]
+	return
 	<fo:page-sequence master-reference="projectPage">
 		<fo:flow flow-name="xsl-region-body">
 			<fo:block>
 				<fo:block text-align="center" margin-bottom="0.5cm">
-					<fo:external-graphic  src="http://www.olfraime.com/testTrans/projet.jpg"   width="15.075cm"  scaling="non-uniform"/>
+					<fo:external-graphic  src="{$projet/TM:image/@url}"   width="15.075cm"  scaling="non-uniform"/>
 				</fo:block>
 				<fo:table>
 					<fo:table-body>
 						<fo:table-row width="auto">
 							<fo:table-cell>
-								<fo:block font-size="35pt" color="rgb(0,0,0)">Titre principal</fo:block>
-							</fo:table-cell>
-							<fo:table-cell>
-								<fo:block font-size="28pt"  padding-top="0.2cm" color="rgb(0,0,0)">Sous-Titre</fo:block>
+								<fo:block font-size="35pt" color="rgb(0,0,0)">{$projet/TM:nom/text()}</fo:block>
 							</fo:table-cell>
 						</fo:table-row>
 					</fo:table-body>
 					</fo:table>
-					<fo:block text-align="justify" font-size="12pt" margin-top="0.5cm" color="rgb(0,0,0)">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac elit eros. Phasellus a imperdiet magna, eu gravida dolor. Nulla ultrices ornare massa vitae rutrum. Etiam nisi erat, consectetur id ornare nec, imperdiet vel purus. Donec sed semper dolor. Donec at porttitor mi. Etiam gravida, turpis eget tristique commodo, mauris nisi accumsan est, id mollis sem lorem non dolor. Aenean pulvinar nibh eu viverra pharetra. Donec eu orci lectus. Integer iaculis ullamcorper nunc a sagittis. Vestibulum ornare purus non est congue vestibulum. Duis vel consequat tellus.
-				</fo:block>
+					{for $paragraph in $p/TM:description/p
+					return
+					<fo:block text-align="justify" font-size="12pt" margin-top="0.5cm" color="rgb(0,0,0)">{$paragraph/text()}</fo:block>
+				}
 				<fo:block text-align="left" margin-top="1cm" font-size="10pt" color="rgb(0,0,0)">
-					<fo:basic-link external-destination="url('http://unprojet.com')">http://unprojet.com</fo:basic-link>
+					<fo:basic-link external-destination="url('{$projet/@url}')">{$projet/@url}</fo:basic-link>
 				</fo:block>
 			</fo:block>
-				
+			
+				{for $dom in $p/TM:domaine
+				let $rose:=resources/images/niveauRose.svg
+				let $gris:=resources/images/niveauGris.svg
+				let $numRose:=$dom/@poids
+				let $numGris:=5-$numRose
+				return
 			<fo:table margin-top="0.7cm">
 				<fo:table-body>
 					<fo:table-row height="0.4cm">
 						<fo:table-cell width="6.5cm">
 							<fo:block text-align="left" font-size="18pt" color="rgb(0,0,0)" margin-bottom="0.5cm">
-								VIDEO
+								{$dom/@nom}
 							</fo:block>
 						</fo:table-cell>
+						{for $i in (1 to $numRose)
+						return 
 						<fo:table-cell width="2.8cm">
 							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
+								<fo:external-graphic  src="{$rose}"   width="0.4cm"  scaling="uniform"/>
 							</fo:block>
 						</fo:table-cell>
+						}
+						
+						{for $i in (1 to $numGris)
+						return 
 						<fo:table-cell width="2.8cm">
 							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
+								<fo:external-graphic  src="{$gris}"   width="0.4cm"  scaling="uniform"/>
 							</fo:block>
 						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-					</fo:table-row>
-					<fo:table-row height="0.4cm">
-						<fo:table-cell width="6.5cm">
-							<fo:block text-align="left" font-size="18pt" color="rgb(0,0,0)" margin-bottom="0.5cm">
-								AUDIO
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-					</fo:table-row>
-					<fo:table-row height="0.4cm">
-						<fo:table-cell width="6.5cm">
-							<fo:block text-align="left" font-size="18pt" color="rgb(0,0,0)">
-								WEB
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-					</fo:table-row>
-					<fo:table-row height="0.4cm">
-						<fo:table-cell width="6.5cm">
-							<fo:block text-align="left" font-size="18pt" color="rgb(0,0,0)">
-								PRINT
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
-						<fo:table-cell width="2.8cm">
-							<fo:block text-align="left" margin-bottom="0.5cm">
-								<fo:external-graphic  src="http://www.olfraime.com/testTrans/niveauRose.svg"   width="0.4cm"  scaling="uniform"/>
-							</fo:block>
-						</fo:table-cell>
+						}
 					</fo:table-row>
 				</fo:table-body>
 			</fo:table>
-			
-			
-			
+	}
 		</fo:flow>
 	</fo:page-sequence>
+
+	}
 </fo:root>
 
 let $pdf := xslfo:render($fo, "application/pdf", ())
