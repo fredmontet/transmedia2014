@@ -49,7 +49,7 @@ declare function profile:projet($node as node(), $model as map(*))
                     { for $project in $model("profile")//TM:projet
                     return (
                     <li>
-                        <a href="projet.html?id={$project/@id}">{$model("projets")[contains(@id, $project/@id )]/TM:nom}</a>
+                        <a href="projet.html?id={$project/@id}">{$model("projets")[contains(@id, $project/@id )]/TM:nom/text()}</a>
                     </li> 
                     )
                     }

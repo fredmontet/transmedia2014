@@ -71,9 +71,9 @@ declare  function projet:temoignage($node as node(), $model as map(*))
                     <section class="left">
                         <img src="{$temoin//TM:photo[@genre eq 'base']/@url}"/>
                     </section><section class="right">
-                        <p class="quotes">{$model("projet")//TM:temoignage[contains(TM:personne/@id, $temoin/@id)]}</p>
+                        <p class="quotes">{$model("projet")//TM:temoignage[contains(TM:personne/@id, $temoin/@id)]/TM:p/text()}</p>
                         <p class="button">
-                            <a href="profile.html?id={$temoin/@id}">{$temoin//TM:prenom} {$temoin//TM:nom}</a>
+                            <a href="profile.html?id={$temoin/@id}">{$temoin//TM:prenom/text()} {$temoin//TM:nom/text()}</a>
                         </p>
                     </section>
                 </div>

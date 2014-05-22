@@ -29,6 +29,6 @@ declare %templates:default %templates:wrap function app:nav($node as node(), $mo
     let $projets := collection("/db/apps/MM40/data/projets")/TM:projet
         for $p in $projets
         return
-    <li><a href="projet.html?id={$p/@id}">{$p/TM:nom/text()}</a></li>
+    <li><a href="projet.html?id={$p/@id}">{$p/TM:nom_court/text()}</a></li>
 
 };
