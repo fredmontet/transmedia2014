@@ -240,7 +240,8 @@ body {
   z-index: 100; }
 
 p {
-  text-align: justify; }
+  text-align: justify;
+  padding-bottom: 10px; }
 
 p.quotes:before {
   content: "« "; }
@@ -252,7 +253,8 @@ h1 {
   font-size: 1.3em;
   text-align: center;
   padding: 20px;
-  font-family: "open_sanssemibold", "open_sansregular", sans-serif; }
+  font-family: "open_sanssemibold", "open_sansregular", sans-serif;
+  line-height: 1.2em; }
   h1:after {
     content: " ";
     height: 0;
@@ -277,7 +279,7 @@ p.button,
   .button a {
     padding: 10px;
     text-decoration: none;
-    color: white;
+    color: white !important;
     display: inline-block;
     margin: 30px 0;
     text-transform: uppercase; }
@@ -299,6 +301,8 @@ p.button,
 /*************/
 /*** Theme ***/
 /*************/
+#container p a {
+  color: #eb005e; }
 #container header {
   background: #eb005e; }
   #container header nav {
@@ -324,13 +328,13 @@ p.button,
   #container .team:after,
   #container .offerProject:after,
   #container .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container .characteristic,
 #container .principalTestimony {
   background-color: #ededed; }
   #container .characteristic:after,
   #container .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container .characteristic .content > article {
   border-bottom: 1px solid #eb005e; }
   #container .characteristic .content > article div.on {
@@ -344,7 +348,7 @@ p.button,
   #container .vote:after,
   #container .profil_desc:after,
   #container .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container .video,
 #container header,
 #container .title {
@@ -353,7 +357,12 @@ p.button,
   #container .video:after,
   #container header:after,
   #container .title:after {
-    border-top-color: #eb005e; }
+    border-top-color: #eb005e !important; }
+@media only screen and (max-width: 500px) {
+  #container .video .content h1 {
+    color: #eb005e;
+    margin-right: 0;
+    padding: 15px; } }
 #container .button a {
   background: #eb005e; }
 #container h1 {
@@ -370,6 +379,8 @@ p.button,
   background: #eb005e; }
 #container #project_bottom ul:after {
   border-top-color: #eb005e; }
+#container.eb005e-2014 p a {
+  color: #eb005e; }
 #container.eb005e-2014 header {
   background: #eb005e; }
   #container.eb005e-2014 header nav {
@@ -395,13 +406,13 @@ p.button,
   #container.eb005e-2014 .team:after,
   #container.eb005e-2014 .offerProject:after,
   #container.eb005e-2014 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.eb005e-2014 .characteristic,
 #container.eb005e-2014 .principalTestimony {
   background-color: #ededed; }
   #container.eb005e-2014 .characteristic:after,
   #container.eb005e-2014 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.eb005e-2014 .characteristic .content > article {
   border-bottom: 1px solid #eb005e; }
   #container.eb005e-2014 .characteristic .content > article div.on {
@@ -415,7 +426,7 @@ p.button,
   #container.eb005e-2014 .vote:after,
   #container.eb005e-2014 .profil_desc:after,
   #container.eb005e-2014 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.eb005e-2014 .video,
 #container.eb005e-2014 header,
 #container.eb005e-2014 .title {
@@ -424,7 +435,12 @@ p.button,
   #container.eb005e-2014 .video:after,
   #container.eb005e-2014 header:after,
   #container.eb005e-2014 .title:after {
-    border-top-color: #eb005e; }
+    border-top-color: #eb005e !important; }
+@media only screen and (max-width: 500px) {
+  #container.eb005e-2014 .video .content h1 {
+    color: #eb005e;
+    margin-right: 0;
+    padding: 15px; } }
 #container.eb005e-2014 .button a {
   background: #eb005e; }
 #container.eb005e-2014 h1 {
@@ -443,6 +459,8 @@ p.button,
   border-top-color: #eb005e; }
 #container.eb005e-2014 #simpleLogo {
   background-image: url("../images/logoTransmedia.svg"); }
+#container.short-stalk-2013 p a {
+  color: #766454; }
 #container.short-stalk-2013 header {
   background: #766454; }
   #container.short-stalk-2013 header nav {
@@ -468,13 +486,13 @@ p.button,
   #container.short-stalk-2013 .team:after,
   #container.short-stalk-2013 .offerProject:after,
   #container.short-stalk-2013 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.short-stalk-2013 .characteristic,
 #container.short-stalk-2013 .principalTestimony {
   background-color: #ededed; }
   #container.short-stalk-2013 .characteristic:after,
   #container.short-stalk-2013 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.short-stalk-2013 .characteristic .content > article {
   border-bottom: 1px solid #766454; }
   #container.short-stalk-2013 .characteristic .content > article div.on {
@@ -488,7 +506,7 @@ p.button,
   #container.short-stalk-2013 .vote:after,
   #container.short-stalk-2013 .profil_desc:after,
   #container.short-stalk-2013 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.short-stalk-2013 .video,
 #container.short-stalk-2013 header,
 #container.short-stalk-2013 .title {
@@ -497,7 +515,12 @@ p.button,
   #container.short-stalk-2013 .video:after,
   #container.short-stalk-2013 header:after,
   #container.short-stalk-2013 .title:after {
-    border-top-color: #766454; }
+    border-top-color: #766454 !important; }
+@media only screen and (max-width: 500px) {
+  #container.short-stalk-2013 .video .content h1 {
+    color: #766454;
+    margin-right: 0;
+    padding: 15px; } }
 #container.short-stalk-2013 .button a {
   background: #766454; }
 #container.short-stalk-2013 h1 {
@@ -514,6 +537,8 @@ p.button,
   background: #766454; }
 #container.short-stalk-2013 #project_bottom ul:after {
   border-top-color: #766454; }
+#container.tedxlausanne-2013 p a {
+  color: #ff2b06; }
 #container.tedxlausanne-2013 header {
   background: #ff2b06; }
   #container.tedxlausanne-2013 header nav {
@@ -539,13 +564,13 @@ p.button,
   #container.tedxlausanne-2013 .team:after,
   #container.tedxlausanne-2013 .offerProject:after,
   #container.tedxlausanne-2013 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.tedxlausanne-2013 .characteristic,
 #container.tedxlausanne-2013 .principalTestimony {
   background-color: #ededed; }
   #container.tedxlausanne-2013 .characteristic:after,
   #container.tedxlausanne-2013 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.tedxlausanne-2013 .characteristic .content > article {
   border-bottom: 1px solid #ff2b06; }
   #container.tedxlausanne-2013 .characteristic .content > article div.on {
@@ -559,7 +584,7 @@ p.button,
   #container.tedxlausanne-2013 .vote:after,
   #container.tedxlausanne-2013 .profil_desc:after,
   #container.tedxlausanne-2013 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.tedxlausanne-2013 .video,
 #container.tedxlausanne-2013 header,
 #container.tedxlausanne-2013 .title {
@@ -568,7 +593,12 @@ p.button,
   #container.tedxlausanne-2013 .video:after,
   #container.tedxlausanne-2013 header:after,
   #container.tedxlausanne-2013 .title:after {
-    border-top-color: #ff2b06; }
+    border-top-color: #ff2b06 !important; }
+@media only screen and (max-width: 500px) {
+  #container.tedxlausanne-2013 .video .content h1 {
+    color: #ff2b06;
+    margin-right: 0;
+    padding: 15px; } }
 #container.tedxlausanne-2013 .button a {
   background: #ff2b06; }
 #container.tedxlausanne-2013 h1 {
@@ -585,6 +615,8 @@ p.button,
   background: #ff2b06; }
 #container.tedxlausanne-2013 #project_bottom ul:after {
   border-top-color: #ff2b06; }
+#container.cinema-lingua-2011 p a {
+  color: #1b6834; }
 #container.cinema-lingua-2011 header {
   background: #1b6834; }
   #container.cinema-lingua-2011 header nav {
@@ -610,13 +642,13 @@ p.button,
   #container.cinema-lingua-2011 .team:after,
   #container.cinema-lingua-2011 .offerProject:after,
   #container.cinema-lingua-2011 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.cinema-lingua-2011 .characteristic,
 #container.cinema-lingua-2011 .principalTestimony {
   background-color: #ededed; }
   #container.cinema-lingua-2011 .characteristic:after,
   #container.cinema-lingua-2011 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.cinema-lingua-2011 .characteristic .content > article {
   border-bottom: 1px solid #1b6834; }
   #container.cinema-lingua-2011 .characteristic .content > article div.on {
@@ -630,7 +662,7 @@ p.button,
   #container.cinema-lingua-2011 .vote:after,
   #container.cinema-lingua-2011 .profil_desc:after,
   #container.cinema-lingua-2011 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.cinema-lingua-2011 .video,
 #container.cinema-lingua-2011 header,
 #container.cinema-lingua-2011 .title {
@@ -639,7 +671,12 @@ p.button,
   #container.cinema-lingua-2011 .video:after,
   #container.cinema-lingua-2011 header:after,
   #container.cinema-lingua-2011 .title:after {
-    border-top-color: #1b6834; }
+    border-top-color: #1b6834 !important; }
+@media only screen and (max-width: 500px) {
+  #container.cinema-lingua-2011 .video .content h1 {
+    color: #1b6834;
+    margin-right: 0;
+    padding: 15px; } }
 #container.cinema-lingua-2011 .button a {
   background: #1b6834; }
 #container.cinema-lingua-2011 h1 {
@@ -656,6 +693,8 @@ p.button,
   background: #1b6834; }
 #container.cinema-lingua-2011 #project_bottom ul:after {
   border-top-color: #1b6834; }
+#container.radio-comem-2012 p a {
+  color: #007da4; }
 #container.radio-comem-2012 header {
   background: #007da4; }
   #container.radio-comem-2012 header nav {
@@ -681,13 +720,13 @@ p.button,
   #container.radio-comem-2012 .team:after,
   #container.radio-comem-2012 .offerProject:after,
   #container.radio-comem-2012 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.radio-comem-2012 .characteristic,
 #container.radio-comem-2012 .principalTestimony {
   background-color: #ededed; }
   #container.radio-comem-2012 .characteristic:after,
   #container.radio-comem-2012 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.radio-comem-2012 .characteristic .content > article {
   border-bottom: 1px solid #007da4; }
   #container.radio-comem-2012 .characteristic .content > article div.on {
@@ -701,7 +740,7 @@ p.button,
   #container.radio-comem-2012 .vote:after,
   #container.radio-comem-2012 .profil_desc:after,
   #container.radio-comem-2012 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.radio-comem-2012 .video,
 #container.radio-comem-2012 header,
 #container.radio-comem-2012 .title {
@@ -710,7 +749,12 @@ p.button,
   #container.radio-comem-2012 .video:after,
   #container.radio-comem-2012 header:after,
   #container.radio-comem-2012 .title:after {
-    border-top-color: #007da4; }
+    border-top-color: #007da4 !important; }
+@media only screen and (max-width: 500px) {
+  #container.radio-comem-2012 .video .content h1 {
+    color: #007da4;
+    margin-right: 0;
+    padding: 15px; } }
 #container.radio-comem-2012 .button a {
   background: #007da4; }
 #container.radio-comem-2012 h1 {
@@ -727,6 +771,8 @@ p.button,
   background: #007da4; }
 #container.radio-comem-2012 #project_bottom ul:after {
   border-top-color: #007da4; }
+#container.seminaire-entreprise-2014 p a {
+  color: #336699; }
 #container.seminaire-entreprise-2014 header {
   background: #336699; }
   #container.seminaire-entreprise-2014 header nav {
@@ -752,13 +798,13 @@ p.button,
   #container.seminaire-entreprise-2014 .team:after,
   #container.seminaire-entreprise-2014 .offerProject:after,
   #container.seminaire-entreprise-2014 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.seminaire-entreprise-2014 .characteristic,
 #container.seminaire-entreprise-2014 .principalTestimony {
   background-color: #ededed; }
   #container.seminaire-entreprise-2014 .characteristic:after,
   #container.seminaire-entreprise-2014 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.seminaire-entreprise-2014 .characteristic .content > article {
   border-bottom: 1px solid #336699; }
   #container.seminaire-entreprise-2014 .characteristic .content > article div.on {
@@ -772,7 +818,7 @@ p.button,
   #container.seminaire-entreprise-2014 .vote:after,
   #container.seminaire-entreprise-2014 .profil_desc:after,
   #container.seminaire-entreprise-2014 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.seminaire-entreprise-2014 .video,
 #container.seminaire-entreprise-2014 header,
 #container.seminaire-entreprise-2014 .title {
@@ -781,7 +827,12 @@ p.button,
   #container.seminaire-entreprise-2014 .video:after,
   #container.seminaire-entreprise-2014 header:after,
   #container.seminaire-entreprise-2014 .title:after {
-    border-top-color: #336699; }
+    border-top-color: #336699 !important; }
+@media only screen and (max-width: 500px) {
+  #container.seminaire-entreprise-2014 .video .content h1 {
+    color: #336699;
+    margin-right: 0;
+    padding: 15px; } }
 #container.seminaire-entreprise-2014 .button a {
   background: #336699; }
 #container.seminaire-entreprise-2014 h1 {
@@ -798,6 +849,8 @@ p.button,
   background: #336699; }
 #container.seminaire-entreprise-2014 #project_bottom ul:after {
   border-top-color: #336699; }
+#container.paleo-2013 p a {
+  color: #3a2159; }
 #container.paleo-2013 header {
   background: #3a2159; }
   #container.paleo-2013 header nav {
@@ -823,13 +876,13 @@ p.button,
   #container.paleo-2013 .team:after,
   #container.paleo-2013 .offerProject:after,
   #container.paleo-2013 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.paleo-2013 .characteristic,
 #container.paleo-2013 .principalTestimony {
   background-color: #ededed; }
   #container.paleo-2013 .characteristic:after,
   #container.paleo-2013 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.paleo-2013 .characteristic .content > article {
   border-bottom: 1px solid #3a2159; }
   #container.paleo-2013 .characteristic .content > article div.on {
@@ -843,7 +896,7 @@ p.button,
   #container.paleo-2013 .vote:after,
   #container.paleo-2013 .profil_desc:after,
   #container.paleo-2013 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.paleo-2013 .video,
 #container.paleo-2013 header,
 #container.paleo-2013 .title {
@@ -852,7 +905,12 @@ p.button,
   #container.paleo-2013 .video:after,
   #container.paleo-2013 header:after,
   #container.paleo-2013 .title:after {
-    border-top-color: #3a2159; }
+    border-top-color: #3a2159 !important; }
+@media only screen and (max-width: 500px) {
+  #container.paleo-2013 .video .content h1 {
+    color: #3a2159;
+    margin-right: 0;
+    padding: 15px; } }
 #container.paleo-2013 .button a {
   background: #3a2159; }
 #container.paleo-2013 h1 {
@@ -869,6 +927,8 @@ p.button,
   background: #3a2159; }
 #container.paleo-2013 #project_bottom ul:after {
   border-top-color: #3a2159; }
+#container.precarite-2014 p a {
+  color: #652d2a; }
 #container.precarite-2014 header {
   background: #652d2a; }
   #container.precarite-2014 header nav {
@@ -894,13 +954,13 @@ p.button,
   #container.precarite-2014 .team:after,
   #container.precarite-2014 .offerProject:after,
   #container.precarite-2014 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.precarite-2014 .characteristic,
 #container.precarite-2014 .principalTestimony {
   background-color: #ededed; }
   #container.precarite-2014 .characteristic:after,
   #container.precarite-2014 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.precarite-2014 .characteristic .content > article {
   border-bottom: 1px solid #652d2a; }
   #container.precarite-2014 .characteristic .content > article div.on {
@@ -914,7 +974,7 @@ p.button,
   #container.precarite-2014 .vote:after,
   #container.precarite-2014 .profil_desc:after,
   #container.precarite-2014 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.precarite-2014 .video,
 #container.precarite-2014 header,
 #container.precarite-2014 .title {
@@ -923,7 +983,12 @@ p.button,
   #container.precarite-2014 .video:after,
   #container.precarite-2014 header:after,
   #container.precarite-2014 .title:after {
-    border-top-color: #652d2a; }
+    border-top-color: #652d2a !important; }
+@media only screen and (max-width: 500px) {
+  #container.precarite-2014 .video .content h1 {
+    color: #652d2a;
+    margin-right: 0;
+    padding: 15px; } }
 #container.precarite-2014 .button a {
   background: #652d2a; }
 #container.precarite-2014 h1 {
@@ -940,6 +1005,8 @@ p.button,
   background: #652d2a; }
 #container.precarite-2014 #project_bottom ul:after {
   border-top-color: #652d2a; }
+#container.workshop-hdm-2013 p a {
+  color: #ab280f; }
 #container.workshop-hdm-2013 header {
   background: #ab280f; }
   #container.workshop-hdm-2013 header nav {
@@ -965,13 +1032,13 @@ p.button,
   #container.workshop-hdm-2013 .team:after,
   #container.workshop-hdm-2013 .offerProject:after,
   #container.workshop-hdm-2013 .my_projects:after {
-    border-top-color: #f9f7f0; }
+    border-top-color: #f9f7f0 !important; }
 #container.workshop-hdm-2013 .characteristic,
 #container.workshop-hdm-2013 .principalTestimony {
   background-color: #ededed; }
   #container.workshop-hdm-2013 .characteristic:after,
   #container.workshop-hdm-2013 .principalTestimony:after {
-    border-top-color: #ededed; }
+    border-top-color: #ededed !important; }
 #container.workshop-hdm-2013 .characteristic .content > article {
   border-bottom: 1px solid #ab280f; }
   #container.workshop-hdm-2013 .characteristic .content > article div.on {
@@ -985,7 +1052,7 @@ p.button,
   #container.workshop-hdm-2013 .vote:after,
   #container.workshop-hdm-2013 .profil_desc:after,
   #container.workshop-hdm-2013 .contact_me:after {
-    border-top-color: white; }
+    border-top-color: white !important; }
 #container.workshop-hdm-2013 .video,
 #container.workshop-hdm-2013 header,
 #container.workshop-hdm-2013 .title {
@@ -994,7 +1061,12 @@ p.button,
   #container.workshop-hdm-2013 .video:after,
   #container.workshop-hdm-2013 header:after,
   #container.workshop-hdm-2013 .title:after {
-    border-top-color: #ab280f; }
+    border-top-color: #ab280f !important; }
+@media only screen and (max-width: 500px) {
+  #container.workshop-hdm-2013 .video .content h1 {
+    color: #ab280f;
+    margin-right: 0;
+    padding: 15px; } }
 #container.workshop-hdm-2013 .button a {
   background: #ab280f; }
 #container.workshop-hdm-2013 h1 {
@@ -1323,6 +1395,9 @@ header {
   /***************************/
   /*** Principal testimony ***/
   /***************************/
+  /***********/
+  /*** Map ***/
+  /***********/
   /************/
   /*** Vote ***/
   /************/
@@ -1335,7 +1410,7 @@ header {
   /**************/
   /*** Footer ***/
   /**************/ }
-  #container > article:after {
+  #container > article:after, #container #content > article:after {
     margin: 0 auto;
     display: block;
     border: solid transparent;
@@ -1349,13 +1424,13 @@ header {
     position: absolute;
     left: 49%; }
   @media screen and (max-width: 1080px) {
-    #container > article:after {
+    #container > article:after, #container #content > article:after {
       left: 48%; } }
   @media screen and (max-width: 800px) {
-    #container > article:after {
+    #container > article:after, #container #content > article:after {
       left: 47%; } }
   @media screen and (max-width: 440px) {
-    #container > article:after {
+    #container > article:after, #container #content > article:after {
       left: 46%; } }
   #container .profils a {
     width: 30%;
@@ -1457,6 +1532,15 @@ header {
       margin: 0 30px; }
     #container .video h1 {
       margin-right: 30px; } }
+  #container .video .content {
+    padding-top: 10px; }
+    #container .video .content h1 {
+      color: white;
+      text-align: right;
+      font-size: 2em;
+      padding: 0 0 20px; }
+      #container .video .content h1:after {
+        background: none; }
   @media screen and (max-width: 500px) {
     #container .video {
       margin-bottom: -30px;
@@ -1468,18 +1552,11 @@ header {
       #container .video .content {
         padding-left: 0;
         padding-right: 0; }
+        #container .video .content h1 {
+          text-align: center; }
       #container .video #left,
       #container .video #right {
         display: none; } }
-  #container .video .content {
-    padding-top: 10px; }
-    #container .video .content h1 {
-      color: white;
-      text-align: right;
-      font-size: 2em;
-      padding: 0 0 20px; }
-      #container .video .content h1:after {
-        background: none; }
   #container .centered p {
     max-width: 800px;
     margin: 5px auto; }
@@ -1580,6 +1657,13 @@ header {
             float: none; }
         #container .offer form .right {
           margin-top: 20px; } }
+  #container .testimony .content,
+  #container .principalTestimony .content {
+    overflow: auto; }
+  #container .testimony div,
+  #container .principalTestimony div {
+    display: block;
+    float: left; }
   #container .testimony .left,
   #container .principalTestimony .left {
     width: 30%;
@@ -1626,9 +1710,10 @@ header {
       #container .testimony .right .button,
       #container .principalTestimony .right .button {
         float: none; } }
-  #container .characteristic article {
-    cursor: pointer;
+  #container .characteristic .content {
     overflow: auto; }
+  #container .characteristic article {
+    cursor: pointer; }
     #container .characteristic article h1 {
       text-align: left;
       padding-left: 0;
@@ -1692,7 +1777,7 @@ header {
   #container .principalTestimony .left {
     width: 20%; }
   #container .principalTestimony .right {
-    width: 70%; }
+    width: 69%; }
   @media screen and (max-width: 500px) {
     #container .principalTestimony .left {
       width: 50%;
@@ -1704,6 +1789,26 @@ header {
       width: 100%;
       display: block;
       position: relative; } }
+  #container .map {
+    background-image: url("../images/map.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: -10; }
+    #container .map section {
+      display: block;
+      width: 96%;
+      position: fixed;
+      bottom: 0;
+      padding: 2%;
+      background: rgba(255, 255, 255, 0.8); }
+    #container .map:after {
+      display: none; }
   #container .vote p {
     max-width: 800px;
     margin: 5px auto; }
