@@ -3,22 +3,22 @@
 	<annee>2013</annee>
 	<nom>SHORT-STALK, au seuil des désirs</nom>
 	<nom_court>SHORT-STALK</nom_court>
-	<video url="www.youtube.com/embed/0B1J46IHIk8"/>
+	<video url="http://www.youtube.com/embed/0B1J46IHIk8"/>
 	<image url="images/projets/photo_short-stalk-2013.jpg"/>
 	<description>
 		<p>Un tel projet a été pour notre classe un moyen de proposer une réalisation concrète dans le domaine audiovisuel. La thématique choisie, tirée du film Stalker de Andreï Tarkovski, nous a permis de nous questionner sur nos plus profonds désirs, mais également de retourner cette question aux visiteurs de l’exposition dans laquelle nos films ont été projetés.</p>
-		<p>Nous avons pu assurer l’ensemble de la réalisation des courts-métrages, de l’écriture du concept à la diffusion de ceux-ci sur notre plateforme web. Nous sommes passés par toutes les étapes de production d’un message audiovisuel.</p>
-		<p>Ce travail a été réalisé en partenariat avec le Musée de la Maison d’Ailleurs d’Yverdon, qui a présenté ces films dans son exposition “Stalker- Expérimenter la zone” entre septembre 2013 et mars 2014.</p>
-		<p>Le projet “Short-Stalk - au seuil des désirs” a été réalisé dans le cadre du cours Projet Audio-Visuel qui permet aux étudiants de deuxième année en Ingénierie des Médias d’aborder concrètement les métiers du domaine audiovisuel.</p>
+		<p>Nous avons pu assurer l’ensemble de la réalisation des courts-métrages, de l’écriture de l'histoire à la diffusion des films sur notre plateforme web. Nous sommes passés par toutes les étapes de production d’un message audiovisuel.</p>
+		<p>Ce travail a été réalisé en partenariat avec le Musée de la Maison d’Ailleurs d’Yverdon-les-Bains, qui a présenté ces films dans son exposition “Stalker- Expérimenter la zone” entre septembre 2013 et mars 2014.</p>
+		<p>Le projet "SHORT-STALK, au seuil des désirs” a été réalisé dans le cadre du cours Projet Audio-Visuel qui permet aux étudiants de deuxième année en Ingénierie des Médias d’aborder concrètement les métiers du domaine audiovisuel.</p>
 	</description>
 	<temoignages>
 		<temoignage>
 			<personne id="louis-allemann-mm40"/>
-			<p>Ce projet nous a permis d’effectuer le processus complet de la réalisation d’un court métrage. Après avoir défini notre message, rédigé notre scénario et dessiné notre story-board, nous avons réalisé le tournage de nos courts-métrages. Puis, nous avons pu explorer la partie post-production en faisant le montage vidéo et audio de nos courts-métrages. Ce projet nous a permis de mettre en pratique l’ensemble des compétences acquises en audiovisuel.</p>
+			<p>Ce projet nous a permis d’effectuer le processus complet de la réalisation d’un court-métrage. Après avoir défini notre message, rédigé notre scénario et dessiné notre story-board, nous avons réalisé le tournage de nos courts-métrages. Puis, nous avons pu explorer la partie post-production en effectuant les montages vidéo et audio de nos courts-métrages. Ce projet nous a permis de mettre en pratique l’ensemble des compétences acquises en audiovisuel.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="mickael-justo-mm40"/>
-			<p>L’expérience vécue pendant le projet Stalker m’a permis de mettre un pied dans la réalisation de vidéos. La conception et la réalisation des vidéos mais également le partenariat avec le Musée de la Maison D’ailleurs. Nos courts-métrages ont été diffusés pendant l’exposition. Nous avons pu collaborer avec des personnes intéressantes telles que Rashit Safiullin ou encore Marc Atallah. En binôme avec une autre étudiante, j’ai créé un flyer comportant, au dos, un QR Code à gratter.</p>
+			<p>L’expérience vécue pendant le projet Stalker m’a permis de mettre un pied dans la réalisation de vidéos. La conception et la réalisation des vidéos mais également le partenariat avec le Musée de la Maison d’Ailleurs. Nos courts-métrages ont été diffusés pendant l’exposition. Nous avons pu collaborer avec des personnes intéressantes telles que Rashit Safiullin ou encore Marc Atallah. En binôme avec une autre étudiante, j’ai créé un flyer comportant, au dos, un QR Code à gratter.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="marine-lemonis-mm40"/>
@@ -26,7 +26,7 @@
 		</temoignage>
 		<temoignage>
 			<personne id="miranda-martinet-mm40"/>
-			<p>Ce projet était très intéressant, car nous avons pu explorer tous les aspects du domaine de l’audiovisuel, de la définition du message en passant par l’élaboration du storyboard et en terminant par la réalisation du court-métrage. J’ai eu la possibilité d’endosser différents rôles : réalisatrice, preneuse de son et monteuse de vidéo.</p>
+			<p>Ce projet était très intéressant, car nous avons pu explorer tous les aspects du domaine de l’audiovisuel, de la définition du message en passant par l’élaboration du story-board et en terminant par la réalisation du court-métrage. J’ai eu la possibilité d’endosser différents rôles : réalisatrice, preneuse de son et monteuse de vidéo.</p>
 		</temoignage>
 	</temoignages>
 	<domaine nom="Vidéo" poids="5">
@@ -34,7 +34,7 @@
 		<tache>Mise en scène</tache>
 		<tache>Réalisation</tache>
 		<tache>Montage</tache>
-		<tache>Postproduction</tache>
+		<tache>Post-production</tache>
 		<tache>Encodage</tache>
 		<tache>Distribution</tache>
 		<outil>Final Cut Pro</outil>
@@ -46,7 +46,7 @@
 		<tache>Post-production</tache>
 		<tache>Encodage</tache>
 		<outil>Tascam</outil>
-		<outil>Final cut pro</outil>
+		<outil>Final Cut Pro</outil>
 		<outil>Microphone</outil>
 	</domaine>
 	<domaine nom="Web" poids="3">
@@ -88,11 +88,11 @@
 	<superviseur>
 		<prenom>Marc</prenom>
 		<nom>Atallah</nom>
-		<role>Directeur du musée de la Maison d’Ailleurs</role>
+		<role>Directeur du Musée de la Maison d’Ailleurs</role>
 		<logo url="images/superviseurs/logo_atallah_stalker.svg"/>
 		<organisation url="http://www.ailleurs.ch">Musée de la Maison d’Ailleurs</organisation>
 		<commentaire>
-			<p>Depuis quelques années, la Maison d’Ailleurs s’est donnée pour mission de valoriser le travail d’étudiants – qu’ils proviennent de hautes écoles ou d’autres voies de formation. La raison d’être de ce choix stratégique se justifie par une certitude : la science-fiction, et ses différentes esthétiques dérivées, est un type d’univers connu par les nouvelles générations. En ce sens, pourquoi se couper du talent créatif d’étudiants, alors qu’il est là, en attente de nos demandes, prêt à montrer son amplitude ? C’est suite à de tels constats qu’il m’a paru essentiel d’associer la HEIG-VD à l’exposition « Stalker | Expérimenter la Zone ». Quelques mois après la fermeture de cette dernière, ma satisfaction est entière : les étudiants ont fait un travail incroyable, m’ont surpris par la qualité de leurs travaux et, surtout, ont réussi à intégrer aux dispositifs technologiques cet enthousiasme sans lequel la création est vide – de contenu, mais aussi de </p>
+			<p>Depuis quelques années, la Maison d’Ailleurs s’est donnée pour mission de valoriser le travail d’étudiants, qu’ils proviennent de hautes écoles ou d’autres voies de formation. La raison d’être de ce choix stratégique se justifie par une certitude : la science-fiction, et ses différentes esthétiques dérivées, est un type d’univers connu par les nouvelles générations. En ce sens, pourquoi se couper du talent créatif d’étudiants, alors qu’il est là, en attente de nos demandes, prêt à montrer son amplitude ? C’est suite à de tels constats qu’il m’a paru essentiel d’associer la HEIG-VD à l’exposition « Stalker | Expérimenter la Zone ». Quelques mois après la fermeture de cette dernière, ma satisfaction est entière : les étudiants ont fait un travail incroyable, m’ont surpris par la qualité de leurs travaux et, surtout, ont réussi à intégrer aux dispositifs technologiques cet enthousiasme sans lequel la création est vide – de contenu, mais aussi de sens.</p>
 		</commentaire>
 	</superviseur>
 </projet>

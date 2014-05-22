@@ -3,12 +3,12 @@
 	<annee>2014</annee>
 	<nom>Precarite.ch</nom>
 	<nom_court>Precarite.ch</nom_court>
-	<video url="www.youtube.com/embed/LJjK-L0vkXE"/>
+	<video url="http://www.youtube.com/embed/LJjK-L0vkXE"/>
 	<image url="images/projets/photo_precarite-2014.jpg"/>
 	<description>
 		<p>Le site web precarite.ch a été un des projets les plus multidisciplinaires de la formation d’ingénieur des médias. Sur une très courte période, la classe a fourni un travail commun, en utilisant la totalité des compétences acquises sur trois ans en management, en communication ainsi qu’en technique.</p>
-		<p>Nous avons produit du contenu multimédia autour de la thématique “la précarité” que nous avons présentée par un site web.</p>
-		<p>Pour ce projet, nous avons rencontré le cinéaste suisse Fernand Melgar qui nous a donné quelques pistes de réflexion et guidé sur la thématique délicate de la précarité, imposée par nos professeurs.</p>
+		<p>Nous avons produit du contenu multimédia, autour de la thématique “la précarité”, que nous avons présenté par un site web.</p>
+		<p>Pour ce projet, nous avons rencontré le cinéaste suisse Fernand Melgar qui nous a donné quelques pistes de réflexion et guidé sur la thématique délicate imposée par nos professeurs.</p>
 		<p>Cet exercice a été réalisé dans le cadre du cours Newsroom, un atelier de création de médias d’information, en troisième année, sur une durée limitée d’une dizaine de jours.</p>
 	</description>
 	<temoignages>
@@ -18,7 +18,7 @@
 		</temoignage>
 		<temoignage>
 			<personne id="mickael-justo-mm40"/>
-			<p>Transmédia marquait la fin du cursus de la formation d’ingénieur des médias. À travers de ce projet, nous avons pu mettre en commun tous les domaines appris au cours de notre formation : management, engineering et communication. En tant que coordinateur du projet, la partie management a été prépondérante pour ma part.</p>
+			<p>Lors du projet Newsroom, nous avons essentiellement dû fournir du contenu. Ceci m’a permis de partir à la rencontre des gens, de mener des interviews et également de faire des portraits photos. J’ai également du produire des images pour la campagne de communication du site precarite.ch</p>
 		</temoignage>
 		<temoignage>
 			<personne id="marine-lemonis-mm40"/>
@@ -30,7 +30,7 @@
 		</temoignage>
 		<temoignage>
 			<personne id="christophe-merkle-mm40"/>
-			<p>L’introduction de Fernand Melgar et les divers témoignages des personnes qui vivent dans une situation de précarité nous ont bien motivés à s’investir à fond dans ce projet</p>
+			<p>L’introduction de Fernand Melgar et les divers témoignages des personnes qui vivent dans une situation de précarité nous ont bien motivés à s’investir à fond dans ce projet.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="frederic-montet-mm40"/>
@@ -67,7 +67,7 @@
 	<domaine nom="Web" poids="3">
 		<tache>Mockups</tache>
 		<tache>Maquettes</tache>
-		<tache>Modelisation</tache>
+		<tache>Modélisation</tache>
 		<tache>Développement</tache>
 		<tache>Intégration</tache>
 		<tache>Tests</tache>
@@ -91,7 +91,7 @@
 		<tache>Définition d'une stratégie</tache>
 		<tache>Création des éléments de communication</tache>
 		<tache>Teasing</tache>
-		<outil>CrossMédia</outil>
+		<outil>Cross Media</outil>
 	</domaine>
 	<team>
 		<personne id="jerome-clot-mm40"/>
@@ -106,9 +106,9 @@
 		<personne id="jonas-oesch-mm40"/>
 		<personne id="flavien-knuchel-mm40"/>
 		<personne id="andreane-mercier-mm40"/>
-		<personne id="yoan-gern-mm40"/>
+		<personne id="yoann-gern-mm40"/>
 		<personne id="anne-grandjean-mm40"/>
-		<personne id="christophe-raste-mm40"/>
+		<personne id="christophe-rast-mm40"/>
 	</team>
 	<superviseur>
 		<prenom>Fernand</prenom>

@@ -3,7 +3,7 @@
 	<annee>2014</annee>
 	<nom>eb005e</nom>
 	<nom_court>eb005e</nom_court>
-	<video url="www.youtube.com/embed/kosnBQwaWtw"/>
+	<video url="http://www.youtube.com/embed/kosnBQwaWtw"/>
 	<image url="images/projets/photo_eb005e-2014.jpg"/>
 	<description>
 		<p>Le cours transmédia est un projet qui regroupe l’ensemble des savoir-faire acquis par un ingénieur des médias au terme de ses trois ans de formation. Projet pluridisciplinaire, il nous demande de faire appel aux compétences que nous avons développées dans les trois pôles : communication, management et engineering.</p>
@@ -14,7 +14,7 @@
 	<temoignages>
 		<temoignage>
 			<personne id="marine-lemonis-mm40"/>
-			<p>Durant le projet transmédia, j’ai voulu m’essayer à la gestion de teams. En prenant place dans le groupe de coordination, j’ai pu garder une vue d’ensemble sur tous les processus techniques, de production de contenu, de design et de communication. Je suis une personne polyvalente, douée d’un sens aigu de l’organisation.</p>
+			<p>Durant le projet transmédia, j’ai voulu m’essayer à la gestion de teams. En prenant place dans le groupe de coordination, j’ai pu garder une vue d’ensemble sur tous les processus techniques, de production de contenu, de design et de communication. J'ai mis en avant mon sens aigu de l’organisation.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="robin-jespierre-mit40"/>
@@ -69,13 +69,13 @@
 		<tache>Marketing Mix</tache>
 		<tache>Teasing</tache>
 		<outil>Réseaux sociaux</outil>
-		<outil>StreetArt</outil>
+		<outil>Street art</outil>
 		<outil>Gantt</outil>
 	</domaine>
 	<domaine nom="Web" poids="4">
 		<tache>Mockups</tache>
 		<tache>Maquettes</tache>
-		<tache>Modelisation</tache>
+		<tache>Modélisation</tache>
 		<tache>Développement</tache>
 		<tache>Intégration</tache>
 		<tache>Tests</tache>
@@ -111,6 +111,15 @@
 		<personne id="jonas-oesch-mm40"/>
 		<personne id="flavien-knuchel-mm40"/>
 		<personne id="andreane-mercier-mm40"/>
+		<personne id="louisa-freymond-mm40"/>
+		<personne id="mickael-justo-mm40"/>
+		<personne id="robin-jespierre-mit40"/>
+		<personne id="christophe-rast-mm40"/>
+		<personne id="jerome-clot-mm40"/>
+		<personne id="anne-grandjean-mm40"/>
+		<personne id="louis-allemann-mm40"/>
+		<personne id="miranda-martinet-mm40"/>
+		<personne id="yoann-gern-mm40"/>
 	</team>
 	<superviseur>
 		<prenom>Jean-Marc</prenom>
@@ -119,7 +128,7 @@
 		<logo url="images/superviseurs/logo_seydoux_transmedia.svg"/>
 		<organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
 		<commentaire>
-			<p>Les étudiants de la classe MM40 se sont rapidement approprié le thème du street art, en l’utilisant comme un nouveau médium afin de promouvoir leur formation. Les résultats sont à la hauteur des espérances et démontrent les compétences acquises durant les trois ans de leur cursus. La classe a fait preuve d’une réelle capacité à évoluer dans un projet interdisciplinaire. La complémentarité et la diversité des profils des étudiants offrent une grande flexibilité de travail et une dynamique de groupe efficace et agréable.</p>
+			<p>Les étudiants de la classe MM40 se sont rapidement appropriés le thème du street art, en l’utilisant comme un nouveau médium afin de promouvoir leur formation. Les résultats sont à la hauteur des espérances et démontrent les compétences acquises durant les trois ans de leur cursus. La classe a fait preuve d’une réelle capacité à évoluer dans un projet interdisciplinaire. La complémentarité et la diversité des profils des étudiants offrent une grande flexibilité de travail et une dynamique de groupe efficace et agréable.</p>
 		</commentaire>
 	</superviseur>
 </projet>

@@ -3,7 +3,7 @@
 	<annee>2013</annee>
 	<nom>Workshop HdM Stuttgart</nom>
 	<nom_court>Workshop HdM</nom_court>
-	<video url="www.youtube.com/embed/95vFPs1WmbM"/>
+	<video url="http://www.youtube.com/embed/95vFPs1WmbM"/>
 	<image url="images/projets/photo_workshop-hdm-2013.jpg"/>
 	<description>
 		<p>Le workshop à la Hochschule der Medien (HdM) de Stuttgart a été une occasion unique pour nous d’élargir nos connaissances dans le domaine des médias imprimés. Nous nous sommes familiarisés avec les technologies print, à disposition à la HdM.</p><p>Au travers de productions telles que des cartes de visites ou de T-shirts, nous avons pu utiliser nous-mêmes des machines et apprendre des techniques d’impression. Ne disposant pas de matériel aussi spécialisé à la HEIG-VD, ce voyage nous a permis de découvrir concrètement l’ensemble des technologies print actuelles.</p><p>Le workshop médias imprimés est un incontournable de la formation d’ingénieur des médias et s’intègre à un module de spécialisation en technologies d’impression. Chaque année, il est réalisé grâce au partenariat qu’entretient la HEIG-VD avec la Hochschule der Medien de Stuttgart.</p>
@@ -11,7 +11,7 @@
 	<temoignages>
 		<temoignage>
 			<personne id="andreane-mercier-mm40"/>
-			<p>Le workshop à la Haute École des Médias (HdM) de Stuttgart fut une expérience très enrichissante. Cela m’a permis de découvrir concrètement diverses techniques d’impression et de me familiariser aux différentes presses et machines. J’ai pu les prendre en main par la création d’imprimés en sérigraphie ou d’impression à grand tirage en héliogravure.</p>
+			<p>Le workshop à la Haute École des Médias de Stuttgart fut une expérience très enrichissante. Cela m’a permis de découvrir concrètement diverses techniques d’impression et de me familiariser aux différentes presses et machines. J’ai pu les prendre en main par la création d’imprimés en sérigraphie ou d’impression à grand tirage en héliogravure.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="flavien-knuchel-mm40"/>
@@ -43,7 +43,7 @@
 		</temoignage>
 		<temoignage>
 			<personne id="noemie-sandoz-mm40"/>
-			<p>Pendant le workshop à la Hochschule der Medien (HdM) de Stuttgart, nous avons pu apprendre un grand nombre de techniques d’impression et pratiquer sur les machines à disposition. Bagage précieux, dans la mesure où notre formation touche également les médias imprimés.</p>
+			<p>Pendant le workshop à la Hochschule der Medien de Stuttgart, nous avons pu apprendre un grand nombre de techniques d’impression et pratiquer sur les machines à disposition. Bagage précieux, dans la mesure où notre formation touche également les médias imprimés.</p>
 		</temoignage>
 		<temoignage>
 			<personne id="jonas-oesch-mm40"/>
@@ -52,9 +52,9 @@
 	</temoignages>
 	<domaine nom="Print" poids="5">
 		<tache>Prépresse</tache>
-		<tache>Impostion</tache>
+		<tache>Imposition</tache>
 		<tache>Façonnage</tache>
-		<tache>Color management</tache>
+		<tache>Color Management</tache>
 		<tache>Mise en page</tache>
 		<tache>Typographie</tache>
 		<outil>Sérigraphie</outil>
@@ -89,7 +89,7 @@
 		<logo url="images/superviseurs/logo_pahud_hdm.svg"/>
 		<organisation url="http://www.comem.ch/">HEIG-VD, département Comem+</organisation>
 		<commentaire>
-			<p>En collaboration avec la Hochschule Der Medien, la HEIG-VD offre aux étudiants de deuxième année du département COMEM+ l’opportunité de découvrir les différentes techniques d’impression par un workshop de deux semaines à Stuttgart. Cette approche plus sensorielle et tactile permet aux élèves d’avoir un avant goût des possibilités présentes sur le marché tout en privilégiant la communication et la pratique d’une langue étrangère. Appliquant la théorie vue en cours, ils créent un imprimé selon un fil rouge, suivant chaque étape de l’élaboration du produit, et repartent avec à la fin du séjour.​</p>
+			<p>En collaboration avec la Hochschule der Medien (HdM) à Stuttgart, la HEIG-VD offre aux étudiants de deuxième année du département comem+ l’opportunité de découvrir les différentes technologies d’impression grâce à un workshop dans cette haute école partenaire. Une approche orientée sur la pratique, ainsi que l'équipement complet de la HdM permet aux étudiants de découvrir les différentes technologies à disposition pour produire des médias imprimés. Appliquant la théorie vue en cours, ils réalisent un projet "Print", de la conception graphique à la finition, en passant par toutes les étapes de la production et en favorisant l'utilisation de chaque technologie. Une expérience formatrice et unique en Europe.</p>
 		</commentaire>
 	</superviseur>
 </projet>
