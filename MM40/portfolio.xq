@@ -44,12 +44,12 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 	<fo:page-sequence master-reference="resumePage">
 		<fo:flow flow-name="xsl-region-body">
 			<fo:block>
-					<fo:block text-align="left">
+				<fo:block text-align="left">
 						{if ($p//TM:photo[@genre eq "portfolio"]) 
 						then <fo:external-graphic  src="http://mm40.comem.ch/{$p//TM:photo[@genre eq "portfolio"]/@url}" content-height="scale-to-fit" height="13.4cm"  content-width="13.4cm" scaling="uniform"/>
 						else ()
 						}
-					</fo:block>
+				</fo:block>
 				<fo:block text-align="left" font-size="35pt" margin-top="0.5cm" color="rgb(0,0,0)">{concat($p/TM:prenom/text(), " ", $p/TM:nom/text())}</fo:block>
 				<fo:block text-align="left" font-size="14pt" color="rgb(0,0,0)">« {$p/TM:usp/text()} »</fo:block>
 				<fo:block text-align="justify" font-size="12pt" margin-top="0.5cm" color="rgb(0,0,0)">
@@ -57,7 +57,7 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 				return $para/text()}
 				</fo:block>
 				<fo:block text-align="left" font-size="12pt" margin-top="2cm" color="rgb(0,0,0)">
-					<fo:basic-link external-destination="url('mailto:{$p/@mail_print}')">{$p/@mail_print}</fo:basic-link>
+					<fo:basic-link external-destination="url('mailto:{$p/@mail_print}')">{data($p/@mail_print)}</fo:basic-link>
 					<fo:list-block margin-top="0.5cm">
 						<fo:list-item>
 						  <fo:list-item-label>
@@ -71,7 +71,7 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 						  else (
 						  <fo:block>
 							  <fo:basic-link external-destination="url('{$lien/@url}')">
-								  <xsl:value-of select="$lien/text()"/>
+								  <xsl:value-of select="{$lien/text()}"/>
 							  </fo:basic-link>
 						  </fo:block>
 						  )
@@ -92,21 +92,13 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 				<fo:block text-align="center" margin-bottom="0.5cm">
 					<fo:external-graphic  src="http://mm40.comem.ch//{$projet/TM:image/@url}"   width="15.075cm"  scaling="non-uniform"/>
 				</fo:block>
-				<fo:table>
-					<fo:table-body>
-						<fo:table-row width="auto">
-							<fo:table-cell>
-								<fo:block font-size="35pt" color="rgb(0,0,0)"><xsl:value-of select="{$projet/TM:nom/text()}"/></fo:block>
-							</fo:table-cell>
-						</fo:table-row>
-					</fo:table-body>
-					</fo:table>
+				<fo:block font-size="35pt" color="rgb(0,0,0)">{$projet/TM:nom/text()}</fo:block>
 					{for $paragraph in $projet/TM:description/TM:p
 					return
 					<fo:block text-align="justify" font-size="12pt" margin-top="0.5cm" color="rgb(0,0,0)">{$paragraph/text()}</fo:block>
 				}
 				<fo:block text-align="left" margin-top="1cm" font-size="10pt" color="rgb(0,0,0)">
-					<fo:basic-link external-destination="url('{$projet/@url}')"><xsl:value-of select="{$projet/@url}"/></fo:basic-link>
+					<fo:basic-link external-destination="url('{$projet/@url}')">{data($projet/@url)}</fo:basic-link>
 				</fo:block>
 			</fo:block>
 			
@@ -150,6 +142,7 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 
 	}
 </fo:root>
+
 
 let $pdf := xslfo:render($fo, "application/pdf", ())
 (:return $fo:)
