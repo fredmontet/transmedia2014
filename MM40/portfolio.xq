@@ -67,20 +67,18 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 							<fo:block></fo:block>
 						  </fo:list-item-label>
 						  <fo:list-item-body>
+						  <fo:block>
 						  {
 						  for $lien in $p/TM:liens/TM:lien
 						  return
-						  if ($lien[@genre eq "mail"]) then 
-						  	<fo:block>
-						  </fo:block>
-						  else (
-						  <fo:block>
+						  if ($lien) then ()
+						  else if ($lien[@genre eq "mail"]) then()
+						  else 
 							  <fo:basic-link external-destination="url('{$lien/@url}')">
 								  {concat($lien/text(),": ",$lien/@url)}
 							  </fo:basic-link>
-						  </fo:block>
-						  )
 							}
+							</fo:block>
 						  </fo:list-item-body>
 						</fo:list-item>
 					</fo:list-block>
@@ -107,7 +105,7 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 						return
 							<fo:block text-align="justify" font-size="10pt" padding-top="0.2cm" color="rgb(0,0,0)">{$paragraph/text()}</fo:block>
 						}
-					<fo:block text-align="left" margin-top="0.5cm" font-size="10pt" color="rgb(0,0,0)">
+					<fo:block text-align="left" margin-top="0.5cm" font-size="10pt" font-weight="bold" color="rgb(0,0,0)">
 						<fo:basic-link external-destination="url('{$projet/@url}')">{data($projet/@url)}</fo:basic-link>
 					</fo:block>
 				</fo:block>
