@@ -70,7 +70,9 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 						  {
 						  for $lien in $p/TM:liens/TM:lien
 						  return
-						  if ($lien[@genre eq "mail"]) then ()
+						  if ($lien[@genre eq "mail"]) then 
+						  	<fo:block>
+						  </fo:block>
 						  else (
 						  <fo:block>
 							  <fo:basic-link external-destination="url('{$lien/@url}')">
