@@ -30,7 +30,7 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 				<fo:block text-align="left" font-size="51pt" margin-top="3cm" color="rgb(0,0,0)">{$p/TM:prenom/text()}</fo:block>
 				<fo:block text-align="left" font-size="51pt" color="rgb(0,0,0)">{$p/TM:nom/text()}</fo:block>
 				<fo:block text-align="center" margin-top="1.6cm" margin-left="0.45cm">
-					<fo:external-graphic  src="{$p//TM:photo[@genre eq "avatar"]/@url}" content-height="scale-to-fit" height="7.5cm"  content-width="7.5cm" scaling="uniform"/>
+					<fo:external-graphic  src="http://mm40.comem.ch/{$p//TM:photo[@genre eq "avatar"]/@url}" content-height="scale-to-fit" height="7.5cm"  content-width="7.5cm" scaling="uniform"/>
 				</fo:block>
 				<fo:block background-color="white" text-align="center" margin-top="2.5cm" font-size="23pt" color="rgb(0,0,0)">Ingénieur en Gestion des Médias</fo:block>
 				<fo:block text-align="left" margin-left="12.0cm" margin-top="7.5cm" font-size="12pt" color="rgb(0,0,0)">
@@ -46,7 +46,7 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 			<fo:block>
 					<fo:block text-align="left">
 						{if ($p//TM:photo[@genre eq "portfolio"]) 
-						then <fo:external-graphic  src="{$p//TM:photo[@genre eq "portfolio"]/@url}" content-height="scale-to-fit" height="13.4cm"  content-width="13.4cm" scaling="uniform"/>
+						then <fo:external-graphic  src="http://mm40.comem.ch/{$p//TM:photo[@genre eq "portfolio"]/@url}" content-height="scale-to-fit" height="13.4cm"  content-width="13.4cm" scaling="uniform"/>
 						else ()
 						}
 					</fo:block>
@@ -57,15 +57,24 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 				return $para/text()}
 				</fo:block>
 				<fo:block text-align="left" font-size="12pt" margin-top="2cm" color="rgb(0,0,0)">
-					<fo:basic-link external-destination="url('mailto:{$p/@mail_print}')"><xsl:text>{$p/@mail_print}</xsl:text></fo:basic-link>
+					<fo:basic-link external-destination="url('mailto:{$p/@mail_print}')">{$p/@mail_print}</fo:basic-link>
 					<fo:list-block margin-top="0.5cm">
 						<fo:list-item>
 						  <fo:list-item-label>
 							<fo:block></fo:block>
 						  </fo:list-item-label>
 						  <fo:list-item-body>
-						  {for $lien in $p/TM:liens/TM:lien
-							return <fo:block><fo:basic-link external-destination="url('{$lien/@url}')"><xsl:value-of select="{$lien/text()}"/></fo:basic-link></fo:block>
+						  {
+						  for $lien in $p/TM:liens/TM:lien
+						  return
+						  if ($lien[@genre eq "mail"]) then ()
+						  else (
+						  <fo:block>
+							  <fo:basic-link external-destination="url('{$lien/@url}')">
+								  <xsl:value-of select="$lien/text()"/>
+							  </fo:basic-link>
+						  </fo:block>
+						  )
 							}
 						  </fo:list-item-body>
 						</fo:list-item>
@@ -81,7 +90,7 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 		<fo:flow flow-name="xsl-region-body">
 			<fo:block>
 				<fo:block text-align="center" margin-bottom="0.5cm">
-					<fo:external-graphic  src="{$projet/TM:image/@url}"   width="15.075cm"  scaling="non-uniform"/>
+					<fo:external-graphic  src="http://mm40.comem.ch//{$projet/TM:image/@url}"   width="15.075cm"  scaling="non-uniform"/>
 				</fo:block>
 				<fo:table>
 					<fo:table-body>
@@ -102,8 +111,8 @@ let $fo :=  <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 			</fo:block>
 			
 				{for $dom in $p/TM:domaine
-				let $rose:=resources/images/niveauRose.svg
-				let $gris:=resources/images/niveauGris.svg
+				let $rose:= "http://mm40.comem.ch/images/niveauRose.svg"
+				let $gris:= "http://mm40.comem.ch/images/niveauGris.svg"
 				let $numRose:=$dom/@poids
 				let $numGris:=5-$numRose
 				return
