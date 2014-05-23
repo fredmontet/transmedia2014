@@ -2,6 +2,7 @@
 // @codekit-append "_resize.js"
 
 var burgerActive = false;
+var burgerProcess = false;
 var projectsActive = false;
 var projectProcess = false;
 var projectsBottomActive = false;
@@ -12,12 +13,22 @@ $(document).ready( function() {
     socialColor();
     coulure();
     
+    $("html").on('click', '.mobile ul li a', function(e) {
+        burgerProcess = true;
+        projectProcess = true;
+    });
+    
     $("#project_bottom ul").cleanWhitespace();
     $("#project ul").cleanWhitespace();
     $(".testimony").cleanWhitespace();
     $("body").cleanWhitespace();
     $(".principalTestimony").cleanWhitespace();
     
+	
+	$("form").on('click', '#sendMail', function(e) {
+    	sendMail();
+    	e.preventDefault();
+	});
 	
 	$("header").on('click', '#burger', function() {
     	if(burgerActive) {
@@ -28,6 +39,11 @@ $(document).ready( function() {
 	});
 	
 	$("header").on('click', '#project', function() {
+	
+	    if($("#container").hasClass("mobile")) {
+    	    return;
+	    }
+	    
     	if(projectsActive) {
         	closeProject();
     	} else {
@@ -74,6 +90,87 @@ jQuery.fn.cleanWhitespace = function() {
 }
 
 
+function sendMail() {
+    
+    
+    var name = $("form input[name='name']").val();
+    var firstname = $("form input[name='firstname']").val();
+    var company = $("form input[name='company']").val();
+    var email = $("form input[name='email']").val();
+    var type = $("form select[name='type']").val();
+    var message = $("form textarea[name='message']").val();
+    
+    console.log(type);
+    
+    var alertMessage = "";
+    
+    if(name == null || name == "" || typeof name == "undefined") {
+        alertMessage += "Veuillez indiquer votre nom.\n";
+    }
+    
+    if(firstname == null || firstname == "" || typeof firstname == "undefined") {
+        alertMessage += "Veuillez indiquer votre prénom.\n";
+    }
+    
+    if(email == null || email == "" || typeof email == "undefined") {
+        alertMessage += "Veuillez indiquer votre email.\n";
+    }
+    
+    if(message == null || message == "" || typeof message == "undefined") {
+        alertMessage += "Veuillez écrire votre message.\n";
+    }
+    
+    if(alertMessage != "") {
+        alert(alertMessage); 
+        return;
+    }
+    
+    
+
+    var html = "";
+    
+    html += "<h1>Proposition de projet par un externe suite à la visite du site web mm40.comem.ch</h1>";
+    html += "<h2>Informations générales:</h2>";
+    html += "<p><strong>Nom du contact:</strong> "+ name +"</p>";
+    html += "<p><strong>Prénom du contact:</strong> "+ firstname +"</p>";
+    html += "<p><strong>Entreprise:</strong> "+ company +"</p>";
+    html += "<p><strong>E-mail du contact:</strong> "+ email +"</p>";
+    html += "<p><strong>Type de projet:</strong> "+ type +"</p>";
+    html += "<br/>";
+    html += "<h2>Message:</h2>";
+    html += "<p>"+ message +"</p>";
+    html += "<br/>";
+    html += "<p>Merci de transférer ces informations à la direction de Comem, pour étude de la faisabilité d’un tel projet</p>";
+    
+    
+    $.ajax({
+      type: "POST",
+      url: "https://mandrillapp.com/api/1.0/messages/send.json",
+      data: {
+        'key': 'AecI-Qh3tNM4sRmfNwEtjw',
+        'message': {
+          'from_email': email,
+          'to': [
+              {
+                'email': 'yoanngern@icloud.com',
+                'name': 'RECIPIENT NAME (OPTIONAL)',
+                'type': 'to'
+              }
+            ],
+          'autotext': 'true',
+          'subject': 'MM40 - Soumission de projet externe',
+          'html': html
+        }
+      }
+     }).done(function(response) {
+         console.log(response); // if you're into that sorta thing
+         window.location.href = 'submit.xq';
+     });
+     
+     
+}
+
+
 function coulure() {
     $("#container.eb005e-2014 .title").each( function() {
         $(this).after('<div id="coulure"><div class="left"></div><div class="right"></div></div>');
@@ -82,7 +179,9 @@ function coulure() {
 
 
 function openProject() {
-
+    
+    console.log("openProject");
+    
     if(projectProcess) {
         return;
     }
@@ -203,6 +302,9 @@ function socialColor() {
 
 
 function openBurger() {
+    console.log("openBurger()");
+    
+    
     
     if($(window).width() > 500) {
         return;
@@ -220,6 +322,7 @@ function openBurger() {
         top: 55
 	}, 300, function() {
     	burgerActive = true;
+    	
 	});
     
     $("header nav").css("position", "fixed");
@@ -229,6 +332,11 @@ function openBurger() {
 }
 
 function closeBurger() {
+    console.log("closeBurger()");
+    
+    if(burgerProcess) {
+        return;
+    }
     
     var navHeight = $("header nav").height();
     var navTop = -navHeight - 55;
@@ -241,6 +349,7 @@ function closeBurger() {
     	$("header nav").css("position", "absolute");
         $("header").css("position", "relative");
         $("header").next().css("margin-top", 0);
+        burgerProcess = false;
 	});
     
     

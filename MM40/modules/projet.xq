@@ -69,7 +69,7 @@ declare  function projet:temoignage($node as node(), $model as map(*))
                     return
                 <div>
                     <section class="left">
-                        <img src="{$temoin//TM:photo[@genre eq 'base']/@url}"/>
+                        <img src="{$temoin//TM:photo[@genre eq 'mini']/@url}"/>
                     </section><section class="right">
                         <p class="quotes">{$model("projet")//TM:temoignage[contains(TM:personne/@id, $temoin/@id)]/TM:p/text()}</p>
                         <p class="button">
@@ -138,7 +138,7 @@ declare function projet:team($node as node(), $model as map(*))
                 { for $member in $model("profiles")[contains(@id, data($model("projet")//TM:team/TM:personne/@id))]
                    return 
                        <a href="profile.html?id={data($member/@id)}">
-                            <img src="{data($member//TM:photo[@genre eq 'base']/@url)}"/>
+                            <img src="{data($member//TM:photo[@genre eq 'mini']/@url)}"/>
                         </a>
                 }
             </section>
@@ -157,7 +157,7 @@ declare function projet:superviseur($node as node(), $model as map(*))
             </section><section class="right">
                 <h2>
                     {data($superviseur//TM:prenom)}    {data($superviseur//TM:nom)} – {data($superviseur//TM:role)}</h2>
-                <p>{data($superviseur//TM:commentaire)}</p>
+                <p>{$superviseur//TM:commentaire}</p>
                 <p class="button"><a href="{data($superviseur//TM:organisation/@url)}">{data($superviseur//TM:organisation)}</a></p>
             </section>
         </section>

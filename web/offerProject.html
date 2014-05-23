@@ -40,7 +40,7 @@
             <article class="offer title">
                 <section class="content">
                     <h1>Soumettre un projet</h1>
-                    <form action="" method="post">
+                    <form>
                         <section class="left">
                             Nom<br>
                             <input type="text" name="name"><br>
@@ -56,7 +56,7 @@
                             
                             Quel genre de projet soumettez-vous ?<br>
                             <select name="type">
-                                <option value="transmedia">Transmédia</option>
+                                <option selected="selected" value="transmedia">Transmédia</option>
                                 <option value="shortstalk">Shortstalk</option>
                                 <option value="cinemalingua">Cinema lingua</option>
                                 <option value="radiocomem">Radio comem</option>
@@ -69,7 +69,7 @@
                             Message<br>
                             <textarea name="message"></textarea>
                             
-                            <input type="submit" value="Soumettre">
+                            <input id="sendMail" type="submit" value="Soumettre">
                         </section>
                     </form>
                 </section>

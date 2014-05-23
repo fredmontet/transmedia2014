@@ -33,6 +33,8 @@ function resize() {
     }
     
     if(windowWidth < 500) {
+        $("#container").addClass("mobile");
+        
         $("header ul li ul li a").each( function() {
             
             if(!$(this).hasClass("mobile")) {
@@ -45,6 +47,8 @@ function resize() {
         });
         
     } else {
+        $("#container").removeClass("mobile");
+        
         $("header ul li ul li a").each( function() {
             
             if($(this).hasClass("mobile")) {

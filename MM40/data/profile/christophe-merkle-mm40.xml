@@ -5,6 +5,7 @@
 	<usp>Never stop discovering</usp>
 	<photos>
 		<photo url="images/profiles/base_christophe-merkle-mm40.jpg" genre="base"/>
+		<photo url="images/profiles/mini_christophe-merkle-mm40.jpg" genre="mini"/>
 		<photo url="images/profiles/avatar_christophe-merkle-mm40.svg" genre="avatar"/>
 		<photo url="images/profiles/portfolio_christophe-merkle-mm40.jpg" genre="portfolio"/>
 	</photos>

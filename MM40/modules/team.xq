@@ -25,8 +25,8 @@ declare %templates:default function team:all($node as node(), $model as map(*))
         for $p in $profile
         return
             <a href="profile.html?id={ $p/@id }">
-                    <img src="{ data($p//TM:photo[@genre eq 'base']/@url) }"/>
-                    <span>{ $p/TM:nom/text() }</span>
+                    <img src="{ data($p//TM:photo[@genre eq 'mini']/@url) }"/>
+                    <span>{ concat($p/TM:prenom/text(), " ", $p/TM:nom/text()) }</span>
                 </a>
     }
 
