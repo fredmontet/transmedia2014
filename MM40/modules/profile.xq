@@ -71,3 +71,7 @@ declare function profile:contact($node as node(), $model as map(*))
                 </section>
             </article>
 };
+declare function profile:portofolio($node as node(), $model as map(*))
+{
+    <a href="portfolio.xq?id={$model("profile")/@id}" class="print" />
+};
